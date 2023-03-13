@@ -1,0 +1,14 @@
+- name: Installing The Client
+  href: client.md
+
+- name: Installing The Server
+  href: server.md
+
+- name: Building The Documentation
+  href: doc.md
+
+- name: Making A Custom Client
+  href: custom.md
+
+- name: Running unit tests
+  href: tests.md

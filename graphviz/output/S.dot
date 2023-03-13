@@ -1,0 +1,123 @@
+
+digraph G {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif bold" labelloc="c"];
+  edge [fontname="Helvetica,Arial,sans-serif" fontsize=8 arrowsize=0.5];
+  
+  subgraph cluster_199 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="S" fillcolor=cornflowerblue, color="cornflowerblue", penwidth=1, fontcolor=gray, shape="circle"]"199_S";
+    label = "Broad Channel (199)";
+  }
+
+  subgraph cluster_200 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="S" fillcolor=cornflowerblue, color="cornflowerblue", penwidth=1, fontcolor=gray, shape="circle"]"200_S";
+    label = "Beach 90 St (200)";
+  }
+
+  subgraph cluster_201 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="S" fillcolor=cornflowerblue, color="cornflowerblue", penwidth=1, fontcolor=gray, shape="circle"]"201_S";
+    label = "Beach 98 St (201)";
+  }
+
+  subgraph cluster_202 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="S" fillcolor=cornflowerblue, color="cornflowerblue", penwidth=1, fontcolor=gray, shape="circle"]"202_S";
+    label = "Beach 105 St (202)";
+  }
+
+  subgraph cluster_203 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="S" fillcolor=cornflowerblue, color="cornflowerblue", penwidth=1, fontcolor=gray, shape="circle"]"203_S";
+    label = "Rockaway Park-Beach 116 St (203)";
+  }
+
+  subgraph cluster_42 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="S" fillcolor=cornflowerblue, color="cornflowerblue", penwidth=1, fontcolor=gray, shape="circle"]"42_S";
+    label = "Prospect Park (42)";
+  }
+
+  subgraph cluster_139 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="S" fillcolor=cornflowerblue, color="cornflowerblue", penwidth=1, fontcolor=gray, shape="circle"]"139_S";
+    label = "Franklin Av (139)";
+  }
+
+  subgraph cluster_11 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="S" fillcolor=cornflowerblue, color="cornflowerblue", penwidth=1, fontcolor=gray, shape="circle"]"11_S";
+    label = "Times Sq-42 St (11)";
+  }
+
+  subgraph cluster_141 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="S" fillcolor=cornflowerblue, color="cornflowerblue", penwidth=1, fontcolor=gray, shape="circle"]"141_S";
+    label = "Park Pl (141)";
+  }
+
+  subgraph cluster_142 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="S" fillcolor=cornflowerblue, color="cornflowerblue", penwidth=1, fontcolor=gray, shape="circle"]"142_S";
+    label = "Botanic Garden (142)";
+  }
+
+  subgraph cluster_469 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="S" fillcolor=cornflowerblue, color="cornflowerblue", penwidth=1, fontcolor=gray, shape="circle"]"469_S";
+    label = "Grand Central-42 St (469)";
+  }
+
+  "199_S" -> "200_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "200_S" -> "199_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "200_S" -> "201_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "201_S" -> "200_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "201_S" -> "202_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "202_S" -> "201_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "202_S" -> "203_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "203_S" -> "202_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "42_S" -> "142_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "139_S" -> "141_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "11_S" -> "469_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "141_S" -> "139_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "141_S" -> "142_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "142_S" -> "141_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "142_S" -> "42_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "469_S" -> "11_S"[ color=cornflowerblue fontcolor=cornflowerblue penwidth=1 fontsize=8 arrowsize=0.5];
+
+}

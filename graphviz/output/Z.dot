@@ -1,0 +1,160 @@
+
+digraph G {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif bold" labelloc="c"];
+  edge [fontname="Helvetica,Arial,sans-serif" fontsize=8 arrowsize=0.5];
+  
+  subgraph cluster_410 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"410_Z";
+    label = "Canal St (410)";
+  }
+
+  subgraph cluster_172 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"172_Z";
+    label = "Fulton St (172)";
+  }
+
+  subgraph cluster_132 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"132_Z";
+    label = "Broadway Junction (132)";
+  }
+
+  subgraph cluster_278 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"278_Z";
+    label = "Jamaica Center-Parsons/Archer (278)";
+  }
+
+  subgraph cluster_279 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"279_Z";
+    label = "Sutphin Blvd-Archer Av-JFK Airport (279)";
+  }
+
+  subgraph cluster_91 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"91_Z";
+    label = "Alabama Av (91)";
+  }
+
+  subgraph cluster_97 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"97_Z";
+    label = "Myrtle Av (97)";
+  }
+
+  subgraph cluster_101 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"101_Z";
+    label = "Marcy Av (101)";
+  }
+
+  subgraph cluster_102 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"102_Z";
+    label = "Delancey St-Essex St (102)";
+  }
+
+  subgraph cluster_83 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"83_Z";
+    label = "Woodhaven Blvd (83)";
+  }
+
+  subgraph cluster_87 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"87_Z";
+    label = "Crescent St (87)";
+  }
+
+  subgraph cluster_103 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"103_Z";
+    label = "Bowery (103)";
+  }
+
+  subgraph cluster_105 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"105_Z";
+    label = "Chambers St (105)";
+  }
+
+  subgraph cluster_107 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Z" fillcolor=orange, color="orange", penwidth=1, fontcolor=gray, shape="circle"]"107_Z";
+    label = "Broad St (107)";
+  }
+
+  "410_Z" -> "105_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "410_Z" -> "103_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "172_Z" -> "105_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "172_Z" -> "107_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "132_Z" -> "91_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "132_Z" -> "97_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "278_Z" -> "279_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "279_Z" -> "278_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "279_Z" -> "83_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "91_Z" -> "87_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "91_Z" -> "132_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "97_Z" -> "101_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "97_Z" -> "132_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "101_Z" -> "97_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "101_Z" -> "102_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "102_Z" -> "101_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "102_Z" -> "103_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "83_Z" -> "279_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "83_Z" -> "87_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "87_Z" -> "91_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "87_Z" -> "83_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "103_Z" -> "102_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "103_Z" -> "410_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "105_Z" -> "172_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "105_Z" -> "410_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+  "107_Z" -> "172_Z"[ color=orange fontcolor=orange penwidth=1 fontsize=8 arrowsize=0.5];
+
+}

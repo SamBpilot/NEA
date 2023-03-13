@@ -1,0 +1,2014 @@
+id: Server.Tests
+language: CSharp
+name:
+  Default: Server.Tests
+qualifiedName:
+  Default: Server.Tests
+type: Assembly
+modifiers: {}
+items:
+- id: Server.Tests
+  commentId: N:Server.Tests
+  language: CSharp
+  name:
+    CSharp: Server.Tests
+    VB: Server.Tests
+  nameWithType:
+    CSharp: Server.Tests
+    VB: Server.Tests
+  qualifiedName:
+    CSharp: Server.Tests
+    VB: Server.Tests
+  type: Namespace
+  assemblies:
+  - Server.Tests
+  modifiers: {}
+  items:
+  - id: Server.Tests.commandTest
+    commentId: T:Server.Tests.commandTest
+    language: CSharp
+    name:
+      CSharp: commandTest
+      VB: commandTest
+    nameWithType:
+      CSharp: commandTest
+      VB: commandTest
+    qualifiedName:
+      CSharp: Server.Tests.commandTest
+      VB: Server.Tests.commandTest
+    type: Class
+    assemblies:
+    - Server.Tests
+    namespace: Server.Tests
+    source:
+      remote:
+        path: Server/Server.Tests/commandTest.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: commandTest
+      path: ../Server/Server.Tests/commandTest.cs
+      startLine: 5
+    syntax:
+      content:
+        CSharp: >-
+          [Trait("Server", "Server Tests")]
+
+          public class commandTest
+        VB: >-
+          <Trait("Server", "Server Tests")>
+
+          Public Class commandTest
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    attributes:
+    - type: Xunit.TraitAttribute
+      ctor: Xunit.TraitAttribute.#ctor(System.String,System.String)
+      arguments:
+      - type: System.String
+        value: Server
+      - type: System.String
+        value: Server Tests
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Server.Tests.commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID
+      commentId: M:Server.Tests.commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID
+      language: CSharp
+      name:
+        CSharp: COMMANDS_CHECK_STATIONS_ARE_VALID()
+        VB: COMMANDS_CHECK_STATIONS_ARE_VALID()
+      nameWithType:
+        CSharp: commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID()
+        VB: commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID()
+      qualifiedName:
+        CSharp: Server.Tests.commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID()
+        VB: Server.Tests.commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/commandTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: COMMANDS_CHECK_STATIONS_ARE_VALID
+        path: ../Server/Server.Tests/commandTest.cs
+        startLine: 11
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void COMMANDS_CHECK_STATIONS_ARE_VALID()
+          VB: >-
+            <Fact>
+
+            Public Sub COMMANDS_CHECK_STATIONS_ARE_VALID
+      overload: Server.Tests.commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_ID
+      commentId: M:Server.Tests.commandTest.COMMANDS_GET_STATION_BY_ID
+      language: CSharp
+      name:
+        CSharp: COMMANDS_GET_STATION_BY_ID()
+        VB: COMMANDS_GET_STATION_BY_ID()
+      nameWithType:
+        CSharp: commandTest.COMMANDS_GET_STATION_BY_ID()
+        VB: commandTest.COMMANDS_GET_STATION_BY_ID()
+      qualifiedName:
+        CSharp: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_ID()
+        VB: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_ID()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/commandTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: COMMANDS_GET_STATION_BY_ID
+        path: ../Server/Server.Tests/commandTest.cs
+        startLine: 25
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void COMMANDS_GET_STATION_BY_ID()
+          VB: >-
+            <Fact>
+
+            Public Sub COMMANDS_GET_STATION_BY_ID
+      overload: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_ID*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_NAME
+      commentId: M:Server.Tests.commandTest.COMMANDS_GET_STATION_BY_NAME
+      language: CSharp
+      name:
+        CSharp: COMMANDS_GET_STATION_BY_NAME()
+        VB: COMMANDS_GET_STATION_BY_NAME()
+      nameWithType:
+        CSharp: commandTest.COMMANDS_GET_STATION_BY_NAME()
+        VB: commandTest.COMMANDS_GET_STATION_BY_NAME()
+      qualifiedName:
+        CSharp: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_NAME()
+        VB: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_NAME()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/commandTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: COMMANDS_GET_STATION_BY_NAME
+        path: ../Server/Server.Tests/commandTest.cs
+        startLine: 41
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void COMMANDS_GET_STATION_BY_NAME()
+          VB: >-
+            <Fact>
+
+            Public Sub COMMANDS_GET_STATION_BY_NAME
+      overload: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_NAME*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH
+      commentId: M:Server.Tests.commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH
+      language: CSharp
+      name:
+        CSharp: COMMANDS_GET_STATIONS_BEGGINING_WITH()
+        VB: COMMANDS_GET_STATIONS_BEGGINING_WITH()
+      nameWithType:
+        CSharp: commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH()
+        VB: commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH()
+      qualifiedName:
+        CSharp: Server.Tests.commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH()
+        VB: Server.Tests.commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/commandTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: COMMANDS_GET_STATIONS_BEGGINING_WITH
+        path: ../Server/Server.Tests/commandTest.cs
+        startLine: 63
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void COMMANDS_GET_STATIONS_BEGGINING_WITH()
+          VB: >-
+            <Fact>
+
+            Public Sub COMMANDS_GET_STATIONS_BEGGINING_WITH
+      overload: Server.Tests.commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.commandTest.COMMANDS_GET_ROUTE
+      commentId: M:Server.Tests.commandTest.COMMANDS_GET_ROUTE
+      language: CSharp
+      name:
+        CSharp: COMMANDS_GET_ROUTE()
+        VB: COMMANDS_GET_ROUTE()
+      nameWithType:
+        CSharp: commandTest.COMMANDS_GET_ROUTE()
+        VB: commandTest.COMMANDS_GET_ROUTE()
+      qualifiedName:
+        CSharp: Server.Tests.commandTest.COMMANDS_GET_ROUTE()
+        VB: Server.Tests.commandTest.COMMANDS_GET_ROUTE()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/commandTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: COMMANDS_GET_ROUTE
+        path: ../Server/Server.Tests/commandTest.cs
+        startLine: 81
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void COMMANDS_GET_ROUTE()
+          VB: >-
+            <Fact>
+
+            Public Sub COMMANDS_GET_ROUTE
+      overload: Server.Tests.commandTest.COMMANDS_GET_ROUTE*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Server.Tests.graphTest
+    commentId: T:Server.Tests.graphTest
+    language: CSharp
+    name:
+      CSharp: graphTest
+      VB: graphTest
+    nameWithType:
+      CSharp: graphTest
+      VB: graphTest
+    qualifiedName:
+      CSharp: Server.Tests.graphTest
+      VB: Server.Tests.graphTest
+    type: Class
+    assemblies:
+    - Server.Tests
+    namespace: Server.Tests
+    source:
+      remote:
+        path: Server/Server.Tests/graphTest.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: graphTest
+      path: ../Server/Server.Tests/graphTest.cs
+      startLine: 7
+    syntax:
+      content:
+        CSharp: >-
+          [Trait("Graph", "Graph Tests")]
+
+          public class graphTest
+        VB: >-
+          <Trait("Graph", "Graph Tests")>
+
+          Public Class graphTest
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    attributes:
+    - type: Xunit.TraitAttribute
+      ctor: Xunit.TraitAttribute.#ctor(System.String,System.String)
+      arguments:
+      - type: System.String
+        value: Graph
+      - type: System.String
+        value: Graph Tests
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Server.Tests.graphTest.GRAPH_ONE_STATION_TEST
+      commentId: M:Server.Tests.graphTest.GRAPH_ONE_STATION_TEST
+      language: CSharp
+      name:
+        CSharp: GRAPH_ONE_STATION_TEST()
+        VB: GRAPH_ONE_STATION_TEST()
+      nameWithType:
+        CSharp: graphTest.GRAPH_ONE_STATION_TEST()
+        VB: graphTest.GRAPH_ONE_STATION_TEST()
+      qualifiedName:
+        CSharp: Server.Tests.graphTest.GRAPH_ONE_STATION_TEST()
+        VB: Server.Tests.graphTest.GRAPH_ONE_STATION_TEST()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/graphTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: GRAPH_ONE_STATION_TEST
+        path: ../Server/Server.Tests/graphTest.cs
+        startLine: 10
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void GRAPH_ONE_STATION_TEST()
+          VB: >-
+            <Fact>
+
+            Public Sub GRAPH_ONE_STATION_TEST
+      overload: Server.Tests.graphTest.GRAPH_ONE_STATION_TEST*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST
+      commentId: M:Server.Tests.graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST
+      language: CSharp
+      name:
+        CSharp: GRAPH_ONE_STATION_MULTIPLE_LINES_TEST()
+        VB: GRAPH_ONE_STATION_MULTIPLE_LINES_TEST()
+      nameWithType:
+        CSharp: graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST()
+        VB: graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST()
+      qualifiedName:
+        CSharp: Server.Tests.graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST()
+        VB: Server.Tests.graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/graphTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: GRAPH_ONE_STATION_MULTIPLE_LINES_TEST
+        path: ../Server/Server.Tests/graphTest.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void GRAPH_ONE_STATION_MULTIPLE_LINES_TEST()
+          VB: >-
+            <Fact>
+
+            Public Sub GRAPH_ONE_STATION_MULTIPLE_LINES_TEST
+      overload: Server.Tests.graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST
+      commentId: M:Server.Tests.graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST
+      language: CSharp
+      name:
+        CSharp: GRAPH_TWO_STATIONS_SAME_LINE_TEST()
+        VB: GRAPH_TWO_STATIONS_SAME_LINE_TEST()
+      nameWithType:
+        CSharp: graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST()
+        VB: graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST()
+      qualifiedName:
+        CSharp: Server.Tests.graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST()
+        VB: Server.Tests.graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/graphTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: GRAPH_TWO_STATIONS_SAME_LINE_TEST
+        path: ../Server/Server.Tests/graphTest.cs
+        startLine: 73
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void GRAPH_TWO_STATIONS_SAME_LINE_TEST()
+          VB: >-
+            <Fact>
+
+            Public Sub GRAPH_TWO_STATIONS_SAME_LINE_TEST
+      overload: Server.Tests.graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST
+      commentId: M:Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST
+      language: CSharp
+      name:
+        CSharp: GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST()
+        VB: GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST()
+      nameWithType:
+        CSharp: graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST()
+        VB: graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST()
+      qualifiedName:
+        CSharp: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST()
+        VB: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/graphTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST
+        path: ../Server/Server.Tests/graphTest.cs
+        startLine: 110
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST()
+          VB: >-
+            <Fact>
+
+            Public Sub GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST
+      overload: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST
+      commentId: M:Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST
+      language: CSharp
+      name:
+        CSharp: GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST()
+        VB: GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST()
+      nameWithType:
+        CSharp: graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST()
+        VB: graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST()
+      qualifiedName:
+        CSharp: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST()
+        VB: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/graphTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST
+        path: ../Server/Server.Tests/graphTest.cs
+        startLine: 192
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST()
+          VB: >-
+            <Fact>
+
+            Public Sub GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST
+      overload: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.graphTest.GRAPH_REAL_WORLD_TEST
+      commentId: M:Server.Tests.graphTest.GRAPH_REAL_WORLD_TEST
+      language: CSharp
+      name:
+        CSharp: GRAPH_REAL_WORLD_TEST()
+        VB: GRAPH_REAL_WORLD_TEST()
+      nameWithType:
+        CSharp: graphTest.GRAPH_REAL_WORLD_TEST()
+        VB: graphTest.GRAPH_REAL_WORLD_TEST()
+      qualifiedName:
+        CSharp: Server.Tests.graphTest.GRAPH_REAL_WORLD_TEST()
+        VB: Server.Tests.graphTest.GRAPH_REAL_WORLD_TEST()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/graphTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: GRAPH_REAL_WORLD_TEST
+        path: ../Server/Server.Tests/graphTest.cs
+        startLine: 260
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void GRAPH_REAL_WORLD_TEST()
+          VB: >-
+            <Fact>
+
+            Public Sub GRAPH_REAL_WORLD_TEST
+      overload: Server.Tests.graphTest.GRAPH_REAL_WORLD_TEST*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Server.Tests.dummyServer
+    commentId: T:Server.Tests.dummyServer
+    language: CSharp
+    name:
+      CSharp: dummyServer
+      VB: dummyServer
+    nameWithType:
+      CSharp: dummyServer
+      VB: dummyServer
+    qualifiedName:
+      CSharp: Server.Tests.dummyServer
+      VB: Server.Tests.dummyServer
+    type: Class
+    assemblies:
+    - Server.Tests
+    namespace: Server.Tests
+    source:
+      remote:
+        path: Server/Server.Tests/serverTest.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: dummyServer
+      path: ../Server/Server.Tests/serverTest.cs
+      startLine: 4
+    syntax:
+      content:
+        CSharp: 'public class dummyServer : server'
+        VB: >-
+          Public Class dummyServer
+
+              Inherits server
+    inheritance:
+    - System.Object
+    - NEA.server
+    inheritedMembers:
+    - NEA.server.filePath
+    - NEA.server.logLevel
+    - NEA.server.isRetrying
+    - NEA.server.address
+    - NEA.server.port
+    - NEA.server.TCP
+    - NEA.server.help
+    - NEA.server.startServer(System.Int32)
+    - NEA.server.encode(System.String[])
+    - NEA.server.decode(System.String)
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Server.Tests.dummyServer.#ctor
+      commentId: M:Server.Tests.dummyServer.#ctor
+      language: CSharp
+      name:
+        CSharp: dummyServer()
+        VB: dummyServer()
+      nameWithType:
+        CSharp: dummyServer.dummyServer()
+        VB: dummyServer.dummyServer()
+      qualifiedName:
+        CSharp: Server.Tests.dummyServer.dummyServer()
+        VB: Server.Tests.dummyServer.dummyServer()
+      type: Constructor
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/serverTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server.Tests/serverTest.cs
+        startLine: 6
+      syntax:
+        content:
+          CSharp: public dummyServer()
+          VB: Public Sub New
+      overload: Server.Tests.dummyServer.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.dummyServer.testEncoding(System.String[])
+      commentId: M:Server.Tests.dummyServer.testEncoding(System.String[])
+      language: CSharp
+      name:
+        CSharp: testEncoding(String[])
+        VB: testEncoding(String())
+      nameWithType:
+        CSharp: dummyServer.testEncoding(String[])
+        VB: dummyServer.testEncoding(String())
+      qualifiedName:
+        CSharp: Server.Tests.dummyServer.testEncoding(System.String[])
+        VB: Server.Tests.dummyServer.testEncoding(System.String())
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/serverTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: testEncoding
+        path: ../Server/Server.Tests/serverTest.cs
+        startLine: 8
+      syntax:
+        content:
+          CSharp: public string testEncoding(string[] input)
+          VB: Public Function testEncoding(input As String()) As String
+        parameters:
+        - id: input
+          type: System.String[]
+        return:
+          type: System.String
+      overload: Server.Tests.dummyServer.testEncoding*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.dummyServer.testDecoding(System.String)
+      commentId: M:Server.Tests.dummyServer.testDecoding(System.String)
+      language: CSharp
+      name:
+        CSharp: testDecoding(String)
+        VB: testDecoding(String)
+      nameWithType:
+        CSharp: dummyServer.testDecoding(String)
+        VB: dummyServer.testDecoding(String)
+      qualifiedName:
+        CSharp: Server.Tests.dummyServer.testDecoding(System.String)
+        VB: Server.Tests.dummyServer.testDecoding(System.String)
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/serverTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: testDecoding
+        path: ../Server/Server.Tests/serverTest.cs
+        startLine: 13
+      syntax:
+        content:
+          CSharp: public string[] testDecoding(string input)
+          VB: Public Function testDecoding(input As String) As String()
+        parameters:
+        - id: input
+          type: System.String
+        return:
+          type: System.String[]
+      overload: Server.Tests.dummyServer.testDecoding*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Server.Tests.UnitTest1
+    commentId: T:Server.Tests.UnitTest1
+    language: CSharp
+    name:
+      CSharp: UnitTest1
+      VB: UnitTest1
+    nameWithType:
+      CSharp: UnitTest1
+      VB: UnitTest1
+    qualifiedName:
+      CSharp: Server.Tests.UnitTest1
+      VB: Server.Tests.UnitTest1
+    type: Class
+    assemblies:
+    - Server.Tests
+    namespace: Server.Tests
+    source:
+      remote:
+        path: Server/Server.Tests/serverTest.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: UnitTest1
+      path: ../Server/Server.Tests/serverTest.cs
+      startLine: 19
+    syntax:
+      content:
+        CSharp: >-
+          [Trait("Server", "Server Tests")]
+
+          public class UnitTest1
+        VB: >-
+          <Trait("Server", "Server Tests")>
+
+          Public Class UnitTest1
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    attributes:
+    - type: Xunit.TraitAttribute
+      ctor: Xunit.TraitAttribute.#ctor(System.String,System.String)
+      arguments:
+      - type: System.String
+        value: Server
+      - type: System.String
+        value: Server Tests
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Server.Tests.UnitTest1.HASH_TEST
+      commentId: M:Server.Tests.UnitTest1.HASH_TEST
+      language: CSharp
+      name:
+        CSharp: HASH_TEST()
+        VB: HASH_TEST()
+      nameWithType:
+        CSharp: UnitTest1.HASH_TEST()
+        VB: UnitTest1.HASH_TEST()
+      qualifiedName:
+        CSharp: Server.Tests.UnitTest1.HASH_TEST()
+        VB: Server.Tests.UnitTest1.HASH_TEST()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/serverTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: HASH_TEST
+        path: ../Server/Server.Tests/serverTest.cs
+        startLine: 26
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void HASH_TEST()
+          VB: >-
+            <Fact>
+
+            Public Sub HASH_TEST
+      overload: Server.Tests.UnitTest1.HASH_TEST*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.UnitTest1.SERVER_ENCODE_TEST
+      commentId: M:Server.Tests.UnitTest1.SERVER_ENCODE_TEST
+      language: CSharp
+      name:
+        CSharp: SERVER_ENCODE_TEST()
+        VB: SERVER_ENCODE_TEST()
+      nameWithType:
+        CSharp: UnitTest1.SERVER_ENCODE_TEST()
+        VB: UnitTest1.SERVER_ENCODE_TEST()
+      qualifiedName:
+        CSharp: Server.Tests.UnitTest1.SERVER_ENCODE_TEST()
+        VB: Server.Tests.UnitTest1.SERVER_ENCODE_TEST()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/serverTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: SERVER_ENCODE_TEST
+        path: ../Server/Server.Tests/serverTest.cs
+        startLine: 32
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void SERVER_ENCODE_TEST()
+          VB: >-
+            <Fact>
+
+            Public Sub SERVER_ENCODE_TEST
+      overload: Server.Tests.UnitTest1.SERVER_ENCODE_TEST*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Server.Tests.UnitTest1.SERVER_DECODE_TEST
+      commentId: M:Server.Tests.UnitTest1.SERVER_DECODE_TEST
+      language: CSharp
+      name:
+        CSharp: SERVER_DECODE_TEST()
+        VB: SERVER_DECODE_TEST()
+      nameWithType:
+        CSharp: UnitTest1.SERVER_DECODE_TEST()
+        VB: UnitTest1.SERVER_DECODE_TEST()
+      qualifiedName:
+        CSharp: Server.Tests.UnitTest1.SERVER_DECODE_TEST()
+        VB: Server.Tests.UnitTest1.SERVER_DECODE_TEST()
+      type: Method
+      assemblies:
+      - Server.Tests
+      namespace: Server.Tests
+      source:
+        remote:
+          path: Server/Server.Tests/serverTest.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: SERVER_DECODE_TEST
+        path: ../Server/Server.Tests/serverTest.cs
+        startLine: 47
+      syntax:
+        content:
+          CSharp: >-
+            [Fact]
+
+            public void SERVER_DECODE_TEST()
+          VB: >-
+            <Fact>
+
+            Public Sub SERVER_DECODE_TEST
+      overload: Server.Tests.UnitTest1.SERVER_DECODE_TEST*
+      attributes:
+      - type: Xunit.FactAttribute
+        ctor: Xunit.FactAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  Server.Tests.commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID*:
+    name:
+      CSharp:
+      - id: Server.Tests.commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID*
+        name: COMMANDS_CHECK_STATIONS_ARE_VALID
+        nameWithType: commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID
+        qualifiedName: Server.Tests.commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID
+      VB:
+      - id: Server.Tests.commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID*
+        name: COMMANDS_CHECK_STATIONS_ARE_VALID
+        nameWithType: commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID
+        qualifiedName: Server.Tests.commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID
+    isDefinition: true
+    commentId: Overload:Server.Tests.commandTest.COMMANDS_CHECK_STATIONS_ARE_VALID
+  Xunit:
+    name:
+      CSharp:
+      - name: Xunit
+        nameWithType: Xunit
+        qualifiedName: Xunit
+        isExternal: true
+      VB:
+      - name: Xunit
+        nameWithType: Xunit
+        qualifiedName: Xunit
+    isDefinition: true
+    commentId: N:Xunit
+  Xunit.FactAttribute:
+    name:
+      CSharp:
+      - id: Xunit.FactAttribute
+        name: FactAttribute
+        nameWithType: FactAttribute
+        qualifiedName: Xunit.FactAttribute
+        isExternal: true
+      VB:
+      - id: Xunit.FactAttribute
+        name: FactAttribute
+        nameWithType: FactAttribute
+        qualifiedName: Xunit.FactAttribute
+        isExternal: true
+    isDefinition: true
+    parent: Xunit
+    commentId: T:Xunit.FactAttribute
+  Xunit.FactAttribute.#ctor:
+    name:
+      CSharp:
+      - id: Xunit.FactAttribute.#ctor
+        name: FactAttribute
+        nameWithType: FactAttribute.FactAttribute
+        qualifiedName: Xunit.FactAttribute.FactAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Xunit.FactAttribute.#ctor
+        name: FactAttribute
+        nameWithType: FactAttribute.FactAttribute
+        qualifiedName: Xunit.FactAttribute.FactAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Xunit.FactAttribute
+    commentId: M:Xunit.FactAttribute.#ctor
+  Server.Tests.commandTest.COMMANDS_GET_STATION_BY_ID*:
+    name:
+      CSharp:
+      - id: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_ID*
+        name: COMMANDS_GET_STATION_BY_ID
+        nameWithType: commandTest.COMMANDS_GET_STATION_BY_ID
+        qualifiedName: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_ID
+      VB:
+      - id: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_ID*
+        name: COMMANDS_GET_STATION_BY_ID
+        nameWithType: commandTest.COMMANDS_GET_STATION_BY_ID
+        qualifiedName: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_ID
+    isDefinition: true
+    commentId: Overload:Server.Tests.commandTest.COMMANDS_GET_STATION_BY_ID
+  Server.Tests.commandTest.COMMANDS_GET_STATION_BY_NAME*:
+    name:
+      CSharp:
+      - id: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_NAME*
+        name: COMMANDS_GET_STATION_BY_NAME
+        nameWithType: commandTest.COMMANDS_GET_STATION_BY_NAME
+        qualifiedName: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_NAME
+      VB:
+      - id: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_NAME*
+        name: COMMANDS_GET_STATION_BY_NAME
+        nameWithType: commandTest.COMMANDS_GET_STATION_BY_NAME
+        qualifiedName: Server.Tests.commandTest.COMMANDS_GET_STATION_BY_NAME
+    isDefinition: true
+    commentId: Overload:Server.Tests.commandTest.COMMANDS_GET_STATION_BY_NAME
+  Server.Tests.commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH*:
+    name:
+      CSharp:
+      - id: Server.Tests.commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH*
+        name: COMMANDS_GET_STATIONS_BEGGINING_WITH
+        nameWithType: commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH
+        qualifiedName: Server.Tests.commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH
+      VB:
+      - id: Server.Tests.commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH*
+        name: COMMANDS_GET_STATIONS_BEGGINING_WITH
+        nameWithType: commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH
+        qualifiedName: Server.Tests.commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH
+    isDefinition: true
+    commentId: Overload:Server.Tests.commandTest.COMMANDS_GET_STATIONS_BEGGINING_WITH
+  Server.Tests.commandTest.COMMANDS_GET_ROUTE*:
+    name:
+      CSharp:
+      - id: Server.Tests.commandTest.COMMANDS_GET_ROUTE*
+        name: COMMANDS_GET_ROUTE
+        nameWithType: commandTest.COMMANDS_GET_ROUTE
+        qualifiedName: Server.Tests.commandTest.COMMANDS_GET_ROUTE
+      VB:
+      - id: Server.Tests.commandTest.COMMANDS_GET_ROUTE*
+        name: COMMANDS_GET_ROUTE
+        nameWithType: commandTest.COMMANDS_GET_ROUTE
+        qualifiedName: Server.Tests.commandTest.COMMANDS_GET_ROUTE
+    isDefinition: true
+    commentId: Overload:Server.Tests.commandTest.COMMANDS_GET_ROUTE
+  Server.Tests.commandTest:
+    name:
+      CSharp:
+      - id: Server.Tests.commandTest
+        name: commandTest
+        nameWithType: commandTest
+        qualifiedName: Server.Tests.commandTest
+      VB:
+      - id: Server.Tests.commandTest
+        name: commandTest
+        nameWithType: commandTest
+        qualifiedName: Server.Tests.commandTest
+    isDefinition: true
+    commentId: T:Server.Tests.commandTest
+  Xunit.TraitAttribute:
+    name:
+      CSharp:
+      - id: Xunit.TraitAttribute
+        name: TraitAttribute
+        nameWithType: TraitAttribute
+        qualifiedName: Xunit.TraitAttribute
+        isExternal: true
+      VB:
+      - id: Xunit.TraitAttribute
+        name: TraitAttribute
+        nameWithType: TraitAttribute
+        qualifiedName: Xunit.TraitAttribute
+        isExternal: true
+    isDefinition: true
+    parent: Xunit
+    commentId: T:Xunit.TraitAttribute
+  Xunit.TraitAttribute.#ctor(System.String,System.String):
+    name:
+      CSharp:
+      - id: Xunit.TraitAttribute.#ctor(System.String,System.String)
+        name: TraitAttribute
+        nameWithType: TraitAttribute.TraitAttribute
+        qualifiedName: Xunit.TraitAttribute.TraitAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Xunit.TraitAttribute.#ctor(System.String,System.String)
+        name: TraitAttribute
+        nameWithType: TraitAttribute.TraitAttribute
+        qualifiedName: Xunit.TraitAttribute.TraitAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Xunit.TraitAttribute
+    commentId: M:Xunit.TraitAttribute.#ctor(System.String,System.String)
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  Server.Tests.graphTest.GRAPH_ONE_STATION_TEST*:
+    name:
+      CSharp:
+      - id: Server.Tests.graphTest.GRAPH_ONE_STATION_TEST*
+        name: GRAPH_ONE_STATION_TEST
+        nameWithType: graphTest.GRAPH_ONE_STATION_TEST
+        qualifiedName: Server.Tests.graphTest.GRAPH_ONE_STATION_TEST
+      VB:
+      - id: Server.Tests.graphTest.GRAPH_ONE_STATION_TEST*
+        name: GRAPH_ONE_STATION_TEST
+        nameWithType: graphTest.GRAPH_ONE_STATION_TEST
+        qualifiedName: Server.Tests.graphTest.GRAPH_ONE_STATION_TEST
+    isDefinition: true
+    commentId: Overload:Server.Tests.graphTest.GRAPH_ONE_STATION_TEST
+  Server.Tests.graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST*:
+    name:
+      CSharp:
+      - id: Server.Tests.graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST*
+        name: GRAPH_ONE_STATION_MULTIPLE_LINES_TEST
+        nameWithType: graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST
+        qualifiedName: Server.Tests.graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST
+      VB:
+      - id: Server.Tests.graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST*
+        name: GRAPH_ONE_STATION_MULTIPLE_LINES_TEST
+        nameWithType: graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST
+        qualifiedName: Server.Tests.graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST
+    isDefinition: true
+    commentId: Overload:Server.Tests.graphTest.GRAPH_ONE_STATION_MULTIPLE_LINES_TEST
+  Server.Tests.graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST*:
+    name:
+      CSharp:
+      - id: Server.Tests.graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST*
+        name: GRAPH_TWO_STATIONS_SAME_LINE_TEST
+        nameWithType: graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST
+        qualifiedName: Server.Tests.graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST
+      VB:
+      - id: Server.Tests.graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST*
+        name: GRAPH_TWO_STATIONS_SAME_LINE_TEST
+        nameWithType: graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST
+        qualifiedName: Server.Tests.graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST
+    isDefinition: true
+    commentId: Overload:Server.Tests.graphTest.GRAPH_TWO_STATIONS_SAME_LINE_TEST
+  Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST*:
+    name:
+      CSharp:
+      - id: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST*
+        name: GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST
+        nameWithType: graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST
+        qualifiedName: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST
+      VB:
+      - id: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST*
+        name: GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST
+        nameWithType: graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST
+        qualifiedName: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST
+    isDefinition: true
+    commentId: Overload:Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_TEST
+  Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST*:
+    name:
+      CSharp:
+      - id: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST*
+        name: GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST
+        nameWithType: graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST
+        qualifiedName: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST
+      VB:
+      - id: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST*
+        name: GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST
+        nameWithType: graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST
+        qualifiedName: Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST
+    isDefinition: true
+    commentId: Overload:Server.Tests.graphTest.GRAPH_TWO_STATIONS_MULTIPLE_LINES_DIFFERENT_TEST
+  Server.Tests.graphTest.GRAPH_REAL_WORLD_TEST*:
+    name:
+      CSharp:
+      - id: Server.Tests.graphTest.GRAPH_REAL_WORLD_TEST*
+        name: GRAPH_REAL_WORLD_TEST
+        nameWithType: graphTest.GRAPH_REAL_WORLD_TEST
+        qualifiedName: Server.Tests.graphTest.GRAPH_REAL_WORLD_TEST
+      VB:
+      - id: Server.Tests.graphTest.GRAPH_REAL_WORLD_TEST*
+        name: GRAPH_REAL_WORLD_TEST
+        nameWithType: graphTest.GRAPH_REAL_WORLD_TEST
+        qualifiedName: Server.Tests.graphTest.GRAPH_REAL_WORLD_TEST
+    isDefinition: true
+    commentId: Overload:Server.Tests.graphTest.GRAPH_REAL_WORLD_TEST
+  Server.Tests.graphTest:
+    name:
+      CSharp:
+      - id: Server.Tests.graphTest
+        name: graphTest
+        nameWithType: graphTest
+        qualifiedName: Server.Tests.graphTest
+      VB:
+      - id: Server.Tests.graphTest
+        name: graphTest
+        nameWithType: graphTest
+        qualifiedName: Server.Tests.graphTest
+    isDefinition: true
+    commentId: T:Server.Tests.graphTest
+  NEA:
+    name:
+      CSharp:
+      - name: NEA
+        nameWithType: NEA
+        qualifiedName: NEA
+      VB:
+      - name: NEA
+        nameWithType: NEA
+        qualifiedName: NEA
+    isDefinition: true
+    commentId: N:NEA
+  NEA.server:
+    name:
+      CSharp:
+      - id: NEA.server
+        name: server
+        nameWithType: server
+        qualifiedName: NEA.server
+      VB:
+      - id: NEA.server
+        name: server
+        nameWithType: server
+        qualifiedName: NEA.server
+    isDefinition: true
+    parent: NEA
+    commentId: T:NEA.server
+  NEA.server.filePath:
+    name:
+      CSharp:
+      - id: NEA.server.filePath
+        name: filePath
+        nameWithType: server.filePath
+        qualifiedName: NEA.server.filePath
+      VB:
+      - id: NEA.server.filePath
+        name: filePath
+        nameWithType: server.filePath
+        qualifiedName: NEA.server.filePath
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.filePath
+  NEA.server.logLevel:
+    name:
+      CSharp:
+      - id: NEA.server.logLevel
+        name: logLevel
+        nameWithType: server.logLevel
+        qualifiedName: NEA.server.logLevel
+      VB:
+      - id: NEA.server.logLevel
+        name: logLevel
+        nameWithType: server.logLevel
+        qualifiedName: NEA.server.logLevel
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.logLevel
+  NEA.server.isRetrying:
+    name:
+      CSharp:
+      - id: NEA.server.isRetrying
+        name: isRetrying
+        nameWithType: server.isRetrying
+        qualifiedName: NEA.server.isRetrying
+      VB:
+      - id: NEA.server.isRetrying
+        name: isRetrying
+        nameWithType: server.isRetrying
+        qualifiedName: NEA.server.isRetrying
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.isRetrying
+  NEA.server.address:
+    name:
+      CSharp:
+      - id: NEA.server.address
+        name: address
+        nameWithType: server.address
+        qualifiedName: NEA.server.address
+      VB:
+      - id: NEA.server.address
+        name: address
+        nameWithType: server.address
+        qualifiedName: NEA.server.address
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.address
+  NEA.server.port:
+    name:
+      CSharp:
+      - id: NEA.server.port
+        name: port
+        nameWithType: server.port
+        qualifiedName: NEA.server.port
+      VB:
+      - id: NEA.server.port
+        name: port
+        nameWithType: server.port
+        qualifiedName: NEA.server.port
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.port
+  NEA.server.TCP:
+    name:
+      CSharp:
+      - id: NEA.server.TCP
+        name: TCP
+        nameWithType: server.TCP
+        qualifiedName: NEA.server.TCP
+      VB:
+      - id: NEA.server.TCP
+        name: TCP
+        nameWithType: server.TCP
+        qualifiedName: NEA.server.TCP
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.TCP
+  NEA.server.help:
+    name:
+      CSharp:
+      - id: NEA.server.help
+        name: help
+        nameWithType: server.help
+        qualifiedName: NEA.server.help
+      VB:
+      - id: NEA.server.help
+        name: help
+        nameWithType: server.help
+        qualifiedName: NEA.server.help
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.help
+  NEA.server.startServer(System.Int32):
+    name:
+      CSharp:
+      - id: NEA.server.startServer(System.Int32)
+        name: startServer
+        nameWithType: server.startServer
+        qualifiedName: NEA.server.startServer
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: NEA.server.startServer(System.Int32)
+        name: startServer
+        nameWithType: server.startServer
+        qualifiedName: NEA.server.startServer
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: NEA.server
+    commentId: M:NEA.server.startServer(System.Int32)
+  NEA.server.encode(System.String[]):
+    name:
+      CSharp:
+      - id: NEA.server.encode(System.String[])
+        name: encode
+        nameWithType: server.encode
+        qualifiedName: NEA.server.encode
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: NEA.server.encode(System.String[])
+        name: encode
+        nameWithType: server.encode
+        qualifiedName: NEA.server.encode
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: NEA.server
+    commentId: M:NEA.server.encode(System.String[])
+  NEA.server.decode(System.String):
+    name:
+      CSharp:
+      - id: NEA.server.decode(System.String)
+        name: decode
+        nameWithType: server.decode
+        qualifiedName: NEA.server.decode
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: NEA.server.decode(System.String)
+        name: decode
+        nameWithType: server.decode
+        qualifiedName: NEA.server.decode
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: NEA.server
+    commentId: M:NEA.server.decode(System.String)
+  Server.Tests.dummyServer.#ctor*:
+    name:
+      CSharp:
+      - id: Server.Tests.dummyServer.#ctor*
+        name: dummyServer
+        nameWithType: dummyServer.dummyServer
+        qualifiedName: Server.Tests.dummyServer.dummyServer
+      VB:
+      - id: Server.Tests.dummyServer.#ctor*
+        name: dummyServer
+        nameWithType: dummyServer.dummyServer
+        qualifiedName: Server.Tests.dummyServer.dummyServer
+    isDefinition: true
+    commentId: Overload:Server.Tests.dummyServer.#ctor
+  System.String[]:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+    isDefinition: false
+  Server.Tests.dummyServer.testEncoding*:
+    name:
+      CSharp:
+      - id: Server.Tests.dummyServer.testEncoding*
+        name: testEncoding
+        nameWithType: dummyServer.testEncoding
+        qualifiedName: Server.Tests.dummyServer.testEncoding
+      VB:
+      - id: Server.Tests.dummyServer.testEncoding*
+        name: testEncoding
+        nameWithType: dummyServer.testEncoding
+        qualifiedName: Server.Tests.dummyServer.testEncoding
+    isDefinition: true
+    commentId: Overload:Server.Tests.dummyServer.testEncoding
+  Server.Tests.dummyServer.testDecoding*:
+    name:
+      CSharp:
+      - id: Server.Tests.dummyServer.testDecoding*
+        name: testDecoding
+        nameWithType: dummyServer.testDecoding
+        qualifiedName: Server.Tests.dummyServer.testDecoding
+      VB:
+      - id: Server.Tests.dummyServer.testDecoding*
+        name: testDecoding
+        nameWithType: dummyServer.testDecoding
+        qualifiedName: Server.Tests.dummyServer.testDecoding
+    isDefinition: true
+    commentId: Overload:Server.Tests.dummyServer.testDecoding
+  Server.Tests.dummyServer:
+    name:
+      CSharp:
+      - id: Server.Tests.dummyServer
+        name: dummyServer
+        nameWithType: dummyServer
+        qualifiedName: Server.Tests.dummyServer
+      VB:
+      - id: Server.Tests.dummyServer
+        name: dummyServer
+        nameWithType: dummyServer
+        qualifiedName: Server.Tests.dummyServer
+    isDefinition: true
+    commentId: T:Server.Tests.dummyServer
+  Server.Tests.UnitTest1.HASH_TEST*:
+    name:
+      CSharp:
+      - id: Server.Tests.UnitTest1.HASH_TEST*
+        name: HASH_TEST
+        nameWithType: UnitTest1.HASH_TEST
+        qualifiedName: Server.Tests.UnitTest1.HASH_TEST
+      VB:
+      - id: Server.Tests.UnitTest1.HASH_TEST*
+        name: HASH_TEST
+        nameWithType: UnitTest1.HASH_TEST
+        qualifiedName: Server.Tests.UnitTest1.HASH_TEST
+    isDefinition: true
+    commentId: Overload:Server.Tests.UnitTest1.HASH_TEST
+  Server.Tests.UnitTest1.SERVER_ENCODE_TEST*:
+    name:
+      CSharp:
+      - id: Server.Tests.UnitTest1.SERVER_ENCODE_TEST*
+        name: SERVER_ENCODE_TEST
+        nameWithType: UnitTest1.SERVER_ENCODE_TEST
+        qualifiedName: Server.Tests.UnitTest1.SERVER_ENCODE_TEST
+      VB:
+      - id: Server.Tests.UnitTest1.SERVER_ENCODE_TEST*
+        name: SERVER_ENCODE_TEST
+        nameWithType: UnitTest1.SERVER_ENCODE_TEST
+        qualifiedName: Server.Tests.UnitTest1.SERVER_ENCODE_TEST
+    isDefinition: true
+    commentId: Overload:Server.Tests.UnitTest1.SERVER_ENCODE_TEST
+  Server.Tests.UnitTest1.SERVER_DECODE_TEST*:
+    name:
+      CSharp:
+      - id: Server.Tests.UnitTest1.SERVER_DECODE_TEST*
+        name: SERVER_DECODE_TEST
+        nameWithType: UnitTest1.SERVER_DECODE_TEST
+        qualifiedName: Server.Tests.UnitTest1.SERVER_DECODE_TEST
+      VB:
+      - id: Server.Tests.UnitTest1.SERVER_DECODE_TEST*
+        name: SERVER_DECODE_TEST
+        nameWithType: UnitTest1.SERVER_DECODE_TEST
+        qualifiedName: Server.Tests.UnitTest1.SERVER_DECODE_TEST
+    isDefinition: true
+    commentId: Overload:Server.Tests.UnitTest1.SERVER_DECODE_TEST
+  Server.Tests.UnitTest1:
+    name:
+      CSharp:
+      - id: Server.Tests.UnitTest1
+        name: UnitTest1
+        nameWithType: UnitTest1
+        qualifiedName: Server.Tests.UnitTest1
+      VB:
+      - id: Server.Tests.UnitTest1
+        name: UnitTest1
+        nameWithType: UnitTest1
+        qualifiedName: Server.Tests.UnitTest1
+    isDefinition: true
+    commentId: T:Server.Tests.UnitTest1
+  Server.Tests:
+    name:
+      CSharp:
+      - name: Server.Tests
+        nameWithType: Server.Tests
+        qualifiedName: Server.Tests
+      VB:
+      - name: Server.Tests
+        nameWithType: Server.Tests
+        qualifiedName: Server.Tests
+    isDefinition: true
+    commentId: N:Server.Tests

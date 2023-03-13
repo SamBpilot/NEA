@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <Stop_Name>Test St</Stop_Name>
+    <Station_ID>522</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.889248</GTFS_Latitude>
+    <GTFS_Longitude>-73.898583</GTFS_Longitude>
+    <Surrounding_Stations>523</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Fake Road</Stop_Name>
+    <Station_ID>523</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.884667</GTFS_Latitude>
+    <GTFS_Longitude>-73.90087</GTFS_Longitude>
+    <Surrounding_Stations>522</Surrounding_Stations>
+  </row>
+</root>

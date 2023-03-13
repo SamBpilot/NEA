@@ -1,0 +1,1020 @@
+
+digraph G {
+	fontname="Helvetica,Arial,sans-serif";
+	node [fontname="Helvetica,Arial,sans-serif bold" labelloc="c" shape="circle"];
+	edge [fontname="Helvetica,Arial,sans-serif" fontsize=8 arrowsize=0.5];
+  
+  subgraph cluster_143 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"143_A";
+		label = "Inwood-207 St (143)";
+	}
+
+  subgraph cluster_144 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"144_A";
+		label = "Dyckman St (144)";
+	}
+
+  subgraph cluster_145 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"145_A";
+		label = "190 St (145)";
+	}
+
+  subgraph cluster_146 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"146_A";
+		label = "181 St (146)";
+	}
+
+  subgraph cluster_147 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"147_A";
+		label = "175 St (147)";
+	}
+
+  subgraph cluster_189 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"189_A";
+		label = "Grant Av (189)";
+	}
+
+  subgraph cluster_190 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"190_A";
+		label = "80 St (190)";
+	}
+
+  subgraph cluster_191 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"191_A";
+		label = "88 St (191)";
+	}
+
+  subgraph cluster_192 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"192_A";
+		label = "Rockaway Blvd (192)";
+	}
+
+  subgraph cluster_193 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"193_A";
+		label = "104 St (193)";
+	}
+
+  subgraph cluster_194 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"194_A";
+		label = "111 St (194)";
+	}
+
+  subgraph cluster_195 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"195_A";
+		label = "Ozone Park-Lefferts Blvd (195)";
+	}
+
+  subgraph cluster_196 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"196_A";
+		label = "Aqueduct Racetrack (196)";
+	}
+
+  subgraph cluster_197 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"197_A";
+		label = "Aqueduct-N Conduit Av (197)";
+	}
+
+  subgraph cluster_198 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"198_A";
+		label = "Howard Beach-JFK Airport (198)";
+	}
+
+  subgraph cluster_204 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"204_A";
+		label = "Beach 67 St (204)";
+	}
+
+  subgraph cluster_205 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"205_A";
+		label = "Beach 60 St (205)";
+	}
+
+  subgraph cluster_206 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"206_A";
+		label = "Beach 44 St (206)";
+	}
+
+  subgraph cluster_207 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"207_A";
+		label = "Beach 36 St (207)";
+	}
+
+  subgraph cluster_208 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"208_A";
+		label = "Beach 25 St (208)";
+	}
+
+  subgraph cluster_209 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"209_A";
+		label = "Far Rockaway-Mott Av (209)";
+	}
+
+  subgraph cluster_151 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"151_A";
+		node [label="C" color=cyan, fontcolor=gray]"151_C";
+		label = "145 St (151)";
+	}
+
+  subgraph cluster_153 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"153_A";
+		node [label="C" color=cyan, fontcolor=gray]"153_C";
+		label = "125 St (153)";
+	}
+
+  subgraph cluster_161 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"161_A";
+		node [label="C" color=cyan, fontcolor=gray]"161_C";
+		label = "59 St-Columbus Circle (161)";
+	}
+
+  subgraph cluster_167 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"167_A";
+		node [label="C" color=cyan, fontcolor=gray]"167_C";
+		node [label="E" color=brown, fontcolor=gray]"167_E";
+		label = "W 4 St-Wash Sq (167)";
+	}
+
+  subgraph cluster_170 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"170_A";
+		node [label="C" color=cyan, fontcolor=gray]"170_C";
+		label = "Chambers St (170)";
+	}
+
+  subgraph cluster_173 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"173_A";
+		node [label="C" color=cyan, fontcolor=gray]"173_C";
+		label = "High St (173)";
+	}
+
+  subgraph cluster_179 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"179_A";
+		node [label="C" color=cyan, fontcolor=gray]"179_C";
+		label = "Nostrand Av (179)";
+	}
+
+  subgraph cluster_181 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"181_A";
+		node [label="C" color=cyan, fontcolor=gray]"181_C";
+		label = "Utica Av (181)";
+	}
+
+  subgraph cluster_188 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"188_A";
+		node [label="C" color=cyan, fontcolor=gray]"188_C";
+		label = "Euclid Av (188)";
+	}
+
+  subgraph cluster_148 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"148_A";
+		node [label="C" color=cyan, fontcolor=gray]"148_C";
+		label = "168 St-Washington Hts (148)";
+	}
+
+  subgraph cluster_163 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"163_A";
+		node [label="C" color=cyan, fontcolor=gray]"163_C";
+		node [label="E" color=brown, fontcolor=gray]"163_E";
+		label = "42 St-Port Authority Bus Terminal (163)";
+	}
+
+  subgraph cluster_164 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"164_A";
+		node [label="C" color=cyan, fontcolor=gray]"164_C";
+		node [label="E" color=brown, fontcolor=gray]"164_E";
+		label = "34 St-Penn Station (164)";
+	}
+
+  subgraph cluster_166 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"166_A";
+		node [label="C" color=cyan, fontcolor=gray]"166_C";
+		node [label="E" color=brown, fontcolor=gray]"166_E";
+		label = "14 St (166)";
+	}
+
+  subgraph cluster_169 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"169_A";
+		node [label="C" color=cyan, fontcolor=gray]"169_C";
+		node [label="E" color=brown, fontcolor=gray]"169_E";
+		label = "Canal St (169)";
+	}
+
+  subgraph cluster_25 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"25_A";
+		node [label="C" color=cyan, fontcolor=gray]"25_C";
+		label = "Jay St-MetroTech (25)";
+	}
+
+  subgraph cluster_175 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"175_A";
+		node [label="C" color=cyan, fontcolor=gray]"175_C";
+		label = "Hoyt-Schermerhorn Sts (175)";
+	}
+
+  subgraph cluster_172 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"172_A";
+		node [label="C" color=cyan, fontcolor=gray]"172_C";
+		label = "Fulton St (172)";
+	}
+
+  subgraph cluster_132 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"132_A";
+		node [label="C" color=cyan, fontcolor=gray]"132_C";
+		label = "Broadway Junction (132)";
+	}
+
+  subgraph cluster_199 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"199_A";
+		label = "Broad Channel (199)";
+	}
+
+  subgraph cluster_200 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"200_A";
+		label = "Beach 90 St (200)";
+	}
+
+  subgraph cluster_201 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"201_A";
+		label = "Beach 98 St (201)";
+	}
+
+  subgraph cluster_202 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"202_A";
+		label = "Beach 105 St (202)";
+	}
+
+  subgraph cluster_203 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="A" color=lime, fontcolor=gray]"203_A";
+		label = "Rockaway Park-Beach 116 St (203)";
+	}
+
+  subgraph cluster_152 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"152_C";
+		label = "135 St (152)";
+	}
+
+  subgraph cluster_154 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"154_C";
+		label = "116 St (154)";
+	}
+
+  subgraph cluster_155 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"155_C";
+		label = "Cathedral Pkwy (110 St) (155)";
+	}
+
+  subgraph cluster_156 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"156_C";
+		label = "103 St (156)";
+	}
+
+  subgraph cluster_157 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"157_C";
+		label = "96 St (157)";
+	}
+
+  subgraph cluster_158 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"158_C";
+		label = "86 St (158)";
+	}
+
+  subgraph cluster_159 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"159_C";
+		label = "81 St-Museum of Natural History (159)";
+	}
+
+  subgraph cluster_160 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"160_C";
+		label = "72 St (160)";
+	}
+
+  subgraph cluster_277 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"277_E";
+		label = "7 Av (277)";
+	}
+
+  subgraph cluster_149 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"149_C";
+		label = "163 St-Amsterdam Av (149)";
+	}
+
+  subgraph cluster_150 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"150_C";
+		label = "155 St (150)";
+	}
+
+  subgraph cluster_176 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"176_C";
+		label = "Lafayette Av (176)";
+	}
+
+  subgraph cluster_177 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"177_C";
+		label = "Clinton-Washington Avs (177)";
+	}
+
+  subgraph cluster_180 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"180_C";
+		label = "Kingston-Throop Avs (180)";
+	}
+
+  subgraph cluster_182 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"182_C";
+		label = "Ralph Av (182)";
+	}
+
+  subgraph cluster_183 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"183_C";
+		label = "Rockaway Av (183)";
+	}
+
+  subgraph cluster_185 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"185_C";
+		label = "Liberty Av (185)";
+	}
+
+  subgraph cluster_186 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"186_C";
+		label = "Van Siclen Av (186)";
+	}
+
+  subgraph cluster_187 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"187_C";
+		label = "Shepherd Av (187)";
+	}
+
+  subgraph cluster_162 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"162_C";
+		node [label="E" color=brown, fontcolor=gray]"162_E";
+		label = "50 St (162)";
+	}
+
+  subgraph cluster_165 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"165_C";
+		node [label="E" color=brown, fontcolor=gray]"165_E";
+		label = "23 St (165)";
+	}
+
+  subgraph cluster_168 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"168_C";
+		node [label="E" color=brown, fontcolor=gray]"168_E";
+		label = "Spring St (168)";
+	}
+
+  subgraph cluster_139 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="C" color=cyan, fontcolor=gray]"139_C";
+		label = "Franklin Av (139)";
+	}
+
+  subgraph cluster_171 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"171_E";
+		label = "World Trade Center (171)";
+	}
+
+  subgraph cluster_280 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"280_E";
+		label = "Jamaica-Van Wyck (280)";
+	}
+
+  subgraph cluster_258 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"258_E";
+		label = "Briarwood (258)";
+	}
+
+  subgraph cluster_259 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"259_E";
+		label = "Kew Gardens-Union Tpke (259)";
+	}
+
+  subgraph cluster_260 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"260_E";
+		label = "75 Av (260)";
+	}
+
+  subgraph cluster_261 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"261_E";
+		label = "Forest Hills-71 Av (261)";
+	}
+
+  subgraph cluster_267 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"267_E";
+		label = "Jackson Hts-Roosevelt Av (267)";
+	}
+
+  subgraph cluster_278 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"278_E";
+		label = "Jamaica Center-Parsons/Archer (278)";
+	}
+
+  subgraph cluster_279 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"279_E";
+		label = "Sutphin Blvd-Archer Av-JFK Airport (279)";
+	}
+
+  subgraph cluster_275 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"275_E";
+		label = "Lexington Av/53 St (275)";
+	}
+
+  subgraph cluster_276 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"276_E";
+		label = "5 Av/53 St (276)";
+	}
+
+  subgraph cluster_273 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"273_E";
+		label = "Queens Plaza (273)";
+	}
+
+  subgraph cluster_274 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="E" color=brown, fontcolor=gray]"274_E";
+		label = "Court Sq-23 St (274)";
+	}
+
+  "143_A" -> "144_A"[xlabel=4.49, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"144_A" -> "143_A"[xlabel=4.49, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"144_A" -> "145_A"[xlabel=5.44, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"145_A" -> "144_A"[xlabel=5.44, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"145_A" -> "146_A"[xlabel=4.74, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"146_A" -> "145_A"[xlabel=4.74, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"146_A" -> "147_A"[xlabel=2.67, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"147_A" -> "146_A"[xlabel=2.67, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"147_A" -> "148_A"[xlabel=3.84, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"189_A" -> "188_A"[xlabel=4.17, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"189_A" -> "190_A"[xlabel=3.73, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"190_A" -> "189_A"[xlabel=3.73, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"190_A" -> "191_A"[xlabel=4.33, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"191_A" -> "190_A"[xlabel=4.33, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"191_A" -> "192_A"[xlabel=4.39, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"192_A" -> "191_A"[xlabel=4.39, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"192_A" -> "193_A"[xlabel=3.62, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"192_A" -> "197_A"[xlabel=8.99, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"193_A" -> "192_A"[xlabel=3.62, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"193_A" -> "194_A"[xlabel=3.51, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"194_A" -> "193_A"[xlabel=3.51, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"194_A" -> "195_A"[xlabel=3.77, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"195_A" -> "194_A"[xlabel=3.77, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"196_A" -> "192_A"[xlabel=6.61, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"197_A" -> "196_A"[xlabel=2.46, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"197_A" -> "198_A"[xlabel=4.95, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"198_A" -> "197_A"[xlabel=4.95, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"198_A" -> "199_A"[xlabel=31.06, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"204_A" -> "199_A"[xlabel=14.83, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"204_A" -> "205_A"[xlabel=4.9, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"205_A" -> "204_A"[xlabel=4.9, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"205_A" -> "206_A"[xlabel=7.2, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"206_A" -> "205_A"[xlabel=7.2, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"206_A" -> "207_A"[xlabel=4.72, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"207_A" -> "206_A"[xlabel=4.72, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"207_A" -> "208_A"[xlabel=4.75, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"208_A" -> "207_A"[xlabel=4.75, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"208_A" -> "209_A"[xlabel=4.1, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"209_A" -> "208_A"[xlabel=4.1, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"151_A" -> "151_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"151_A" -> "148_A"[xlabel=9.54, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"151_A" -> "153_A"[xlabel=9.14, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"151_C" -> "151_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"151_C" -> "150_C"[xlabel=3.64, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"151_C" -> "152_C"[xlabel=4.42, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"153_A" -> "153_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"153_A" -> "151_A"[xlabel=9.14, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"153_A" -> "161_A"[xlabel=29.85, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"153_C" -> "153_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"153_C" -> "152_C"[xlabel=4.74, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"153_C" -> "154_C"[xlabel=3.76, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"161_A" -> "161_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"161_A" -> "153_A"[xlabel=29.85, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"161_A" -> "163_A"[xlabel=7.81, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"161_C" -> "161_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"161_C" -> "160_C"[xlabel=5.19, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"161_C" -> "162_C"[xlabel=4.15, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"167_A" -> "167_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"167_A" -> "167_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"167_A" -> "166_A"[xlabel=4.96, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"167_A" -> "169_A"[xlabel=7.15, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"167_C" -> "167_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"167_C" -> "167_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"167_C" -> "166_C"[xlabel=4.96, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"167_C" -> "168_C"[xlabel=3.98, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"167_E" -> "167_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"167_E" -> "167_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"167_E" -> "166_E"[xlabel=4.96, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"167_E" -> "168_E"[xlabel=3.98, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"170_A" -> "170_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"170_A" -> "169_A"[xlabel=4.31, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"170_A" -> "172_A"[xlabel=2.31, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"170_C" -> "170_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"170_C" -> "169_C"[xlabel=4.31, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"170_C" -> "172_C"[xlabel=2.31, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"173_A" -> "173_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"173_A" -> "172_A"[xlabel=11.67, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"173_A" -> "25_A"[xlabel=4.89, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"173_C" -> "173_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"173_C" -> "172_C"[xlabel=11.67, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"173_C" -> "25_C"[xlabel=4.89, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"179_A" -> "179_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"179_A" -> "181_A"[xlabel=11.34, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"179_A" -> "175_A"[xlabel=20.4, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"179_C" -> "179_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"179_C" -> "139_C"[xlabel=3.11, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"179_C" -> "180_C"[xlabel=5.51, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"181_A" -> "181_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"181_A" -> "132_A"[xlabel=15.8, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"181_A" -> "179_A"[xlabel=11.34, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"181_C" -> "181_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"181_C" -> "180_C"[xlabel=5.83, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"181_C" -> "182_C"[xlabel=5.72, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"188_A" -> "188_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"188_A" -> "189_A"[xlabel=4.17, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"188_C" -> "188_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"188_C" -> "187_C"[xlabel=5.02, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"148_A" -> "148_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"148_A" -> "147_A"[xlabel=3.84, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"148_A" -> "151_A"[xlabel=9.54, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"148_C" -> "148_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"148_C" -> "149_C"[xlabel=2.71, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"163_A" -> "163_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"163_A" -> "163_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"163_A" -> "164_A"[xlabel=3.57, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"163_A" -> "161_A"[xlabel=7.81, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"163_C" -> "163_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"163_C" -> "163_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"163_C" -> "162_C"[xlabel=3.66, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"163_C" -> "164_C"[xlabel=3.57, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"163_E" -> "163_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"163_E" -> "163_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"163_E" -> "162_E"[xlabel=3.66, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"163_E" -> "164_E"[xlabel=3.57, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"164_A" -> "164_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"164_A" -> "164_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"164_A" -> "163_A"[xlabel=3.57, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"164_A" -> "166_A"[xlabel=8.1, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"164_C" -> "164_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"164_C" -> "164_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"164_C" -> "163_C"[xlabel=3.57, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"164_C" -> "165_C"[xlabel=4.54, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"164_E" -> "164_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"164_E" -> "164_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"164_E" -> "163_E"[xlabel=3.57, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"164_E" -> "165_E"[xlabel=4.54, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"166_A" -> "166_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"166_A" -> "166_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"166_A" -> "167_A"[xlabel=4.96, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"166_A" -> "164_A"[xlabel=8.1, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"166_C" -> "166_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"166_C" -> "166_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"166_C" -> "165_C"[xlabel=3.56, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"166_C" -> "167_C"[xlabel=4.96, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"166_E" -> "166_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"166_E" -> "166_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"166_E" -> "165_E"[xlabel=3.56, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"166_E" -> "167_E"[xlabel=4.96, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"169_A" -> "169_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"169_A" -> "169_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"169_A" -> "167_A"[xlabel=7.15, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"169_A" -> "170_A"[xlabel=4.31, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"169_C" -> "169_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"169_C" -> "169_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"169_C" -> "168_C"[xlabel=3.22, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"169_C" -> "170_C"[xlabel=4.31, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"169_E" -> "169_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"169_E" -> "169_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"169_E" -> "168_E"[xlabel=3.22, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"169_E" -> "171_E"[xlabel=5.41, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"25_A" -> "25_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"25_A" -> "175_A"[xlabel=2.19, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"25_A" -> "173_A"[xlabel=4.89, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"25_C" -> "25_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"25_C" -> "175_C"[xlabel=2.19, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"25_C" -> "173_C"[xlabel=4.89, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"175_A" -> "175_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"175_A" -> "25_A"[xlabel=2.19, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"175_A" -> "179_A"[xlabel=20.4, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"175_C" -> "175_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"175_C" -> "176_C"[xlabel=6.5, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"175_C" -> "25_C"[xlabel=2.19, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"172_A" -> "172_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"172_A" -> "170_A"[xlabel=2.31, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"172_A" -> "173_A"[xlabel=11.67, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"172_C" -> "172_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"172_C" -> "170_C"[xlabel=2.31, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"172_C" -> "173_C"[xlabel=11.67, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"132_A" -> "132_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"132_A" -> "188_A"[xlabel=18.0, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"132_A" -> "181_A"[xlabel=15.8, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"132_C" -> "132_A"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"132_C" -> "185_C"[xlabel=4.58, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"132_C" -> "183_C"[xlabel=5.01, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"199_A" -> "198_A"[xlabel=31.06, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"199_A" -> "204_A"[xlabel=14.83, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"199_A" -> "200_A"[xlabel=11.77, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"200_A" -> "199_A"[xlabel=11.77, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"200_A" -> "201_A"[xlabel=4.27, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"201_A" -> "200_A"[xlabel=4.27, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"201_A" -> "202_A"[xlabel=4.2, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"202_A" -> "201_A"[xlabel=4.2, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"202_A" -> "203_A"[xlabel=4.8, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"203_A" -> "202_A"[xlabel=4.8, color=lime fontcolor=lime fontsize=8 arrowsize=0.5];
+	"152_C" -> "151_C"[xlabel=4.42, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"152_C" -> "153_C"[xlabel=4.74, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"154_C" -> "153_C"[xlabel=3.76, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"154_C" -> "155_C"[xlabel=3.19, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"155_C" -> "154_C"[xlabel=3.19, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"155_C" -> "156_C"[xlabel=3.21, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"156_C" -> "155_C"[xlabel=3.21, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"156_C" -> "157_C"[xlabel=3.16, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"157_C" -> "156_C"[xlabel=3.16, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"157_C" -> "158_C"[xlabel=4.11, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"158_C" -> "157_C"[xlabel=4.11, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"158_C" -> "159_C"[xlabel=3.15, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"159_C" -> "158_C"[xlabel=3.15, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"159_C" -> "160_C"[xlabel=4.16, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"160_C" -> "159_C"[xlabel=4.16, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"160_C" -> "161_C"[xlabel=5.19, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"277_E" -> "162_E"[xlabel=2.51, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"277_E" -> "276_E"[xlabel=4.0, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"149_C" -> "148_C"[xlabel=2.71, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"149_C" -> "150_C"[xlabel=3.29, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"150_C" -> "149_C"[xlabel=3.29, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"150_C" -> "151_C"[xlabel=3.64, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"176_C" -> "175_C"[xlabel=6.5, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"176_C" -> "177_C"[xlabel=4.94, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"177_C" -> "176_C"[xlabel=4.94, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"177_C" -> "139_C"[xlabel=5.95, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"180_C" -> "179_C"[xlabel=5.51, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"180_C" -> "181_C"[xlabel=5.83, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"182_C" -> "181_C"[xlabel=5.72, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"182_C" -> "183_C"[xlabel=5.09, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"183_C" -> "182_C"[xlabel=5.09, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"183_C" -> "132_C"[xlabel=5.01, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"185_C" -> "132_C"[xlabel=4.58, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"185_C" -> "186_C"[xlabel=3.71, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"186_C" -> "185_C"[xlabel=3.71, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"186_C" -> "187_C"[xlabel=5.58, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"187_C" -> "186_C"[xlabel=5.58, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"187_C" -> "188_C"[xlabel=5.02, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"162_C" -> "162_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"162_C" -> "163_C"[xlabel=3.66, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"162_C" -> "161_C"[xlabel=4.15, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"162_E" -> "162_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"162_E" -> "163_E"[xlabel=3.66, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"162_E" -> "277_E"[xlabel=2.51, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"165_C" -> "165_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"165_C" -> "166_C"[xlabel=3.56, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"165_C" -> "164_C"[xlabel=4.54, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"165_E" -> "165_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"165_E" -> "166_E"[xlabel=3.56, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"165_E" -> "164_E"[xlabel=4.54, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"168_C" -> "168_E"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"168_C" -> "167_C"[xlabel=3.98, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"168_C" -> "169_C"[xlabel=3.22, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"168_E" -> "168_C"[xlabel=2, color=white fontcolor=white fontsize=8 arrowsize=0.5];
+	"168_E" -> "167_E"[xlabel=3.98, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"168_E" -> "169_E"[xlabel=3.22, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"139_C" -> "179_C"[xlabel=3.11, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"139_C" -> "177_C"[xlabel=5.95, color=cyan fontcolor=cyan fontsize=8 arrowsize=0.5];
+	"171_E" -> "169_E"[xlabel=5.41, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"280_E" -> "258_E"[xlabel=4.36, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"280_E" -> "279_E"[xlabel=5.25, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"258_E" -> "280_E"[xlabel=4.36, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"258_E" -> "259_E"[xlabel=6.72, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"259_E" -> "258_E"[xlabel=6.72, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"259_E" -> "260_E"[xlabel=4.26, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"260_E" -> "259_E"[xlabel=4.26, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"260_E" -> "261_E"[xlabel=4.56, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"261_E" -> "260_E"[xlabel=4.56, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"261_E" -> "267_E"[xlabel=30.49, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"267_E" -> "261_E"[xlabel=30.49, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"267_E" -> "273_E"[xlabel=26.42, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"278_E" -> "279_E"[xlabel=4.06, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"279_E" -> "280_E"[xlabel=5.25, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"279_E" -> "278_E"[xlabel=4.06, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"275_E" -> "276_E"[xlabel=3.85, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"275_E" -> "274_E"[xlabel=14.38, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"276_E" -> "275_E"[xlabel=3.85, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"276_E" -> "277_E"[xlabel=4.0, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"273_E" -> "274_E"[xlabel=5.07, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"273_E" -> "267_E"[xlabel=26.42, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"274_E" -> "275_E"[xlabel=14.38, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+	"274_E" -> "273_E"[xlabel=5.07, color=brown fontcolor=brown fontsize=8 arrowsize=0.5];
+
+}

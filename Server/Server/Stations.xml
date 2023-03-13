@@ -1,0 +1,3703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <Stop_Name>Van Cortlandt Park-242 St</Stop_Name>
+    <Station_ID>293</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.889248</GTFS_Latitude>
+    <GTFS_Longitude>-73.898583</GTFS_Longitude>
+    <Surrounding_Stations>294</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>238 St</Stop_Name>
+    <Station_ID>294</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.884667</GTFS_Latitude>
+    <GTFS_Longitude>-73.90087</GTFS_Longitude>
+    <Surrounding_Stations>293 | 295</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>231 St</Stop_Name>
+    <Station_ID>295</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.878856</GTFS_Latitude>
+    <GTFS_Longitude>-73.904834</GTFS_Longitude>
+    <Surrounding_Stations>296 | 294</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Marble Hill-225 St</Stop_Name>
+    <Station_ID>296</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.874561</GTFS_Latitude>
+    <GTFS_Longitude>-73.909831</GTFS_Longitude>
+    <Surrounding_Stations>295 | 297</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>215 St</Stop_Name>
+    <Station_ID>297</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.869444</GTFS_Latitude>
+    <GTFS_Longitude>-73.915279</GTFS_Longitude>
+    <Surrounding_Stations>296 | 298</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>207 St</Stop_Name>
+    <Station_ID>298</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.864621</GTFS_Latitude>
+    <GTFS_Longitude>-73.918822</GTFS_Longitude>
+    <Surrounding_Stations>297 | 299</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Dyckman St</Stop_Name>
+    <Station_ID>299</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.860531</GTFS_Latitude>
+    <GTFS_Longitude>-73.925536</GTFS_Longitude>
+    <Surrounding_Stations>298 | 300</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>191 St</Stop_Name>
+    <Station_ID>300</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.855225</GTFS_Latitude>
+    <GTFS_Longitude>-73.929412</GTFS_Longitude>
+    <Surrounding_Stations>299 | 301</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>181 St</Stop_Name>
+    <Station_ID>301</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.849505</GTFS_Latitude>
+    <GTFS_Longitude>-73.933596</GTFS_Longitude>
+    <Surrounding_Stations>300 | 148</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>157 St</Stop_Name>
+    <Station_ID>303</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.834041</GTFS_Latitude>
+    <GTFS_Longitude>-73.94489</GTFS_Longitude>
+    <Surrounding_Stations>148 | 304</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>145 St</Stop_Name>
+    <Station_ID>304</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.826551</GTFS_Latitude>
+    <GTFS_Longitude>-73.95036</GTFS_Longitude>
+    <Surrounding_Stations>303 | 305</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>137 St-City College</Stop_Name>
+    <Station_ID>305</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.822008</GTFS_Latitude>
+    <GTFS_Longitude>-73.953676</GTFS_Longitude>
+    <Surrounding_Stations>304 | 306</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>125 St</Stop_Name>
+    <Station_ID>306</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.815581</GTFS_Latitude>
+    <GTFS_Longitude>-73.958372</GTFS_Longitude>
+    <Surrounding_Stations>305 | 307</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>116 St-Columbia University</Stop_Name>
+    <Station_ID>307</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.807722</GTFS_Latitude>
+    <GTFS_Longitude>-73.96411</GTFS_Longitude>
+    <Surrounding_Stations>306 | 308</Surrounding_Stations>
+</row>
+  <row>
+    <Stop_Name>Cathedral Pkwy (110 St)</Stop_Name>
+    <Station_ID>308</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.803967</GTFS_Latitude>
+    <GTFS_Longitude>-73.966847</GTFS_Longitude>
+    <Surrounding_Stations>307 | 309</Surrounding_Stations>
+</row>
+  <row>
+    <Stop_Name>103 St</Stop_Name>
+    <Station_ID>309</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.799446</GTFS_Latitude>
+    <GTFS_Longitude>-73.968379</GTFS_Longitude>
+    <Surrounding_Stations>308 | 310</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>86 St</Stop_Name>
+    <Station_ID>311</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.788644</GTFS_Latitude>
+    <GTFS_Longitude>-73.976218</GTFS_Longitude>
+    <Surrounding_Stations>310 | 312</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>79 St</Stop_Name>
+    <Station_ID>312</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.783934</GTFS_Latitude>
+    <GTFS_Longitude>-73.979917</GTFS_Longitude>
+    <Surrounding_Stations>313 | 311</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>66 St-Lincoln Center</Stop_Name>
+    <Station_ID>314</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.77344</GTFS_Latitude>
+    <GTFS_Longitude>-73.982209</GTFS_Longitude>
+    <Surrounding_Stations>313 | 161</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>50 St</Stop_Name>
+    <Station_ID>316</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.761728</GTFS_Latitude>
+    <GTFS_Longitude>-73.983849</GTFS_Longitude>
+    <Surrounding_Stations>161 | 11</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>28 St</Stop_Name>
+    <Station_ID>319</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.747215</GTFS_Latitude>
+    <GTFS_Longitude>-73.993365</GTFS_Longitude>
+    <Surrounding_Stations>318 | 320</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>23 St</Stop_Name>
+    <Station_ID>320</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.744081</GTFS_Latitude>
+    <GTFS_Longitude>-73.995657</GTFS_Longitude>
+    <Surrounding_Stations>319 | 321</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>18 St</Stop_Name>
+    <Station_ID>321</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.74104</GTFS_Latitude>
+    <GTFS_Longitude>-73.997871</GTFS_Longitude>
+    <Surrounding_Stations>320 | 322</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Christopher St-Sheridan Sq</Stop_Name>
+    <Station_ID>323</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.733422</GTFS_Latitude>
+    <GTFS_Longitude>-74.002906</GTFS_Longitude>
+    <Surrounding_Stations>322 | 324</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Houston St</Stop_Name>
+    <Station_ID>324</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.728251</GTFS_Latitude>
+    <GTFS_Longitude>-74.005367</GTFS_Longitude>
+    <Surrounding_Stations>323 | 325</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Canal St</Stop_Name>
+    <Station_ID>325</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.722854</GTFS_Latitude>
+    <GTFS_Longitude>-74.006277</GTFS_Longitude>
+    <Surrounding_Stations>324 | 326</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Franklin St</Stop_Name>
+    <Station_ID>326</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.719318</GTFS_Latitude>
+    <GTFS_Longitude>-74.006886</GTFS_Longitude>
+    <Surrounding_Stations>325 | 327</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>WTC Cortlandt</Stop_Name>
+    <Station_ID>328</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.711835</GTFS_Latitude>
+    <GTFS_Longitude>-74.012188</GTFS_Longitude>
+    <Surrounding_Stations>327 | 329</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Rector St</Stop_Name>
+    <Station_ID>329</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.707513</GTFS_Latitude>
+    <GTFS_Longitude>-74.013783</GTFS_Longitude>
+    <Surrounding_Stations>328 | 330</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>South Ferry</Stop_Name>
+    <Station_ID>330</Station_ID>
+    <Daytime_Routes>1</Daytime_Routes>
+    <GTFS_Latitude>40.702068</GTFS_Latitude>
+    <GTFS_Longitude>-74.013664</GTFS_Longitude>
+    <Surrounding_Stations>329</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Wakefield-241 St</Stop_Name>
+    <Station_ID>416</Station_ID>
+    <Daytime_Routes>2</Daytime_Routes>
+    <GTFS_Latitude>40.903125</GTFS_Latitude>
+    <GTFS_Longitude>-73.85062</GTFS_Longitude>
+    <Surrounding_Stations>417</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Nostrand Av</Stop_Name>
+    <Station_ID>343</Station_ID>
+    <Daytime_Routes>3</Daytime_Routes>
+    <GTFS_Latitude>40.669847</GTFS_Latitude>
+    <GTFS_Longitude>-73.950466</GTFS_Longitude>
+    <Surrounding_Stations>342 | 344</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Kingston Av</Stop_Name>
+    <Station_ID>344</Station_ID>
+    <Daytime_Routes>3</Daytime_Routes>
+    <GTFS_Latitude>40.669399</GTFS_Latitude>
+    <GTFS_Longitude>-73.942161</GTFS_Longitude>
+    <Surrounding_Stations>343 | 345</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Sutter Av-Rutland Rd</Stop_Name>
+    <Station_ID>346</Station_ID>
+    <Daytime_Routes>3</Daytime_Routes>
+    <GTFS_Latitude>40.664717</GTFS_Latitude>
+    <GTFS_Longitude>-73.92261</GTFS_Longitude>
+    <Surrounding_Stations>345 | 347</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Saratoga Av</Stop_Name>
+    <Station_ID>347</Station_ID>
+    <Daytime_Routes>3</Daytime_Routes>
+    <GTFS_Latitude>40.661453</GTFS_Latitude>
+    <GTFS_Longitude>-73.916327</GTFS_Longitude>
+    <Surrounding_Stations>346 | 348</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Rockaway Av</Stop_Name>
+    <Station_ID>348</Station_ID>
+    <Daytime_Routes>3</Daytime_Routes>
+    <GTFS_Latitude>40.662549</GTFS_Latitude>
+    <GTFS_Longitude>-73.908946</GTFS_Longitude>
+    <Surrounding_Stations>347 | 349</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Junius St</Stop_Name>
+    <Station_ID>349</Station_ID>
+    <Daytime_Routes>3</Daytime_Routes>
+    <GTFS_Latitude>40.663515</GTFS_Latitude>
+    <GTFS_Longitude>-73.902447</GTFS_Longitude>
+    <Surrounding_Stations>348 | 350</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Pennsylvania Av</Stop_Name>
+    <Station_ID>350</Station_ID>
+    <Daytime_Routes>3</Daytime_Routes>
+    <GTFS_Latitude>40.664635</GTFS_Latitude>
+    <GTFS_Longitude>-73.894895</GTFS_Longitude>
+    <Surrounding_Stations>349 | 351</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Van Siclen Av</Stop_Name>
+    <Station_ID>351</Station_ID>
+    <Daytime_Routes>3</Daytime_Routes>
+    <GTFS_Latitude>40.665449</GTFS_Latitude>
+    <GTFS_Longitude>-73.889395</GTFS_Longitude>
+    <Surrounding_Stations>350 | 352</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>New Lots Av</Stop_Name>
+    <Station_ID>352</Station_ID>
+    <Daytime_Routes>3</Daytime_Routes>
+    <GTFS_Latitude>40.666235</GTFS_Latitude>
+    <GTFS_Longitude>-73.884079</GTFS_Longitude>
+    <Surrounding_Stations>351</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Harlem-148 St</Stop_Name>
+    <Station_ID>436</Station_ID>
+    <Daytime_Routes>3</Daytime_Routes>
+    <GTFS_Latitude>40.82388</GTFS_Latitude>
+    <GTFS_Longitude>-73.93647</GTFS_Longitude>
+    <Surrounding_Stations>437</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>145 St</Stop_Name>
+    <Station_ID>437</Station_ID>
+    <Daytime_Routes>3</Daytime_Routes>
+    <GTFS_Latitude>40.820421</GTFS_Latitude>
+    <GTFS_Longitude>-73.936245</GTFS_Longitude>
+    <Surrounding_Stations>436 | 438</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Woodlawn</Stop_Name>
+    <Station_ID>378</Station_ID>
+    <Daytime_Routes>4</Daytime_Routes>
+    <GTFS_Latitude>40.886037</GTFS_Latitude>
+    <GTFS_Longitude>-73.878751</GTFS_Longitude>
+    <Surrounding_Stations>379</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Mosholu Pkwy</Stop_Name>
+    <Station_ID>379</Station_ID>
+    <Daytime_Routes>4</Daytime_Routes>
+    <GTFS_Latitude>40.87975</GTFS_Latitude>
+    <GTFS_Longitude>-73.884655</GTFS_Longitude>
+    <Surrounding_Stations>378 | 380</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bedford Park Blvd-Lehman College</Stop_Name>
+    <Station_ID>380</Station_ID>
+    <Daytime_Routes>4</Daytime_Routes>
+    <GTFS_Latitude>40.873412</GTFS_Latitude>
+    <GTFS_Longitude>-73.890064</GTFS_Longitude>
+    <Surrounding_Stations>379 | 381</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Kingsbridge Rd</Stop_Name>
+    <Station_ID>381</Station_ID>
+    <Daytime_Routes>4</Daytime_Routes>
+    <GTFS_Latitude>40.86776</GTFS_Latitude>
+    <GTFS_Longitude>-73.897174</GTFS_Longitude>
+    <Surrounding_Stations>380 | 382</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Fordham Rd</Stop_Name>
+    <Station_ID>382</Station_ID>
+    <Daytime_Routes>4</Daytime_Routes>
+    <GTFS_Latitude>40.862803</GTFS_Latitude>
+    <GTFS_Longitude>-73.901034</GTFS_Longitude>
+    <Surrounding_Stations>381 | 383</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>183 St</Stop_Name>
+    <Station_ID>383</Station_ID>
+    <Daytime_Routes>4</Daytime_Routes>
+    <GTFS_Latitude>40.858407</GTFS_Latitude>
+    <GTFS_Longitude>-73.903879</GTFS_Longitude>
+    <Surrounding_Stations>382 | 384</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Burnside Av</Stop_Name>
+    <Station_ID>384</Station_ID>
+    <Daytime_Routes>4</Daytime_Routes>
+    <GTFS_Latitude>40.853453</GTFS_Latitude>
+    <GTFS_Longitude>-73.907684</GTFS_Longitude>
+    <Surrounding_Stations>383 | 385</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>176 St</Stop_Name>
+    <Station_ID>385</Station_ID>
+    <Daytime_Routes>4</Daytime_Routes>
+    <GTFS_Latitude>40.84848</GTFS_Latitude>
+    <GTFS_Longitude>-73.911794</GTFS_Longitude>
+    <Surrounding_Stations>384 | 386</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Mt Eden Av</Stop_Name>
+    <Station_ID>386</Station_ID>
+    <Daytime_Routes>4</Daytime_Routes>
+    <GTFS_Latitude>40.844434</GTFS_Latitude>
+    <GTFS_Longitude>-73.914685</GTFS_Longitude>
+    <Surrounding_Stations>385 | 387</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>170 St</Stop_Name>
+    <Station_ID>387</Station_ID>
+    <Daytime_Routes>4</Daytime_Routes>
+    <GTFS_Latitude>40.840075</GTFS_Latitude>
+    <GTFS_Longitude>-73.917791</GTFS_Longitude>
+    <Surrounding_Stations>386 | 388</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>167 St</Stop_Name>
+    <Station_ID>388</Station_ID>
+    <Daytime_Routes>4</Daytime_Routes>
+    <GTFS_Latitude>40.835537</GTFS_Latitude>
+    <GTFS_Longitude>-73.9214</GTFS_Longitude>
+    <Surrounding_Stations>387 | 219</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Eastchester-Dyre Av</Stop_Name>
+    <Station_ID>442</Station_ID>
+    <Daytime_Routes>5</Daytime_Routes>
+    <GTFS_Latitude>40.8883</GTFS_Latitude>
+    <GTFS_Longitude>-73.830834</GTFS_Longitude>
+    <Surrounding_Stations>443</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Baychester Av</Stop_Name>
+    <Station_ID>443</Station_ID>
+    <Daytime_Routes>5</Daytime_Routes>
+    <GTFS_Latitude>40.878663</GTFS_Latitude>
+    <GTFS_Longitude>-73.838591</GTFS_Longitude>
+    <Surrounding_Stations>442 | 444</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Gun Hill Rd</Stop_Name>
+    <Station_ID>444</Station_ID>
+    <Daytime_Routes>5</Daytime_Routes>
+    <GTFS_Latitude>40.869526</GTFS_Latitude>
+    <GTFS_Longitude>-73.846384</GTFS_Longitude>
+    <Surrounding_Stations>443 | 445</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Pelham Pkwy</Stop_Name>
+    <Station_ID>445</Station_ID>
+    <Daytime_Routes>5</Daytime_Routes>
+    <GTFS_Latitude>40.858985</GTFS_Latitude>
+    <GTFS_Longitude>-73.855359</GTFS_Longitude>
+    <Surrounding_Stations>444 | 446</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Morris Park</Stop_Name>
+    <Station_ID>446</Station_ID>
+    <Daytime_Routes>5</Daytime_Routes>
+    <GTFS_Latitude>40.854364</GTFS_Latitude>
+    <GTFS_Longitude>-73.860495</GTFS_Longitude>
+    <Surrounding_Stations>445 | 426</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Pelham Bay Park</Stop_Name>
+    <Station_ID>360</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.852462</GTFS_Latitude>
+    <GTFS_Longitude>-73.828121</GTFS_Longitude>
+    <Surrounding_Stations>361</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Buhre Av</Stop_Name>
+    <Station_ID>361</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.84681</GTFS_Latitude>
+    <GTFS_Longitude>-73.832569</GTFS_Longitude>
+    <Surrounding_Stations>360 | 362</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Middletown Rd</Stop_Name>
+    <Station_ID>362</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.843863</GTFS_Latitude>
+    <GTFS_Longitude>-73.836322</GTFS_Longitude>
+    <Surrounding_Stations>361 | 363</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Westchester Sq-E Tremont Av</Stop_Name>
+    <Station_ID>363</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.839892</GTFS_Latitude>
+    <GTFS_Longitude>-73.842952</GTFS_Longitude>
+    <Surrounding_Stations>362 | 364</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Zerega Av</Stop_Name>
+    <Station_ID>364</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.836488</GTFS_Latitude>
+    <GTFS_Longitude>-73.847036</GTFS_Longitude>
+    <Surrounding_Stations>363 | 365</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Castle Hill Av</Stop_Name>
+    <Station_ID>365</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.834255</GTFS_Latitude>
+    <GTFS_Longitude>-73.851222</GTFS_Longitude>
+    <Surrounding_Stations>364 | 366</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Parkchester</Stop_Name>
+    <Station_ID>366</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.833226</GTFS_Latitude>
+    <GTFS_Longitude>-73.860816</GTFS_Longitude>
+    <Surrounding_Stations>365 | 367</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>St Lawrence Av</Stop_Name>
+    <Station_ID>367</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.831509</GTFS_Latitude>
+    <GTFS_Longitude>-73.867618</GTFS_Longitude>
+    <Surrounding_Stations>366 | 368</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Morrison Av-Soundview</Stop_Name>
+    <Station_ID>368</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.829521</GTFS_Latitude>
+    <GTFS_Longitude>-73.874516</GTFS_Longitude>
+    <Surrounding_Stations>367 | 369</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Elder Av</Stop_Name>
+    <Station_ID>369</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.828584</GTFS_Latitude>
+    <GTFS_Longitude>-73.879159</GTFS_Longitude>
+    <Surrounding_Stations>368 | 370</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Whitlock Av</Stop_Name>
+    <Station_ID>370</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.826525</GTFS_Latitude>
+    <GTFS_Longitude>-73.886283</GTFS_Longitude>
+    <Surrounding_Stations>369 | 371</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Hunts Point Av</Stop_Name>
+    <Station_ID>371</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.820948</GTFS_Latitude>
+    <GTFS_Longitude>-73.890549</GTFS_Longitude>
+    <Surrounding_Stations>370 | 372</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Longwood Av</Stop_Name>
+    <Station_ID>372</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.816104</GTFS_Latitude>
+    <GTFS_Longitude>-73.896435</GTFS_Longitude>
+    <Surrounding_Stations>371 | 373</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>E 149 St</Stop_Name>
+    <Station_ID>373</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.812118</GTFS_Latitude>
+    <GTFS_Longitude>-73.904098</GTFS_Longitude>
+    <Surrounding_Stations>372 | 374</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>E 143 St-St Mary&apos;s St</Stop_Name>
+    <Station_ID>374</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.808719</GTFS_Latitude>
+    <GTFS_Longitude>-73.907657</GTFS_Longitude>
+    <Surrounding_Stations>373 | 375</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Cypress Av</Stop_Name>
+    <Station_ID>375</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.805368</GTFS_Latitude>
+    <GTFS_Longitude>-73.914042</GTFS_Longitude>
+    <Surrounding_Stations>374 | 376</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Brook Av</Stop_Name>
+    <Station_ID>376</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.807566</GTFS_Latitude>
+    <GTFS_Longitude>-73.91924</GTFS_Longitude>
+    <Surrounding_Stations>375 | 377</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>3 Av-138 St</Stop_Name>
+    <Station_ID>377</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.810476</GTFS_Latitude>
+    <GTFS_Longitude>-73.926138</GTFS_Longitude>
+    <Surrounding_Stations>376 | 392</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>116 St</Stop_Name>
+    <Station_ID>393</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.798629</GTFS_Latitude>
+    <GTFS_Longitude>-73.941617</GTFS_Longitude>
+    <Surrounding_Stations>392 | 394</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>110 St</Stop_Name>
+    <Station_ID>394</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.79502</GTFS_Latitude>
+    <GTFS_Longitude>-73.94425</GTFS_Longitude>
+    <Surrounding_Stations>393 | 395</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>103 St</Stop_Name>
+    <Station_ID>395</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.7906</GTFS_Latitude>
+    <GTFS_Longitude>-73.947478</GTFS_Longitude>
+    <Surrounding_Stations>394 | 396</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>96 St</Stop_Name>
+    <Station_ID>396</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.785672</GTFS_Latitude>
+    <GTFS_Longitude>-73.95107</GTFS_Longitude>
+    <Surrounding_Stations>395 | 397</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>77 St</Stop_Name>
+    <Station_ID>398</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.77362</GTFS_Latitude>
+    <GTFS_Longitude>-73.959874</GTFS_Longitude>
+    <Surrounding_Stations>397 | 399</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>68 St-Hunter College</Stop_Name>
+    <Station_ID>399</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.768141</GTFS_Latitude>
+    <GTFS_Longitude>-73.96387</GTFS_Longitude>
+    <Surrounding_Stations>398 | 400</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>51 St</Stop_Name>
+    <Station_ID>401</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.757107</GTFS_Latitude>
+    <GTFS_Longitude>-73.97192</GTFS_Longitude>
+    <Surrounding_Stations>400 | 469</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>33 St</Stop_Name>
+    <Station_ID>403</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.746081</GTFS_Latitude>
+    <GTFS_Longitude>-73.982076</GTFS_Longitude>
+    <Surrounding_Stations>469 | 404</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>28 St</Stop_Name>
+    <Station_ID>404</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.74307</GTFS_Latitude>
+    <GTFS_Longitude>-73.984264</GTFS_Longitude>
+    <Surrounding_Stations>403 | 405</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>23 St</Stop_Name>
+    <Station_ID>405</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.739864</GTFS_Latitude>
+    <GTFS_Longitude>-73.986599</GTFS_Longitude>
+    <Surrounding_Stations>404 | 117</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Astor Pl</Stop_Name>
+    <Station_ID>407</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.730054</GTFS_Latitude>
+    <GTFS_Longitude>-73.99107</GTFS_Longitude>
+    <Surrounding_Stations>117 | 408</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bleecker St</Stop_Name>
+    <Station_ID>408</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.725915</GTFS_Latitude>
+    <GTFS_Longitude>-73.994659</GTFS_Longitude>
+    <Surrounding_Stations>407 | 409</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Spring St</Stop_Name>
+    <Station_ID>409</Station_ID>
+    <Daytime_Routes>6</Daytime_Routes>
+    <GTFS_Latitude>40.722301</GTFS_Latitude>
+    <GTFS_Longitude>-73.997141</GTFS_Longitude>
+    <Surrounding_Stations>408 | 410</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Canal St</Stop_Name>
+    <Station_ID>410</Station_ID>
+    <Daytime_Routes>6 J Z</Daytime_Routes>
+    <GTFS_Latitude>40.718803</GTFS_Latitude>
+    <GTFS_Longitude>-74.000193</GTFS_Longitude>
+    <Surrounding_Stations>409 | 411 | 105[J,Z] | 103[J,Z]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Flushing-Main St</Stop_Name>
+    <Station_ID>447</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.7596</GTFS_Latitude>
+    <GTFS_Longitude>-73.83003</GTFS_Longitude>
+    <Surrounding_Stations>448</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Mets-Willets Point</Stop_Name>
+    <Station_ID>448</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.754622</GTFS_Latitude>
+    <GTFS_Longitude>-73.845625</GTFS_Longitude>
+    <Surrounding_Stations>447 | 449</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>111 St</Stop_Name>
+    <Station_ID>449</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.75173</GTFS_Latitude>
+    <GTFS_Longitude>-73.855334</GTFS_Longitude>
+    <Surrounding_Stations>448 | 450</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>103 St-Corona Plaza</Stop_Name>
+    <Station_ID>450</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.749865</GTFS_Latitude>
+    <GTFS_Longitude>-73.8627</GTFS_Longitude>
+    <Surrounding_Stations>449 | 451</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Junction Blvd</Stop_Name>
+    <Station_ID>451</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.749145</GTFS_Latitude>
+    <GTFS_Longitude>-73.869527</GTFS_Longitude>
+    <Surrounding_Stations>450 | 452</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>90 St-Elmhurst Av</Stop_Name>
+    <Station_ID>452</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.748408</GTFS_Latitude>
+    <GTFS_Longitude>-73.876613</GTFS_Longitude>
+    <Surrounding_Stations>451 | 453</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>82 St-Jackson Hts</Stop_Name>
+    <Station_ID>453</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.747659</GTFS_Latitude>
+    <GTFS_Longitude>-73.883697</GTFS_Longitude>
+    <Surrounding_Stations>452 | 454</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>74 St-Broadway</Stop_Name>
+    <Station_ID>454</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.746848</GTFS_Latitude>
+    <GTFS_Longitude>-73.891394</GTFS_Longitude>
+    <Surrounding_Stations>453 | 455</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>69 St</Stop_Name>
+    <Station_ID>455</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.746325</GTFS_Latitude>
+    <GTFS_Longitude>-73.896403</GTFS_Longitude>
+    <Surrounding_Stations>454 | 456</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Woodside-61 St</Stop_Name>
+    <Station_ID>456</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.74563</GTFS_Latitude>
+    <GTFS_Longitude>-73.902984</GTFS_Longitude>
+    <Surrounding_Stations>455 | 457</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>52 St</Stop_Name>
+    <Station_ID>457</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.744149</GTFS_Latitude>
+    <GTFS_Longitude>-73.912549</GTFS_Longitude>
+    <Surrounding_Stations>456 | 458</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>46 St-Bliss St</Stop_Name>
+    <Station_ID>458</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.743132</GTFS_Latitude>
+    <GTFS_Longitude>-73.918435</GTFS_Longitude>
+    <Surrounding_Stations>457 | 459</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>40 St-Lowery St</Stop_Name>
+    <Station_ID>459</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.743781</GTFS_Latitude>
+    <GTFS_Longitude>-73.924016</GTFS_Longitude>
+    <Surrounding_Stations>458 | 460</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>33 St-Rawson St</Stop_Name>
+    <Station_ID>460</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.744587</GTFS_Latitude>
+    <GTFS_Longitude>-73.930997</GTFS_Longitude>
+    <Surrounding_Stations>459 | 461</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Hunters Point Av</Stop_Name>
+    <Station_ID>463</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.742216</GTFS_Latitude>
+    <GTFS_Longitude>-73.948916</GTFS_Longitude>
+    <Surrounding_Stations>274 | 464</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Vernon Blvd-Jackson Av</Stop_Name>
+    <Station_ID>464</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.742626</GTFS_Latitude>
+    <GTFS_Longitude>-73.953581</GTFS_Longitude>
+    <Surrounding_Stations>463 | 469</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>5 Av</Stop_Name>
+    <Station_ID>466</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.753821</GTFS_Latitude>
+    <GTFS_Longitude>-73.981963</GTFS_Longitude>
+    <Surrounding_Stations>469 | 11</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>34 St-Hudson Yards</Stop_Name>
+    <Station_ID>471</Station_ID>
+    <Daytime_Routes>7</Daytime_Routes>
+    <GTFS_Latitude>40.755882</GTFS_Latitude>
+    <GTFS_Longitude>-74.00191</GTFS_Longitude>
+    <Surrounding_Stations>11</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>96 St</Stop_Name>
+    <Station_ID>310</Station_ID>
+    <Daytime_Routes>1 2 3</Daytime_Routes>
+    <GTFS_Latitude>40.793919</GTFS_Latitude>
+    <GTFS_Longitude>-73.972323</GTFS_Longitude>
+    <Surrounding_Stations>441[2,3] | 309 | 311 | 313[2,3]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>72 St</Stop_Name>
+    <Station_ID>313</Station_ID>
+    <Daytime_Routes>1 2 3</Daytime_Routes>
+    <GTFS_Latitude>40.778453</GTFS_Latitude>
+    <GTFS_Longitude>-73.98197</GTFS_Longitude>
+    <Surrounding_Stations>312 | 314 | 310[2,3] | 11[2,3]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>34 St-Penn Station</Stop_Name>
+    <Station_ID>318</Station_ID>
+    <Daytime_Routes>1 2 3</Daytime_Routes>
+    <GTFS_Latitude>40.750373</GTFS_Latitude>
+    <GTFS_Longitude>-73.991057</GTFS_Longitude>
+    <Surrounding_Stations>11 | 319 | 322[2,3]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>14 St</Stop_Name>
+    <Station_ID>322</Station_ID>
+    <Daytime_Routes>1 2 3</Daytime_Routes>
+    <GTFS_Latitude>40.737826</GTFS_Latitude>
+    <GTFS_Longitude>-74.000201</GTFS_Longitude>
+    <Surrounding_Stations>321 | 323 | 318[2,3] | 327[2,3]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Chambers St</Stop_Name>
+    <Station_ID>327</Station_ID>
+    <Daytime_Routes>1 2 3</Daytime_Routes>
+    <GTFS_Latitude>40.715478</GTFS_Latitude>
+    <GTFS_Longitude>-74.009266</GTFS_Longitude>
+    <Surrounding_Stations>326 | 331 | 328 | 322[2,3]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Park Place</Stop_Name>
+    <Station_ID>331</Station_ID>
+    <Daytime_Routes>2 3</Daytime_Routes>
+    <GTFS_Latitude>40.713051</GTFS_Latitude>
+    <GTFS_Longitude>-74.008811</GTFS_Longitude>
+    <Surrounding_Stations>327 | 172</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Wall St</Stop_Name>
+    <Station_ID>333</Station_ID>
+    <Daytime_Routes>2 3</Daytime_Routes>
+    <GTFS_Latitude>40.706821</GTFS_Latitude>
+    <GTFS_Longitude>-74.0091</GTFS_Longitude>
+    <Surrounding_Stations>334 | 172</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Clark St</Stop_Name>
+    <Station_ID>334</Station_ID>
+    <Daytime_Routes>2 3</Daytime_Routes>
+    <GTFS_Latitude>40.697466</GTFS_Latitude>
+    <GTFS_Longitude>-73.993086</GTFS_Longitude>
+    <Surrounding_Stations>333 | 335</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Hoyt St</Stop_Name>
+    <Station_ID>336</Station_ID>
+    <Daytime_Routes>2 3</Daytime_Routes>
+    <GTFS_Latitude>40.690545</GTFS_Latitude>
+    <GTFS_Longitude>-73.985065</GTFS_Longitude>
+    <Surrounding_Stations>337 | 335</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bergen St</Stop_Name>
+    <Station_ID>339</Station_ID>
+    <Daytime_Routes>2 3</Daytime_Routes>
+    <GTFS_Latitude>40.680829</GTFS_Latitude>
+    <GTFS_Longitude>-73.975098</GTFS_Longitude>
+    <Surrounding_Stations>340 | 27</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Grand Army Plaza</Stop_Name>
+    <Station_ID>340</Station_ID>
+    <Daytime_Routes>2 3</Daytime_Routes>
+    <GTFS_Latitude>40.675235</GTFS_Latitude>
+    <GTFS_Longitude>-73.971046</GTFS_Longitude>
+    <Surrounding_Stations>341 | 339</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Eastern Pkwy-Brooklyn Museum</Stop_Name>
+    <Station_ID>341</Station_ID>
+    <Daytime_Routes>2 3</Daytime_Routes>
+    <GTFS_Latitude>40.671987</GTFS_Latitude>
+    <GTFS_Longitude>-73.964375</GTFS_Longitude>
+    <Surrounding_Stations>342 | 340</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>135 St</Stop_Name>
+    <Station_ID>438</Station_ID>
+    <Daytime_Routes>2 3</Daytime_Routes>
+    <GTFS_Latitude>40.814229</GTFS_Latitude>
+    <GTFS_Longitude>-73.94077</GTFS_Longitude>
+    <Surrounding_Stations>435 | 437 | 439</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>125 St</Stop_Name>
+    <Station_ID>439</Station_ID>
+    <Daytime_Routes>2 3</Daytime_Routes>
+    <GTFS_Latitude>40.807754</GTFS_Latitude>
+    <GTFS_Longitude>-73.945495</GTFS_Longitude>
+    <Surrounding_Stations>438 | 440</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>116 St</Stop_Name>
+    <Station_ID>440</Station_ID>
+    <Daytime_Routes>2 3</Daytime_Routes>
+    <GTFS_Latitude>40.802098</GTFS_Latitude>
+    <GTFS_Longitude>-73.949625</GTFS_Longitude>
+    <Surrounding_Stations>439 | 441</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Central Park North (110 St)</Stop_Name>
+    <Station_ID>441</Station_ID>
+    <Daytime_Routes>2 3</Daytime_Routes>
+    <GTFS_Latitude>40.799075</GTFS_Latitude>
+    <GTFS_Longitude>-73.951822</GTFS_Longitude>
+    <Surrounding_Stations>440 | 310</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Borough Hall</Stop_Name>
+    <Station_ID>335</Station_ID>
+    <Daytime_Routes>2 3 4 5</Daytime_Routes>
+    <GTFS_Latitude>40.693219</GTFS_Latitude>
+    <GTFS_Longitude>-73.989998</GTFS_Longitude>
+    <Surrounding_Stations>336 | 337[4,5] | 334 | 414</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Nevins St</Stop_Name>
+    <Station_ID>337</Station_ID>
+    <Daytime_Routes>2 3 4 5</Daytime_Routes>
+    <GTFS_Latitude>40.688246</GTFS_Latitude>
+    <GTFS_Longitude>-73.980492</GTFS_Longitude>
+    <Surrounding_Stations>27 | 335[4,5] | 336</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Franklin Avenue-Medgar Evers College</Stop_Name>
+    <Station_ID>342</Station_ID>
+    <Daytime_Routes>2 3 4 5</Daytime_Routes>
+    <GTFS_Latitude>40.670682</GTFS_Latitude>
+    <GTFS_Longitude>-73.958131</GTFS_Longitude>
+    <Surrounding_Stations>345[4] | 343 | 353 | 341 | 27[4,5]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>149 St-Grand Concourse</Stop_Name>
+    <Station_ID>435</Station_ID>
+    <Daytime_Routes>2 4 5</Daytime_Routes>
+    <GTFS_Latitude>40.81841</GTFS_Latitude>
+    <GTFS_Longitude>-73.926718</GTFS_Longitude>
+    <Surrounding_Stations>434 | 391 | 438 | 219</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>President Street-Medgar Evers College</Stop_Name>
+    <Station_ID>353</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.667883</GTFS_Latitude>
+    <GTFS_Longitude>-73.950683</GTFS_Longitude>
+    <Surrounding_Stations>342 | 354</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Sterling St</Stop_Name>
+    <Station_ID>354</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.662742</GTFS_Latitude>
+    <GTFS_Longitude>-73.95085</GTFS_Longitude>
+    <Surrounding_Stations>353 | 355</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Winthrop St</Stop_Name>
+    <Station_ID>355</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.656652</GTFS_Latitude>
+    <GTFS_Longitude>-73.9502</GTFS_Longitude>
+    <Surrounding_Stations>354 | 356</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Church Av</Stop_Name>
+    <Station_ID>356</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.650843</GTFS_Latitude>
+    <GTFS_Longitude>-73.949575</GTFS_Longitude>
+    <Surrounding_Stations>357 | 355</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Beverly Rd</Stop_Name>
+    <Station_ID>357</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.645098</GTFS_Latitude>
+    <GTFS_Longitude>-73.948959</GTFS_Longitude>
+    <Surrounding_Stations>356 | 358</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Newkirk Av - Little Haiti</Stop_Name>
+    <Station_ID>358</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.639967</GTFS_Latitude>
+    <GTFS_Longitude>-73.948411</GTFS_Longitude>
+    <Surrounding_Stations>359 | 357</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Flatbush Av-Brooklyn College</Stop_Name>
+    <Station_ID>359</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.632836</GTFS_Latitude>
+    <GTFS_Longitude>-73.947642</GTFS_Longitude>
+    <Surrounding_Stations>358</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Nereid Av</Stop_Name>
+    <Station_ID>417</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.898379</GTFS_Latitude>
+    <GTFS_Longitude>-73.854376</GTFS_Longitude>
+    <Surrounding_Stations>416 | 418</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>233 St</Stop_Name>
+    <Station_ID>418</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.893193</GTFS_Latitude>
+    <GTFS_Longitude>-73.857473</GTFS_Longitude>
+    <Surrounding_Stations>417 | 419</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>225 St</Stop_Name>
+    <Station_ID>419</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.888022</GTFS_Latitude>
+    <GTFS_Longitude>-73.860341</GTFS_Longitude>
+    <Surrounding_Stations>418 | 420</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>219 St</Stop_Name>
+    <Station_ID>420</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.883895</GTFS_Latitude>
+    <GTFS_Longitude>-73.862633</GTFS_Longitude>
+    <Surrounding_Stations>419 | 421</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Gun Hill Rd</Stop_Name>
+    <Station_ID>421</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.87785</GTFS_Latitude>
+    <GTFS_Longitude>-73.866256</GTFS_Longitude>
+    <Surrounding_Stations>420 | 422</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Burke Av</Stop_Name>
+    <Station_ID>422</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.871356</GTFS_Latitude>
+    <GTFS_Longitude>-73.867164</GTFS_Longitude>
+    <Surrounding_Stations>421 | 423</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Allerton Av</Stop_Name>
+    <Station_ID>423</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.865462</GTFS_Latitude>
+    <GTFS_Longitude>-73.867352</GTFS_Longitude>
+    <Surrounding_Stations>422 | 424</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Pelham Pkwy</Stop_Name>
+    <Station_ID>424</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.857192</GTFS_Latitude>
+    <GTFS_Longitude>-73.867615</GTFS_Longitude>
+    <Surrounding_Stations>423 | 425</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bronx Park East</Stop_Name>
+    <Station_ID>425</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.848828</GTFS_Latitude>
+    <GTFS_Longitude>-73.868457</GTFS_Longitude>
+    <Surrounding_Stations>424 | 426</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>E 180 St</Stop_Name>
+    <Station_ID>426</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.841894</GTFS_Latitude>
+    <GTFS_Longitude>-73.873488</GTFS_Longitude>
+    <Surrounding_Stations>425 | 427 | 446</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>West Farms Sq-E Tremont Av</Stop_Name>
+    <Station_ID>427</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.840295</GTFS_Latitude>
+    <GTFS_Longitude>-73.880049</GTFS_Longitude>
+    <Surrounding_Stations>426 | 428</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>174 St</Stop_Name>
+    <Station_ID>428</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.837288</GTFS_Latitude>
+    <GTFS_Longitude>-73.887734</GTFS_Longitude>
+    <Surrounding_Stations>427 | 429</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Freeman St</Stop_Name>
+    <Station_ID>429</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.829993</GTFS_Latitude>
+    <GTFS_Longitude>-73.891865</GTFS_Longitude>
+    <Surrounding_Stations>430 | 428</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Simpson St</Stop_Name>
+    <Station_ID>430</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.824073</GTFS_Latitude>
+    <GTFS_Longitude>-73.893064</GTFS_Longitude>
+    <Surrounding_Stations>429 | 431</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Intervale Av</Stop_Name>
+    <Station_ID>431</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.822181</GTFS_Latitude>
+    <GTFS_Longitude>-73.896736</GTFS_Longitude>
+    <Surrounding_Stations>430 | 432</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Prospect Av</Stop_Name>
+    <Station_ID>432</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.819585</GTFS_Latitude>
+    <GTFS_Longitude>-73.90177</GTFS_Longitude>
+    <Surrounding_Stations>433 | 431</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Jackson Av</Stop_Name>
+    <Station_ID>433</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.81649</GTFS_Latitude>
+    <GTFS_Longitude>-73.907807</GTFS_Longitude>
+    <Surrounding_Stations>432 | 434</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>3 Av-149 St</Stop_Name>
+    <Station_ID>434</Station_ID>
+    <Daytime_Routes>2 5</Daytime_Routes>
+    <GTFS_Latitude>40.816109</GTFS_Latitude>
+    <GTFS_Longitude>-73.917757</GTFS_Longitude>
+    <Surrounding_Stations>435 | 433</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Crown Hts-Utica Av</Stop_Name>
+    <Station_ID>345</Station_ID>
+    <Daytime_Routes>3 4</Daytime_Routes>
+    <GTFS_Latitude>40.668897</GTFS_Latitude>
+    <GTFS_Longitude>-73.932942</GTFS_Longitude>
+    <Surrounding_Stations>346 | 344 | 342[4]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>138 St-Grand Concourse</Stop_Name>
+    <Station_ID>391</Station_ID>
+    <Daytime_Routes>4 5</Daytime_Routes>
+    <GTFS_Latitude>40.813224</GTFS_Latitude>
+    <GTFS_Longitude>-73.929849</GTFS_Longitude>
+    <Surrounding_Stations>392 | 435</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Wall St</Stop_Name>
+    <Station_ID>413</Station_ID>
+    <Daytime_Routes>4 5</Daytime_Routes>
+    <GTFS_Latitude>40.707557</GTFS_Latitude>
+    <GTFS_Longitude>-74.011862</GTFS_Longitude>
+    <Surrounding_Stations>414 | 172</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bowling Green</Stop_Name>
+    <Station_ID>414</Station_ID>
+    <Daytime_Routes>4 5</Daytime_Routes>
+    <GTFS_Latitude>40.704817</GTFS_Latitude>
+    <GTFS_Longitude>-74.014065</GTFS_Longitude>
+    <Surrounding_Stations>413 | 335</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>125 St</Stop_Name>
+    <Station_ID>392</Station_ID>
+    <Daytime_Routes>4 5 6</Daytime_Routes>
+    <GTFS_Latitude>40.804138</GTFS_Latitude>
+    <GTFS_Longitude>-73.937594</GTFS_Longitude>
+    <Surrounding_Stations>391 | 377 | 393 | 397[4,5] | 400[X]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>86 St</Stop_Name>
+    <Station_ID>397</Station_ID>
+    <Daytime_Routes>4 5 6</Daytime_Routes>
+    <GTFS_Latitude>40.779492</GTFS_Latitude>
+    <GTFS_Longitude>-73.955589</GTFS_Longitude>
+    <Surrounding_Stations>398 | 310 | 392[4,5] | 400[4,5] | 396[6]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>59 St</Stop_Name>
+    <Station_ID>400</Station_ID>
+    <Daytime_Routes>4 5 6</Daytime_Routes>
+    <GTFS_Latitude>40.762526</GTFS_Latitude>
+    <GTFS_Longitude>-73.967967</GTFS_Longitude>
+    <Surrounding_Stations>401 | 399 | 397[4,5] | 469[4,5]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Brooklyn Bridge-City Hall</Stop_Name>
+    <Station_ID>411</Station_ID>
+    <Daytime_Routes>4 5 6</Daytime_Routes>
+    <GTFS_Latitude>40.713065</GTFS_Latitude>
+    <GTFS_Longitude>-74.004131</GTFS_Longitude>
+    <Surrounding_Stations>410 | 172 | 117[4,5]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Inwood-207 St</Stop_Name>
+    <Station_ID>143</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.868072</GTFS_Latitude>
+    <GTFS_Longitude>-73.919899</GTFS_Longitude>
+    <Surrounding_Stations>144</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Dyckman St</Stop_Name>
+    <Station_ID>144</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.865491</GTFS_Latitude>
+    <GTFS_Longitude>-73.927271</GTFS_Longitude>
+    <Surrounding_Stations>143 | 145</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>190 St</Stop_Name>
+    <Station_ID>145</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.859022</GTFS_Latitude>
+    <GTFS_Longitude>-73.93418</GTFS_Longitude>
+    <Surrounding_Stations>144 | 146</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>181 St</Stop_Name>
+    <Station_ID>146</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.851695</GTFS_Latitude>
+    <GTFS_Longitude>-73.937969</GTFS_Longitude>
+    <Surrounding_Stations>145 | 147</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>175 St</Stop_Name>
+    <Station_ID>147</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.847391</GTFS_Latitude>
+    <GTFS_Longitude>-73.939704</GTFS_Longitude>
+    <Surrounding_Stations>146 | 148</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Grant Av</Stop_Name>
+    <Station_ID>189</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.677044</GTFS_Latitude>
+    <GTFS_Longitude>-73.86505</GTFS_Longitude>
+    <Surrounding_Stations>188 | 190</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>80 St</Stop_Name>
+    <Station_ID>190</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.679371</GTFS_Latitude>
+    <GTFS_Longitude>-73.858992</GTFS_Longitude>
+    <Surrounding_Stations>189 | 191</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>88 St</Stop_Name>
+    <Station_ID>191</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.679843</GTFS_Latitude>
+    <GTFS_Longitude>-73.85147</GTFS_Longitude>
+    <Surrounding_Stations>190 | 192</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Rockaway Blvd</Stop_Name>
+    <Station_ID>192</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.680429</GTFS_Latitude>
+    <GTFS_Longitude>-73.843853</GTFS_Longitude>
+    <Surrounding_Stations>191 | 193 | 197</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>104 St</Stop_Name>
+    <Station_ID>193</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.681711</GTFS_Latitude>
+    <GTFS_Longitude>-73.837683</GTFS_Longitude>
+    <Surrounding_Stations>192 | 194</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>111 St</Stop_Name>
+    <Station_ID>194</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.684331</GTFS_Latitude>
+    <GTFS_Longitude>-73.832163</GTFS_Longitude>
+    <Surrounding_Stations>193 | 195</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Ozone Park-Lefferts Blvd</Stop_Name>
+    <Station_ID>195</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.685951</GTFS_Latitude>
+    <GTFS_Longitude>-73.825798</GTFS_Longitude>
+    <Surrounding_Stations>194</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Aqueduct Racetrack</Stop_Name>
+    <Station_ID>196</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.672097</GTFS_Latitude>
+    <GTFS_Longitude>-73.835919</GTFS_Longitude>
+    <Surrounding_Stations>192</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Aqueduct-N Conduit Av</Stop_Name>
+    <Station_ID>197</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.668234</GTFS_Latitude>
+    <GTFS_Longitude>-73.834058</GTFS_Longitude>
+    <Surrounding_Stations>196 | 198</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Howard Beach-JFK Airport</Stop_Name>
+    <Station_ID>198</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.660476</GTFS_Latitude>
+    <GTFS_Longitude>-73.830301</GTFS_Longitude>
+    <Surrounding_Stations>197 | 199</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Beach 67 St</Stop_Name>
+    <Station_ID>204</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.590927</GTFS_Latitude>
+    <GTFS_Longitude>-73.796924</GTFS_Longitude>
+    <Surrounding_Stations>199 | 205</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Beach 60 St</Stop_Name>
+    <Station_ID>205</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.592374</GTFS_Latitude>
+    <GTFS_Longitude>-73.788522</GTFS_Longitude>
+    <Surrounding_Stations>204 | 206</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Beach 44 St</Stop_Name>
+    <Station_ID>206</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.592943</GTFS_Latitude>
+    <GTFS_Longitude>-73.776013</GTFS_Longitude>
+    <Surrounding_Stations>205 | 207</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Beach 36 St</Stop_Name>
+    <Station_ID>207</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.595398</GTFS_Latitude>
+    <GTFS_Longitude>-73.768175</GTFS_Longitude>
+    <Surrounding_Stations>206 | 208</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Beach 25 St</Stop_Name>
+    <Station_ID>208</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.600066</GTFS_Latitude>
+    <GTFS_Longitude>-73.761353</GTFS_Longitude>
+    <Surrounding_Stations>207 | 209</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Far Rockaway-Mott Av</Stop_Name>
+    <Station_ID>209</Station_ID>
+    <Daytime_Routes>A</Daytime_Routes>
+    <GTFS_Latitude>40.603995</GTFS_Latitude>
+    <GTFS_Longitude>-73.755405</GTFS_Longitude>
+    <Surrounding_Stations>208</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>145 St</Stop_Name>
+    <Station_ID>151</Station_ID>
+    <Daytime_Routes>A B C D</Daytime_Routes>
+    <GTFS_Latitude>40.824783</GTFS_Latitude>
+    <GTFS_Longitude>-73.944216</GTFS_Longitude>
+    <Surrounding_Stations>148[A] | 150[C] | 220[B,D] | 152[B,C] | 153[A,D]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>125 St</Stop_Name>
+    <Station_ID>153</Station_ID>
+    <Daytime_Routes>A B C D</Daytime_Routes>
+    <GTFS_Latitude>40.811109</GTFS_Latitude>
+    <GTFS_Longitude>-73.952343</GTFS_Longitude>
+    <Surrounding_Stations>152[B,C] | 154[B,C] | 151[A,D] | 161[A,D]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>59 St-Columbus Circle</Stop_Name>
+    <Station_ID>161</Station_ID>
+    <Daytime_Routes>A B C D 1</Daytime_Routes>
+    <GTFS_Latitude>40.768296</GTFS_Latitude>
+    <GTFS_Longitude>-73.981736</GTFS_Longitude>
+    <Surrounding_Stations>160[B,C] | 277 | 316 | 162 | 314 | 153[A,D] | 163[A]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>W 4 St-Wash Sq</Stop_Name>
+    <Station_ID>167</Station_ID>
+    <Daytime_Routes>A B C D E F M</Daytime_Routes>
+    <GTFS_Latitude>40.732338</GTFS_Latitude>
+    <GTFS_Longitude>-74.000495</GTFS_Longitude>
+    <Surrounding_Stations>166 | 168 | 169[A] | 230[B,D,F,M] | 229 | 12[B,D]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Chambers St</Stop_Name>
+    <Station_ID>170</Station_ID>
+    <Daytime_Routes>A C</Daytime_Routes>
+    <GTFS_Latitude>40.714111</GTFS_Latitude>
+    <GTFS_Longitude>-74.008585</GTFS_Longitude>
+    <Surrounding_Stations>169 | 172</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>High St</Stop_Name>
+    <Station_ID>173</Station_ID>
+    <Daytime_Routes>A C</Daytime_Routes>
+    <GTFS_Latitude>40.699337</GTFS_Latitude>
+    <GTFS_Longitude>-73.990531</GTFS_Longitude>
+    <Surrounding_Stations>172 | 25</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Nostrand Av</Stop_Name>
+    <Station_ID>179</Station_ID>
+    <Daytime_Routes>A C</Daytime_Routes>
+    <GTFS_Latitude>40.680438</GTFS_Latitude>
+    <GTFS_Longitude>-73.950426</GTFS_Longitude>
+    <Surrounding_Stations>139 | 180 | 181[A] | 175[A]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Utica Av</Stop_Name>
+    <Station_ID>181</Station_ID>
+    <Daytime_Routes>A C</Daytime_Routes>
+    <GTFS_Latitude>40.679364</GTFS_Latitude>
+    <GTFS_Longitude>-73.930729</GTFS_Longitude>
+    <Surrounding_Stations>180 | 182 | 132[A] | 179[A]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Euclid Av</Stop_Name>
+    <Station_ID>188</Station_ID>
+    <Daytime_Routes>A C</Daytime_Routes>
+    <GTFS_Latitude>40.675377</GTFS_Latitude>
+    <GTFS_Longitude>-73.872106</GTFS_Longitude>
+    <Surrounding_Stations>187 | 189</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>168 St-Washington Hts</Stop_Name>
+    <Station_ID>148</Station_ID>
+    <Daytime_Routes>A C 1</Daytime_Routes>
+    <GTFS_Latitude>40.840719</GTFS_Latitude>
+    <GTFS_Longitude>-73.939561</GTFS_Longitude>
+    <Surrounding_Stations>301 | 147 | 149 | 303 | 151[A]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>42 St-Port Authority Bus Terminal</Stop_Name>
+    <Station_ID>163</Station_ID>
+    <Daytime_Routes>A C E</Daytime_Routes>
+    <GTFS_Latitude>40.757308</GTFS_Latitude>
+    <GTFS_Longitude>-73.989735</GTFS_Longitude>
+    <Surrounding_Stations>162 | 164 | 161[A]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>34 St-Penn Station</Stop_Name>
+    <Station_ID>164</Station_ID>
+    <Daytime_Routes>A C E</Daytime_Routes>
+    <GTFS_Latitude>40.752287</GTFS_Latitude>
+    <GTFS_Longitude>-73.993391</GTFS_Longitude>
+    <Surrounding_Stations>163 | 165 | 166[A] </Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>14 St</Stop_Name>
+    <Station_ID>166</Station_ID>
+    <Daytime_Routes>A C E L</Daytime_Routes>
+    <GTFS_Latitude>40.740893</GTFS_Latitude>
+    <GTFS_Longitude>-74.00169</GTFS_Longitude>
+    <Surrounding_Stations>165 | 167 | 229 | 164[A] | 116[L]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Canal St</Stop_Name>
+    <Station_ID>169</Station_ID>
+    <Daytime_Routes>A C E</Daytime_Routes>
+    <GTFS_Latitude>40.720824</GTFS_Latitude>
+    <GTFS_Longitude>-74.005229</GTFS_Longitude>
+    <Surrounding_Stations>168[C,E] | 171[E] | 167[A] | 170[A,C]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Jay St-MetroTech</Stop_Name>
+    <Station_ID>25</Station_ID>
+    <Daytime_Routes>A C F R</Daytime_Routes>
+    <GTFS_Latitude>40.69218</GTFS_Latitude>
+    <GTFS_Longitude>-73.985942</GTFS_Longitude>
+    <Surrounding_Stations>23 | 26[R] | 235 | 236 | 175 | 173</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Hoyt-Schermerhorn Sts</Stop_Name>
+    <Station_ID>175</Station_ID>
+    <Daytime_Routes>A C G</Daytime_Routes>
+    <GTFS_Latitude>40.688484</GTFS_Latitude>
+    <GTFS_Longitude>-73.985001</GTFS_Longitude>
+    <Surrounding_Stations>292 | 176[C] | 25 | 236 | 179[A]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Fulton St</Stop_Name>
+    <Station_ID>172</Station_ID>
+    <Daytime_Routes>A C J Z 2 3 4 5</Daytime_Routes>
+    <GTFS_Latitude>40.710197</GTFS_Latitude>
+    <GTFS_Longitude>-74.007691</GTFS_Longitude>
+    <Surrounding_Stations>105 | 411 | 331 | 170 | 333 | 413 | 107[J,Z] | 173</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Broadway Junction</Stop_Name>
+    <Station_ID>132</Station_ID>
+    <Daytime_Routes>A C J Z L</Daytime_Routes>
+    <GTFS_Latitude>40.678856</GTFS_Latitude>
+    <GTFS_Longitude>-73.90324</GTFS_Longitude>
+    <Surrounding_Stations>131 | 133 | 91[J,Z] | 93[J] | 185 | 188[A] | 183 | 181[A] | 97[Z]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Broad Channel</Stop_Name>
+    <Station_ID>199</Station_ID>
+    <Daytime_Routes>A S</Daytime_Routes>
+    <GTFS_Latitude>40.608382</GTFS_Latitude>
+    <GTFS_Longitude>-73.815925</GTFS_Longitude>
+    <Surrounding_Stations>198 | 204 | 200</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Beach 90 St</Stop_Name>
+    <Station_ID>200</Station_ID>
+    <Daytime_Routes>A S</Daytime_Routes>
+    <GTFS_Latitude>40.588034</GTFS_Latitude>
+    <GTFS_Longitude>-73.813641</GTFS_Longitude>
+    <Surrounding_Stations>199 | 201</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Beach 98 St</Stop_Name>
+    <Station_ID>201</Station_ID>
+    <Daytime_Routes>A S</Daytime_Routes>
+    <GTFS_Latitude>40.585307</GTFS_Latitude>
+    <GTFS_Longitude>-73.820558</GTFS_Longitude>
+    <Surrounding_Stations>200 | 202</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Beach 105 St</Stop_Name>
+    <Station_ID>202</Station_ID>
+    <Daytime_Routes>A S</Daytime_Routes>
+    <GTFS_Latitude>40.583209</GTFS_Latitude>
+    <GTFS_Longitude>-73.827559</GTFS_Longitude>
+    <Surrounding_Stations>201 | 203</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Rockaway Park-Beach 116 St</Stop_Name>
+    <Station_ID>203</Station_ID>
+    <Daytime_Routes>A S</Daytime_Routes>
+    <GTFS_Latitude>40.580903</GTFS_Latitude>
+    <GTFS_Longitude>-73.835592</GTFS_Longitude>
+    <Surrounding_Stations>202</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>135 St</Stop_Name>
+    <Station_ID>152</Station_ID>
+    <Daytime_Routes>B C</Daytime_Routes>
+    <GTFS_Latitude>40.817894</GTFS_Latitude>
+    <GTFS_Longitude>-73.947649</GTFS_Longitude>
+    <Surrounding_Stations>151 | 153</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>116 St</Stop_Name>
+    <Station_ID>154</Station_ID>
+    <Daytime_Routes>B C</Daytime_Routes>
+    <GTFS_Latitude>40.805085</GTFS_Latitude>
+    <GTFS_Longitude>-73.954882</GTFS_Longitude>
+    <Surrounding_Stations>153 | 155</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Cathedral Pkwy (110 St)</Stop_Name>
+    <Station_ID>155</Station_ID>
+    <Daytime_Routes>B C</Daytime_Routes>
+    <GTFS_Latitude>40.800603</GTFS_Latitude>
+    <GTFS_Longitude>-73.958161</GTFS_Longitude>
+    <Surrounding_Stations>154 | 156</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>103 St</Stop_Name>
+    <Station_ID>156</Station_ID>
+    <Daytime_Routes>B C</Daytime_Routes>
+    <GTFS_Latitude>40.796092</GTFS_Latitude>
+    <GTFS_Longitude>-73.961454</GTFS_Longitude>
+    <Surrounding_Stations>155 | 157</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>96 St</Stop_Name>
+    <Station_ID>157</Station_ID>
+    <Daytime_Routes>B C</Daytime_Routes>
+    <GTFS_Latitude>40.791642</GTFS_Latitude>
+    <GTFS_Longitude>-73.964696</GTFS_Longitude>
+    <Surrounding_Stations>156 | 158</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>86 St</Stop_Name>
+    <Station_ID>158</Station_ID>
+    <Daytime_Routes>B C</Daytime_Routes>
+    <GTFS_Latitude>40.785868</GTFS_Latitude>
+    <GTFS_Longitude>-73.968916</GTFS_Longitude>
+    <Surrounding_Stations>157 | 159</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>81 St-Museum of Natural History</Stop_Name>
+    <Station_ID>159</Station_ID>
+    <Daytime_Routes>B C</Daytime_Routes>
+    <GTFS_Latitude>40.781433</GTFS_Latitude>
+    <GTFS_Longitude>-73.972143</GTFS_Longitude>
+    <Surrounding_Stations>158 | 160</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>72 St</Stop_Name>
+    <Station_ID>160</Station_ID>
+    <Daytime_Routes>B C</Daytime_Routes>
+    <GTFS_Latitude>40.775594</GTFS_Latitude>
+    <GTFS_Longitude>-73.97641</GTFS_Longitude>
+    <Surrounding_Stations>159 | 161</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bedford Park Blvd</Stop_Name>
+    <Station_ID>211</Station_ID>
+    <Daytime_Routes>B D</Daytime_Routes>
+    <GTFS_Latitude>40.873244</GTFS_Latitude>
+    <GTFS_Longitude>-73.887138</GTFS_Longitude>
+    <Surrounding_Stations>210 | 212</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Kingsbridge Rd</Stop_Name>
+    <Station_ID>212</Station_ID>
+    <Daytime_Routes>B D</Daytime_Routes>
+    <GTFS_Latitude>40.866978</GTFS_Latitude>
+    <GTFS_Longitude>-73.893509</GTFS_Longitude>
+    <Surrounding_Stations>211 | 213</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Fordham Rd</Stop_Name>
+    <Station_ID>213</Station_ID>
+    <Daytime_Routes>B D</Daytime_Routes>
+    <GTFS_Latitude>40.861296</GTFS_Latitude>
+    <GTFS_Longitude>-73.897749</GTFS_Longitude>
+    <Surrounding_Stations>212 | 214</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>182-183 Sts</Stop_Name>
+    <Station_ID>214</Station_ID>
+    <Daytime_Routes>B D</Daytime_Routes>
+    <GTFS_Latitude>40.856093</GTFS_Latitude>
+    <GTFS_Longitude>-73.900741</GTFS_Longitude>
+    <Surrounding_Stations>213 | 215</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Tremont Av</Stop_Name>
+    <Station_ID>215</Station_ID>
+    <Daytime_Routes>B D</Daytime_Routes>
+    <GTFS_Latitude>40.85041</GTFS_Latitude>
+    <GTFS_Longitude>-73.905227</GTFS_Longitude>
+    <Surrounding_Stations>214 | 216</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>174-175 Sts</Stop_Name>
+    <Station_ID>216</Station_ID>
+    <Daytime_Routes>B D</Daytime_Routes>
+    <GTFS_Latitude>40.8459</GTFS_Latitude>
+    <GTFS_Longitude>-73.910136</GTFS_Longitude>
+    <Surrounding_Stations>215 | 217</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>170 St</Stop_Name>
+    <Station_ID>217</Station_ID>
+    <Daytime_Routes>B D</Daytime_Routes>
+    <GTFS_Latitude>40.839306</GTFS_Latitude>
+    <GTFS_Longitude>-73.9134</GTFS_Longitude>
+    <Surrounding_Stations>216 | 218</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>167 St</Stop_Name>
+    <Station_ID>218</Station_ID>
+    <Daytime_Routes>B D</Daytime_Routes>
+    <GTFS_Latitude>40.833771</GTFS_Latitude>
+    <GTFS_Longitude>-73.91844</GTFS_Longitude>
+    <Surrounding_Stations>217 | 219</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>155 St</Stop_Name>
+    <Station_ID>220</Station_ID>
+    <Daytime_Routes>B D</Daytime_Routes>
+    <GTFS_Latitude>40.830135</GTFS_Latitude>
+    <GTFS_Longitude>-73.938209</GTFS_Longitude>
+    <Surrounding_Stations>219 | 151</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Grand St</Stop_Name>
+    <Station_ID>231</Station_ID>
+    <Daytime_Routes>B D</Daytime_Routes>
+    <GTFS_Latitude>40.718267</GTFS_Latitude>
+    <GTFS_Longitude>-73.993753</GTFS_Longitude>
+    <Surrounding_Stations>230[B,D] | 26[B] | 27[D]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>161 St-Yankee Stadium</Stop_Name>
+    <Station_ID>219</Station_ID>
+    <Daytime_Routes>B D 4</Daytime_Routes>
+    <GTFS_Latitude>40.827905</GTFS_Latitude>
+    <GTFS_Longitude>-73.925651</GTFS_Longitude>
+    <Surrounding_Stations>388 | 218 | 435 | 220</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>7 Av</Stop_Name>
+    <Station_ID>277</Station_ID>
+    <Daytime_Routes>B D E</Daytime_Routes>
+    <GTFS_Latitude>40.762862</GTFS_Latitude>
+    <GTFS_Longitude>-73.981637</GTFS_Longitude>
+    <Surrounding_Stations>161 | 162 | 225 | 276</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>47-50 Sts-Rockefeller Ctr</Stop_Name>
+    <Station_ID>225</Station_ID>
+    <Daytime_Routes>B D F M</Daytime_Routes>
+    <GTFS_Latitude>40.758663</GTFS_Latitude>
+    <GTFS_Longitude>-73.981329</GTFS_Longitude>
+    <Surrounding_Stations>224 | 277 | 276 | 226</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>42 St-Bryant Pk</Stop_Name>
+    <Station_ID>226</Station_ID>
+    <Daytime_Routes>B D F M</Daytime_Routes>
+    <GTFS_Latitude>40.754222</GTFS_Latitude>
+    <GTFS_Longitude>-73.984569</GTFS_Longitude>
+    <Surrounding_Stations>225 | 469 | 11 | 12[B,D,F,M]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Broadway-Lafayette St</Stop_Name>
+    <Station_ID>230</Station_ID>
+    <Daytime_Routes>B D F M</Daytime_Routes>
+    <GTFS_Latitude>40.725297</GTFS_Latitude>
+    <GTFS_Longitude>-73.996204</GTFS_Longitude>
+    <Surrounding_Stations>167[B,D,F,M] | 231[B,D] | 232[F] | 102[M]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>7 Av</Stop_Name>
+    <Station_ID>41</Station_ID>
+    <Daytime_Routes>B Q</Daytime_Routes>
+    <GTFS_Latitude>40.67705</GTFS_Latitude>
+    <GTFS_Longitude>-73.972367</GTFS_Longitude>
+    <Surrounding_Stations>27 | 42 | 142 </Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Church Av</Stop_Name>
+    <Station_ID>44</Station_ID>
+    <Daytime_Routes>B Q</Daytime_Routes>
+    <GTFS_Latitude>40.650527</GTFS_Latitude>
+    <GTFS_Longitude>-73.962982</GTFS_Longitude>
+    <Surrounding_Stations>42[B] | 43[Q] | 47[B] | 45[Q]</Surrounding_Stations>
+    <!-- <Surrounding_Exclusions>42[Q] | 47[Q]</Surrounding_Exclusions> -->
+  </row>
+  <row>
+    <Stop_Name>Newkirk Plaza</Stop_Name>
+    <Station_ID>47</Station_ID>
+    <Daytime_Routes>B Q</Daytime_Routes>
+    <GTFS_Latitude>40.635082</GTFS_Latitude>
+    <GTFS_Longitude>-73.962793</GTFS_Longitude>
+    <Surrounding_Stations>44[B] | 46[Q] | 48[Q] | 51[B]</Surrounding_Stations>
+    <!-- <Surrounding_Exclusions>51[Q] | 44[Q]</Surrounding_Exclusions> -->
+  </row>
+  <row>
+    <Stop_Name>Kings Hwy</Stop_Name>
+    <Station_ID>51</Station_ID>
+    <Daytime_Routes>B Q</Daytime_Routes>
+    <GTFS_Latitude>40.60867</GTFS_Latitude>
+    <GTFS_Longitude>-73.957734</GTFS_Longitude>
+    <Surrounding_Stations>50[Q] | 47[B] | 54[B] | 52[Q]</Surrounding_Stations>
+    <!-- <Surrounding_Exclusions>54[Q] | 47[Q]</Surrounding_Exclusions> -->
+  </row>
+  <row>
+    <Stop_Name>Sheepshead Bay</Stop_Name>
+    <Station_ID>54</Station_ID>
+    <Daytime_Routes>B Q</Daytime_Routes>
+    <GTFS_Latitude>40.586896</GTFS_Latitude>
+    <GTFS_Longitude>-73.954155</GTFS_Longitude>
+    <Surrounding_Stations>51[B] | 53[Q] | 55</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Brighton Beach</Stop_Name>
+    <Station_ID>55</Station_ID>
+    <Daytime_Routes>B Q</Daytime_Routes>
+    <GTFS_Latitude>40.577621</GTFS_Latitude>
+    <GTFS_Longitude>-73.961376</GTFS_Longitude>
+    <Surrounding_Stations>54 | 56</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>DeKalb Av</Stop_Name>
+    <Station_ID>26</Station_ID>
+    <Daytime_Routes>B Q R</Daytime_Routes>
+    <GTFS_Latitude>40.690635</GTFS_Latitude>
+    <GTFS_Longitude>-73.981824</GTFS_Longitude>
+    <Surrounding_Stations>27[R,Q,B] | 25[R] | 18[Q] | 231[B]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Prospect Park</Stop_Name>
+    <Station_ID>42</Station_ID>
+    <Daytime_Routes>B Q S</Daytime_Routes>
+    <GTFS_Latitude>40.661614</GTFS_Latitude>
+    <GTFS_Longitude>-73.962246</GTFS_Longitude>
+    <Surrounding_Stations>41[B,Q] | 43[Q] | 44[B] | 142[S]</Surrounding_Stations>
+    <!-- <Surrounding_Exclusions>44[Q]</Surrounding_Exclusions> -->
+  </row>
+  <row>
+    <Stop_Name>163 St-Amsterdam Av</Stop_Name>
+    <Station_ID>149</Station_ID>
+    <Daytime_Routes>C</Daytime_Routes>
+    <GTFS_Latitude>40.836013</GTFS_Latitude>
+    <GTFS_Longitude>-73.939892</GTFS_Longitude>
+    <Surrounding_Stations>148 | 150</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>155 St</Stop_Name>
+    <Station_ID>150</Station_ID>
+    <Daytime_Routes>C</Daytime_Routes>
+    <GTFS_Latitude>40.830518</GTFS_Latitude>
+    <GTFS_Longitude>-73.941514</GTFS_Longitude>
+    <Surrounding_Stations>149 | 151</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Lafayette Av</Stop_Name>
+    <Station_ID>176</Station_ID>
+    <Daytime_Routes>C</Daytime_Routes>
+    <GTFS_Latitude>40.686113</GTFS_Latitude>
+    <GTFS_Longitude>-73.973946</GTFS_Longitude>
+    <Surrounding_Stations>175 | 177</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Clinton-Washington Avs</Stop_Name>
+    <Station_ID>177</Station_ID>
+    <Daytime_Routes>C</Daytime_Routes>
+    <GTFS_Latitude>40.683263</GTFS_Latitude>
+    <GTFS_Longitude>-73.965838</GTFS_Longitude>
+    <Surrounding_Stations>176 | 139</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Kingston-Throop Avs</Stop_Name>
+    <Station_ID>180</Station_ID>
+    <Daytime_Routes>C</Daytime_Routes>
+    <GTFS_Latitude>40.679921</GTFS_Latitude>
+    <GTFS_Longitude>-73.940858</GTFS_Longitude>
+    <Surrounding_Stations>179 | 181</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Ralph Av</Stop_Name>
+    <Station_ID>182</Station_ID>
+    <Daytime_Routes>C</Daytime_Routes>
+    <GTFS_Latitude>40.678822</GTFS_Latitude>
+    <GTFS_Longitude>-73.920786</GTFS_Longitude>
+    <Surrounding_Stations>181 | 183</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Rockaway Av</Stop_Name>
+    <Station_ID>183</Station_ID>
+    <Daytime_Routes>C</Daytime_Routes>
+    <GTFS_Latitude>40.67834</GTFS_Latitude>
+    <GTFS_Longitude>-73.911946</GTFS_Longitude>
+    <Surrounding_Stations>182 | 132</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Liberty Av</Stop_Name>
+    <Station_ID>185</Station_ID>
+    <Daytime_Routes>C</Daytime_Routes>
+    <GTFS_Latitude>40.674542</GTFS_Latitude>
+    <GTFS_Longitude>-73.896548</GTFS_Longitude>
+    <Surrounding_Stations>132 | 186</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Van Siclen Av</Stop_Name>
+    <Station_ID>186</Station_ID>
+    <Daytime_Routes>C</Daytime_Routes>
+    <GTFS_Latitude>40.67271</GTFS_Latitude>
+    <GTFS_Longitude>-73.890358</GTFS_Longitude>
+    <Surrounding_Stations>185 | 187</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Shepherd Av</Stop_Name>
+    <Station_ID>187</Station_ID>
+    <Daytime_Routes>C</Daytime_Routes>
+    <GTFS_Latitude>40.67413</GTFS_Latitude>
+    <GTFS_Longitude>-73.88075</GTFS_Longitude>
+    <Surrounding_Stations>186 | 188</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>50 St</Stop_Name>
+    <Station_ID>162</Station_ID>
+    <Daytime_Routes>C E</Daytime_Routes>
+    <GTFS_Latitude>40.762456</GTFS_Latitude>
+    <GTFS_Longitude>-73.985984</GTFS_Longitude>
+    <Surrounding_Stations>163 | 277 | 161</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>23 St</Stop_Name>
+    <Station_ID>165</Station_ID>
+    <Daytime_Routes>C E</Daytime_Routes>
+    <GTFS_Latitude>40.745906</GTFS_Latitude>
+    <GTFS_Longitude>-73.998041</GTFS_Longitude>
+    <Surrounding_Stations>166 | 164</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Spring St</Stop_Name>
+    <Station_ID>168</Station_ID>
+    <Daytime_Routes>C E</Daytime_Routes>
+    <GTFS_Latitude>40.726227</GTFS_Latitude>
+    <GTFS_Longitude>-74.003739</GTFS_Longitude>
+    <Surrounding_Stations>167 | 169</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Franklin Av</Stop_Name>
+    <Station_ID>139</Station_ID>
+    <Daytime_Routes>C S</Daytime_Routes>
+    <GTFS_Latitude>40.680596</GTFS_Latitude>
+    <GTFS_Longitude>-73.955827</GTFS_Longitude>
+    <Surrounding_Stations>179 | 177 | 141</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>9 Av</Stop_Name>
+    <Station_ID>59</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.646292</GTFS_Latitude>
+    <GTFS_Longitude>-73.994324</GTFS_Longitude>
+    <Surrounding_Stations>32 | 60</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Fort Hamilton Pkwy</Stop_Name>
+    <Station_ID>60</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.640914</GTFS_Latitude>
+    <GTFS_Longitude>-73.994304</GTFS_Longitude>
+    <Surrounding_Stations>59 | 61</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>50 St</Stop_Name>
+    <Station_ID>61</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.63626</GTFS_Latitude>
+    <GTFS_Longitude>-73.994791</GTFS_Longitude>
+    <Surrounding_Stations>60 | 62</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>55 St</Stop_Name>
+    <Station_ID>62</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.631435</GTFS_Latitude>
+    <GTFS_Longitude>-73.995476</GTFS_Longitude>
+    <Surrounding_Stations>61 | 63</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>62 St</Stop_Name>
+    <Station_ID>63</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.626472</GTFS_Latitude>
+    <GTFS_Longitude>-73.996895</GTFS_Longitude>
+    <Surrounding_Stations>62 | 64</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>71 St</Stop_Name>
+    <Station_ID>64</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.619589</GTFS_Latitude>
+    <GTFS_Longitude>-73.998864</GTFS_Longitude>
+    <Surrounding_Stations>63 | 65</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>79 St</Stop_Name>
+    <Station_ID>65</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.613501</GTFS_Latitude>
+    <GTFS_Longitude>-74.00061</GTFS_Longitude>
+    <Surrounding_Stations>64 | 66</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>18 Av</Stop_Name>
+    <Station_ID>66</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.607954</GTFS_Latitude>
+    <GTFS_Longitude>-74.001736</GTFS_Longitude>
+    <Surrounding_Stations>65 | 67</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>20 Av</Stop_Name>
+    <Station_ID>67</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.604556</GTFS_Latitude>
+    <GTFS_Longitude>-73.998168</GTFS_Longitude>
+    <Surrounding_Stations>66 | 68</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bay Pkwy</Stop_Name>
+    <Station_ID>68</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.601875</GTFS_Latitude>
+    <GTFS_Longitude>-73.993728</GTFS_Longitude>
+    <Surrounding_Stations>67 | 69</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>25 Av</Stop_Name>
+    <Station_ID>69</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.597704</GTFS_Latitude>
+    <GTFS_Longitude>-73.986829</GTFS_Longitude>
+    <Surrounding_Stations>68 | 70</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bay 50 St</Stop_Name>
+    <Station_ID>70</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.588841</GTFS_Latitude>
+    <GTFS_Longitude>-73.983765</GTFS_Longitude>
+    <Surrounding_Stations>69 | 58</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Norwood-205 St</Stop_Name>
+    <Station_ID>210</Station_ID>
+    <Daytime_Routes>D</Daytime_Routes>
+    <GTFS_Latitude>40.874811</GTFS_Latitude>
+    <GTFS_Longitude>-73.878855</GTFS_Longitude>
+    <Surrounding_Stations>211</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Coney Island-Stillwell Av</Stop_Name>
+    <Station_ID>58</Station_ID>
+    <Daytime_Routes>D F N Q</Daytime_Routes>
+    <GTFS_Latitude>40.577422</GTFS_Latitude>
+    <GTFS_Longitude>-73.981233</GTFS_Longitude>
+    <Surrounding_Stations>70 | 79 | 57[Q,F]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>36 St</Stop_Name>
+    <Station_ID>32</Station_ID>
+    <Daytime_Routes>D N R</Daytime_Routes>
+    <GTFS_Latitude>40.655144</GTFS_Latitude>
+    <GTFS_Longitude>-74.003549</GTFS_Longitude>
+    <Surrounding_Stations>59[D] | 27[D,N] | 31[R] | 35[N] | 33[R]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Atlantic Av-Barclays Ctr</Stop_Name>
+    <Station_ID>27</Station_ID>
+    <Daytime_Routes>D N R B Q 2 3 4 5</Daytime_Routes>
+    <GTFS_Latitude>40.683666</GTFS_Latitude>
+    <GTFS_Longitude>-73.97881</GTFS_Longitude>
+    <Surrounding_Stations>32[B,Q,D,N] | 28[R] | 41 | 339 | 337 | 26[Q,R,B] | 231[D] | 18[N] | 342[4,5]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>World Trade Center</Stop_Name>
+    <Station_ID>171</Station_ID>
+    <Daytime_Routes>E</Daytime_Routes>
+    <GTFS_Latitude>40.712582</GTFS_Latitude>
+    <GTFS_Longitude>-74.009781</GTFS_Longitude>
+    <Surrounding_Stations>169</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Jamaica-Van Wyck</Stop_Name>
+    <Station_ID>280</Station_ID>
+    <Daytime_Routes>E</Daytime_Routes>
+    <GTFS_Latitude>40.702566</GTFS_Latitude>
+    <GTFS_Longitude>-73.816859</GTFS_Longitude>
+    <Surrounding_Stations>258 | 279</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Briarwood</Stop_Name>
+    <Station_ID>258</Station_ID>
+    <Daytime_Routes>E F</Daytime_Routes>
+    <GTFS_Latitude>40.709179</GTFS_Latitude>
+    <GTFS_Longitude>-73.820574</GTFS_Longitude>
+    <Surrounding_Stations>280 | 257 | 259</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Kew Gardens-Union Tpke</Stop_Name>
+    <Station_ID>259</Station_ID>
+    <Daytime_Routes>E F</Daytime_Routes>
+    <GTFS_Latitude>40.714441</GTFS_Latitude>
+    <GTFS_Longitude>-73.831008</GTFS_Longitude>
+    <Surrounding_Stations>258 | 260</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>75 Av</Stop_Name>
+    <Station_ID>260</Station_ID>
+    <Daytime_Routes>E F</Daytime_Routes>
+    <GTFS_Latitude>40.718331</GTFS_Latitude>
+    <GTFS_Longitude>-73.837324</GTFS_Longitude>
+    <Surrounding_Stations>259 | 261</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Forest Hills-71 Av</Stop_Name>
+    <Station_ID>261</Station_ID>
+    <Daytime_Routes>E F M R</Daytime_Routes>
+    <GTFS_Latitude>40.721691</GTFS_Latitude>
+    <GTFS_Longitude>-73.844521</GTFS_Longitude>
+    <Surrounding_Stations>260 | 267[E,F] | 262</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Jackson Hts-Roosevelt Av</Stop_Name>
+    <Station_ID>267</Station_ID>
+    <Daytime_Routes>E F M R</Daytime_Routes>
+    <GTFS_Latitude>40.746644</GTFS_Latitude>
+    <GTFS_Longitude>-73.891338</GTFS_Longitude>
+    <Surrounding_Stations>261[E,F] | 266[M,R] | 268[M,R] | 273[E] | 221</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Jamaica Center-Parsons/Archer</Stop_Name>
+    <Station_ID>278</Station_ID>
+    <Daytime_Routes>E J Z</Daytime_Routes>
+    <GTFS_Latitude>40.702147</GTFS_Latitude>
+    <GTFS_Longitude>-73.801109</GTFS_Longitude>
+    <Surrounding_Stations>279</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Sutphin Blvd-Archer Av-JFK Airport</Stop_Name>
+    <Station_ID>279</Station_ID>
+    <Daytime_Routes>E J Z</Daytime_Routes>
+    <GTFS_Latitude>40.700486</GTFS_Latitude>
+    <GTFS_Longitude>-73.807969</GTFS_Longitude>
+    <Surrounding_Stations>280[E] | 278[E,J,Z] | 80[J] | 83[Z]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Lexington Av/53 St</Stop_Name>
+    <Station_ID>275</Station_ID>
+    <Daytime_Routes>E M</Daytime_Routes>
+    <GTFS_Latitude>40.757552</GTFS_Latitude>
+    <GTFS_Longitude>-73.969055</GTFS_Longitude>
+    <Surrounding_Stations>276 | 274</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>5 Av/53 St</Stop_Name>
+    <Station_ID>276</Station_ID>
+    <Daytime_Routes>E M</Daytime_Routes>
+    <GTFS_Latitude>40.760167</GTFS_Latitude>
+    <GTFS_Longitude>-73.975224</GTFS_Longitude>
+    <Surrounding_Stations>275 | 225 | 277[E]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Queens Plaza</Stop_Name>
+    <Station_ID>273</Station_ID>
+    <Daytime_Routes>E M R</Daytime_Routes>
+    <GTFS_Latitude>40.748973</GTFS_Latitude>
+    <GTFS_Longitude>-73.937243</GTFS_Longitude>
+    <Surrounding_Stations>274 | 272[M,R] | 7[R] | 267[E]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Court Sq-23 St</Stop_Name>
+    <Station_ID>274</Station_ID>
+    <Daytime_Routes>E M G 7</Daytime_Routes>
+    <GTFS_Latitude>40.747846</GTFS_Latitude>
+    <GTFS_Longitude>-73.946</GTFS_Longitude>
+    <Surrounding_Stations>275 | 273 | 461 | 282 | 463</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>21 St-Queensbridge</Stop_Name>
+    <Station_ID>221</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.754203</GTFS_Latitude>
+    <GTFS_Longitude>-73.942836</GTFS_Longitude>
+    <Surrounding_Stations>222 | 267</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Roosevelt Island</Stop_Name>
+    <Station_ID>222</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.759145</GTFS_Latitude>
+    <GTFS_Longitude>-73.95326</GTFS_Longitude>
+    <Surrounding_Stations>221 | 223</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>57 St</Stop_Name>
+    <Station_ID>224</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.763972</GTFS_Latitude>
+    <GTFS_Longitude>-73.97745</GTFS_Longitude>
+    <Surrounding_Stations>223 | 225</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>2 Av</Stop_Name>
+    <Station_ID>232</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.723402</GTFS_Latitude>
+    <GTFS_Longitude>-73.989938</GTFS_Longitude>
+    <Surrounding_Stations>230 | 102</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>East Broadway</Stop_Name>
+    <Station_ID>234</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.713715</GTFS_Latitude>
+    <GTFS_Longitude>-73.990173</GTFS_Longitude>
+    <Surrounding_Stations>102 | 235</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>York St</Stop_Name>
+    <Station_ID>235</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.701397</GTFS_Latitude>
+    <GTFS_Longitude>-73.986751</GTFS_Longitude>
+    <Surrounding_Stations>234 | 25</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Ditmas Av</Stop_Name>
+    <Station_ID>244</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.636119</GTFS_Latitude>
+    <GTFS_Longitude>-73.978172</GTFS_Longitude>
+    <Surrounding_Stations>243 | 245</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>18 Av</Stop_Name>
+    <Station_ID>245</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.629755</GTFS_Latitude>
+    <GTFS_Longitude>-73.976971</GTFS_Longitude>
+    <Surrounding_Stations>244 | 246</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Avenue I</Stop_Name>
+    <Station_ID>246</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.625322</GTFS_Latitude>
+    <GTFS_Longitude>-73.976127</GTFS_Longitude>
+    <Surrounding_Stations>245 | 247</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bay Pkwy</Stop_Name>
+    <Station_ID>247</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.620769</GTFS_Latitude>
+    <GTFS_Longitude>-73.975264</GTFS_Longitude>
+    <Surrounding_Stations>246 | 248</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Avenue N</Stop_Name>
+    <Station_ID>248</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.61514</GTFS_Latitude>
+    <GTFS_Longitude>-73.974197</GTFS_Longitude>
+    <Surrounding_Stations>247 | 249</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Avenue P</Stop_Name>
+    <Station_ID>249</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.608944</GTFS_Latitude>
+    <GTFS_Longitude>-73.973022</GTFS_Longitude>
+    <Surrounding_Stations>248 | 250</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Kings Hwy</Stop_Name>
+    <Station_ID>250</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.603217</GTFS_Latitude>
+    <GTFS_Longitude>-73.972361</GTFS_Longitude>
+    <Surrounding_Stations>249 | 251</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Avenue U</Stop_Name>
+    <Station_ID>251</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.596063</GTFS_Latitude>
+    <GTFS_Longitude>-73.973357</GTFS_Longitude>
+    <Surrounding_Stations>250 | 252</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Avenue X</Stop_Name>
+    <Station_ID>252</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.58962</GTFS_Latitude>
+    <GTFS_Longitude>-73.97425</GTFS_Longitude>
+    <Surrounding_Stations>251 | 253</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Neptune Av</Stop_Name>
+    <Station_ID>253</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.581011</GTFS_Latitude>
+    <GTFS_Longitude>-73.974574</GTFS_Longitude>
+    <Surrounding_Stations>252 | 57</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Jamaica-179 St</Stop_Name>
+    <Station_ID>254</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.712646</GTFS_Latitude>
+    <GTFS_Longitude>-73.783817</GTFS_Longitude>
+    <Surrounding_Stations>255</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>169 St</Stop_Name>
+    <Station_ID>255</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.71047</GTFS_Latitude>
+    <GTFS_Longitude>-73.793604</GTFS_Longitude>
+    <Surrounding_Stations>254 | 256</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Parsons Blvd</Stop_Name>
+    <Station_ID>256</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.707564</GTFS_Latitude>
+    <GTFS_Longitude>-73.803326</GTFS_Longitude>
+    <Surrounding_Stations>255 | 257</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Sutphin Blvd</Stop_Name>
+    <Station_ID>257</Station_ID>
+    <Daytime_Routes>F</Daytime_Routes>
+    <GTFS_Latitude>40.70546</GTFS_Latitude>
+    <GTFS_Longitude>-73.810708</GTFS_Longitude>
+    <Surrounding_Stations>256 | 258</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bergen St</Stop_Name>
+    <Station_ID>236</Station_ID>
+    <Daytime_Routes>F G</Daytime_Routes>
+    <GTFS_Latitude>40.686145</GTFS_Latitude>
+    <GTFS_Longitude>-73.990862</GTFS_Longitude>
+    <Surrounding_Stations>25 | 175 | 237</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Carroll St</Stop_Name>
+    <Station_ID>237</Station_ID>
+    <Daytime_Routes>F G</Daytime_Routes>
+    <GTFS_Latitude>40.680303</GTFS_Latitude>
+    <GTFS_Longitude>-73.995048</GTFS_Longitude>
+    <Surrounding_Stations>236 | 238</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Smith-9 Sts</Stop_Name>
+    <Station_ID>238</Station_ID>
+    <Daytime_Routes>F G</Daytime_Routes>
+    <GTFS_Latitude>40.67358</GTFS_Latitude>
+    <GTFS_Longitude>-73.995959</GTFS_Longitude>
+    <Surrounding_Stations>237 | 239</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>4 Av-9 St</Stop_Name>
+    <Station_ID>239</Station_ID>
+    <Daytime_Routes>F G R</Daytime_Routes>
+    <GTFS_Latitude>40.670272</GTFS_Latitude>
+    <GTFS_Longitude>-73.989779</GTFS_Longitude>
+    <Surrounding_Stations>238 | 240 | 28 | 30</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>7 Av</Stop_Name>
+    <Station_ID>240</Station_ID>
+    <Daytime_Routes>F G</Daytime_Routes>
+    <GTFS_Latitude>40.666271</GTFS_Latitude>
+    <GTFS_Longitude>-73.980305</GTFS_Longitude>
+    <Surrounding_Stations>239 | 241</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>15 St-Prospect Park</Stop_Name>
+    <Station_ID>241</Station_ID>
+    <Daytime_Routes>F G</Daytime_Routes>
+    <GTFS_Latitude>40.660365</GTFS_Latitude>
+    <GTFS_Longitude>-73.979493</GTFS_Longitude>
+    <Surrounding_Stations>240 | 242</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Fort Hamilton Pkwy</Stop_Name>
+    <Station_ID>242</Station_ID>
+    <Daytime_Routes>F G</Daytime_Routes>
+    <GTFS_Latitude>40.650782</GTFS_Latitude>
+    <GTFS_Longitude>-73.975776</GTFS_Longitude>
+    <Surrounding_Stations>241 | 243</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Church Av</Stop_Name>
+    <Station_ID>243</Station_ID>
+    <Daytime_Routes>F G</Daytime_Routes>
+    <GTFS_Latitude>40.644041</GTFS_Latitude>
+    <GTFS_Longitude>-73.979678</GTFS_Longitude>
+    <Surrounding_Stations>242 | 244</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>23 St</Stop_Name>
+    <Station_ID>228</Station_ID>
+    <Daytime_Routes>F M</Daytime_Routes>
+    <GTFS_Latitude>40.742878</GTFS_Latitude>
+    <GTFS_Longitude>-73.992821</GTFS_Longitude>
+    <Surrounding_Stations>12 | 229</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>14 St</Stop_Name>
+    <Station_ID>229</Station_ID>
+    <Daytime_Routes>F M</Daytime_Routes>
+    <GTFS_Latitude>40.738228</GTFS_Latitude>
+    <GTFS_Longitude>-73.996209</GTFS_Longitude>
+    <Surrounding_Stations>228 | 167</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>W 8 St-NY Aquarium</Stop_Name>
+    <Station_ID>57</Station_ID>
+    <Daytime_Routes>F Q</Daytime_Routes>
+    <GTFS_Latitude>40.576127</GTFS_Latitude>
+    <GTFS_Longitude>-73.975939</GTFS_Longitude>
+    <Surrounding_Stations>58 | 253[F] | 56[Q]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Lexington Av/63 St</Stop_Name>
+    <Station_ID>223</Station_ID>
+    <Daytime_Routes>F Q</Daytime_Routes>
+    <GTFS_Latitude>40.764629</GTFS_Latitude>
+    <GTFS_Longitude>-73.966113</GTFS_Longitude>
+    <Surrounding_Stations>222 | 477 | 224 | 9</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>21 St</Stop_Name>
+    <Station_ID>282</Station_ID>
+    <Daytime_Routes>G</Daytime_Routes>
+    <GTFS_Latitude>40.744065</GTFS_Latitude>
+    <GTFS_Longitude>-73.949724</GTFS_Longitude>
+    <Surrounding_Stations>274 | 283</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Greenpoint Av</Stop_Name>
+    <Station_ID>283</Station_ID>
+    <Daytime_Routes>G</Daytime_Routes>
+    <GTFS_Latitude>40.731352</GTFS_Latitude>
+    <GTFS_Longitude>-73.954449</GTFS_Longitude>
+    <Surrounding_Stations>282 | 284</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Nassau Av</Stop_Name>
+    <Station_ID>284</Station_ID>
+    <Daytime_Routes>G</Daytime_Routes>
+    <GTFS_Latitude>40.724635</GTFS_Latitude>
+    <GTFS_Longitude>-73.951277</GTFS_Longitude>
+    <Surrounding_Stations>283 | 285</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Metropolitan Av</Stop_Name>
+    <Station_ID>285</Station_ID>
+    <Daytime_Routes>G X</Daytime_Routes>
+    <GTFS_Latitude>40.712792</GTFS_Latitude>
+    <GTFS_Longitude>-73.951418</GTFS_Longitude>
+    <Surrounding_Stations>284 | 286</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Broadway</Stop_Name>
+    <Station_ID>286</Station_ID>
+    <Daytime_Routes>G</Daytime_Routes>
+    <GTFS_Latitude>40.706092</GTFS_Latitude>
+    <GTFS_Longitude>-73.950308</GTFS_Longitude>
+    <Surrounding_Stations>285 | 287</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Flushing Av</Stop_Name>
+    <Station_ID>287</Station_ID>
+    <Daytime_Routes>G</Daytime_Routes>
+    <GTFS_Latitude>40.700377</GTFS_Latitude>
+    <GTFS_Longitude>-73.950234</GTFS_Longitude>
+    <Surrounding_Stations>286 | 288</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Myrtle-Willoughby Avs</Stop_Name>
+    <Station_ID>288</Station_ID>
+    <Daytime_Routes>G</Daytime_Routes>
+    <GTFS_Latitude>40.694568</GTFS_Latitude>
+    <GTFS_Longitude>-73.949046</GTFS_Longitude>
+    <Surrounding_Stations>287 | 289</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bedford-Nostrand Avs</Stop_Name>
+    <Station_ID>289</Station_ID>
+    <Daytime_Routes>G</Daytime_Routes>
+    <GTFS_Latitude>40.689627</GTFS_Latitude>
+    <GTFS_Longitude>-73.953522</GTFS_Longitude>
+    <Surrounding_Stations>288 | 290</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Classon Av</Stop_Name>
+    <Station_ID>290</Station_ID>
+    <Daytime_Routes>G</Daytime_Routes>
+    <GTFS_Latitude>40.688873</GTFS_Latitude>
+    <GTFS_Longitude>-73.96007</GTFS_Longitude>
+    <Surrounding_Stations>289 | 291</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Clinton-Washington Avs</Stop_Name>
+    <Station_ID>291</Station_ID>
+    <Daytime_Routes>G</Daytime_Routes>
+    <GTFS_Latitude>40.688089</GTFS_Latitude>
+    <GTFS_Longitude>-73.966839</GTFS_Longitude>
+    <Surrounding_Stations>290 | 292</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Fulton St</Stop_Name>
+    <Station_ID>292</Station_ID>
+    <Daytime_Routes>G</Daytime_Routes>
+    <GTFS_Latitude>40.687119</GTFS_Latitude>
+    <GTFS_Longitude>-73.975375</GTFS_Longitude>
+    <Surrounding_Stations>291 | 175</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>111 St</Stop_Name>
+    <Station_ID>81</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.697418</GTFS_Latitude>
+    <GTFS_Longitude>-73.836345</GTFS_Longitude>
+    <Surrounding_Stations>82[J] | 80</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>85 St-Forest Pkwy</Stop_Name>
+    <Station_ID>84</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.692435</GTFS_Latitude>
+    <GTFS_Longitude>-73.86001</GTFS_Longitude>
+    <Surrounding_Stations>83 | 85[J]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Cypress Hills</Stop_Name>
+    <Station_ID>86</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.689941</GTFS_Latitude>
+    <GTFS_Longitude>-73.87255</GTFS_Longitude>
+    <Surrounding_Stations>85[J] | 87</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Cleveland St</Stop_Name>
+    <Station_ID>89</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.679947</GTFS_Latitude>
+    <GTFS_Longitude>-73.884639</GTFS_Longitude>
+    <Surrounding_Stations>88 | 90</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Alabama Av</Stop_Name>
+    <Station_ID>91</Station_ID>
+    <Daytime_Routes>J Z</Daytime_Routes>
+    <GTFS_Latitude>40.676992</GTFS_Latitude>
+    <GTFS_Longitude>-73.898654</GTFS_Longitude>
+    <Surrounding_Stations>87[Z] | 90[J] | 132[J,Z]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Halsey St</Stop_Name>
+    <Station_ID>94</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.68637</GTFS_Latitude>
+    <GTFS_Longitude>-73.916559</GTFS_Longitude>
+    <Surrounding_Stations>93 | 95</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Kosciuszko St</Stop_Name>
+    <Station_ID>96</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.693342</GTFS_Latitude>
+    <GTFS_Longitude>-73.928814</GTFS_Longitude>
+    <Surrounding_Stations>95 | 97</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Flushing Av</Stop_Name>
+    <Station_ID>98</Station_ID>
+    <Daytime_Routes>J M</Daytime_Routes>
+    <GTFS_Latitude>40.70026</GTFS_Latitude>
+    <GTFS_Longitude>-73.941126</GTFS_Longitude>
+    <Surrounding_Stations>97 | 99</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Lorimer St</Stop_Name>
+    <Station_ID>99</Station_ID>
+    <Daytime_Routes>J M X</Daytime_Routes>
+    <GTFS_Latitude>40.703869</GTFS_Latitude>
+    <GTFS_Longitude>-73.947408</GTFS_Longitude>
+    <Surrounding_Stations>98 | 100</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Hewes St</Stop_Name>
+    <Station_ID>100</Station_ID>
+    <Daytime_Routes>J M</Daytime_Routes>
+    <GTFS_Latitude>40.70687</GTFS_Latitude>
+    <GTFS_Longitude>-73.953431</GTFS_Longitude>
+    <Surrounding_Stations>99 | 101</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Myrtle Av</Stop_Name>
+    <Station_ID>97</Station_ID>
+    <Daytime_Routes>J M Z</Daytime_Routes>
+    <GTFS_Latitude>40.697207</GTFS_Latitude>
+    <GTFS_Longitude>-73.935657</GTFS_Longitude>
+    <Surrounding_Stations>96 | 114 | 98 | 101[Z] | 95[X] | 132[Z]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Marcy Av</Stop_Name>
+    <Station_ID>101</Station_ID>
+    <Daytime_Routes>J M Z</Daytime_Routes>
+    <GTFS_Latitude>40.708359</GTFS_Latitude>
+    <GTFS_Longitude>-73.957757</GTFS_Longitude>
+    <Surrounding_Stations>97[Z] | 100 | 102</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Delancey St-Essex St</Stop_Name>
+    <Station_ID>102</Station_ID>
+    <Daytime_Routes>F J M Z</Daytime_Routes>
+    <GTFS_Latitude>40.718315</GTFS_Latitude>
+    <GTFS_Longitude>-73.987437</GTFS_Longitude>
+    <Surrounding_Stations>101 | 230[M] | 232 | 234 | 103</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>121 St</Stop_Name>
+    <Station_ID>80</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.700492</GTFS_Latitude>
+    <GTFS_Longitude>-73.828294</GTFS_Longitude>
+    <Surrounding_Stations>279 | 81</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>104 St</Stop_Name>
+    <Station_ID>82</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.695178</GTFS_Latitude>
+    <GTFS_Longitude>-73.84433</GTFS_Longitude>
+    <Surrounding_Stations>81 | 83</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Woodhaven Blvd</Stop_Name>
+    <Station_ID>83</Station_ID>
+    <Daytime_Routes>J Z</Daytime_Routes>
+    <GTFS_Latitude>40.693879</GTFS_Latitude>
+    <GTFS_Longitude>-73.851576</GTFS_Longitude>
+    <Surrounding_Stations>279[Z] | 87[Z] | 82[J] | 84[J]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>75 St-Elderts Ln</Stop_Name>
+    <Station_ID>85</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.691324</GTFS_Latitude>
+    <GTFS_Longitude>-73.867139</GTFS_Longitude>
+    <Surrounding_Stations>84 | 86</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Crescent St</Stop_Name>
+    <Station_ID>87</Station_ID>
+    <Daytime_Routes>J Z</Daytime_Routes>
+    <GTFS_Latitude>40.683194</GTFS_Latitude>
+    <GTFS_Longitude>-73.873785</GTFS_Longitude>
+    <Surrounding_Stations>91[Z] | 83[Z] | 86[J] | 88[J]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Norwood Av</Stop_Name>
+    <Station_ID>88</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.68141</GTFS_Latitude>
+    <GTFS_Longitude>-73.880039</GTFS_Longitude>
+    <Surrounding_Stations>87 | 89</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Van Siclen Av</Stop_Name>
+    <Station_ID>90</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.678024</GTFS_Latitude>
+    <GTFS_Longitude>-73.891688</GTFS_Longitude>
+    <Surrounding_Stations>89 | 91[J]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Chauncey St</Stop_Name>
+    <Station_ID>93</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.682893</GTFS_Latitude>
+    <GTFS_Longitude>-73.910456</GTFS_Longitude>
+    <Surrounding_Stations>132 | 94</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Gates Av</Stop_Name>
+    <Station_ID>95</Station_ID>
+    <Daytime_Routes>J</Daytime_Routes>
+    <GTFS_Latitude>40.68963</GTFS_Latitude>
+    <GTFS_Longitude>-73.92227</GTFS_Longitude>
+    <Surrounding_Stations>94 | 96</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bowery</Stop_Name>
+    <Station_ID>103</Station_ID>
+    <Daytime_Routes>J Z</Daytime_Routes>
+    <GTFS_Latitude>40.72028</GTFS_Latitude>
+    <GTFS_Longitude>-73.993915</GTFS_Longitude>
+    <Surrounding_Stations>102 | 410</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Chambers St</Stop_Name>
+    <Station_ID>105</Station_ID>
+    <Daytime_Routes>J Z</Daytime_Routes>
+    <GTFS_Latitude>40.713243</GTFS_Latitude>
+    <GTFS_Longitude>-74.003401</GTFS_Longitude>
+    <Surrounding_Stations>172 | 410</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Broad St</Stop_Name>
+    <Station_ID>107</Station_ID>
+    <Daytime_Routes>J Z</Daytime_Routes>
+    <GTFS_Latitude>40.706476</GTFS_Latitude>
+    <GTFS_Longitude>-74.011056</GTFS_Longitude>
+    <Surrounding_Stations>172</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>6 Av</Stop_Name>
+    <Station_ID>116</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.737335</GTFS_Latitude>
+    <GTFS_Longitude>-73.996786</GTFS_Longitude>
+    <Surrounding_Stations>166 | 117</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>3 Av</Stop_Name>
+    <Station_ID>118</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.732849</GTFS_Latitude>
+    <GTFS_Longitude>-73.986122</GTFS_Longitude>
+    <Surrounding_Stations>117 | 119</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>1 Av</Stop_Name>
+    <Station_ID>119</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.730953</GTFS_Latitude>
+    <GTFS_Longitude>-73.981628</GTFS_Longitude>
+    <Surrounding_Stations>118 | 120</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bedford Av</Stop_Name>
+    <Station_ID>120</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.717304</GTFS_Latitude>
+    <GTFS_Longitude>-73.956872</GTFS_Longitude>
+    <Surrounding_Stations>119 | 121</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Lorimer St</Stop_Name>
+    <Station_ID>121</Station_ID>
+    <Daytime_Routes>L X</Daytime_Routes>
+    <GTFS_Latitude>40.714063</GTFS_Latitude>
+    <GTFS_Longitude>-73.950275</GTFS_Longitude>
+    <Surrounding_Stations>120 | 122 | 285[X]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Graham Av</Stop_Name>
+    <Station_ID>122</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.714565</GTFS_Latitude>
+    <GTFS_Longitude>-73.944053</GTFS_Longitude>
+    <Surrounding_Stations>121 | 123</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Grand St</Stop_Name>
+    <Station_ID>123</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.711926</GTFS_Latitude>
+    <GTFS_Longitude>-73.94067</GTFS_Longitude>
+    <Surrounding_Stations>122 | 124</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Montrose Av</Stop_Name>
+    <Station_ID>124</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.707739</GTFS_Latitude>
+    <GTFS_Longitude>-73.93985</GTFS_Longitude>
+    <Surrounding_Stations>123 | 125</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Morgan Av</Stop_Name>
+    <Station_ID>125</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.706152</GTFS_Latitude>
+    <GTFS_Longitude>-73.933147</GTFS_Longitude>
+    <Surrounding_Stations>124 | 126</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Jefferson St</Stop_Name>
+    <Station_ID>126</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.706607</GTFS_Latitude>
+    <GTFS_Longitude>-73.922913</GTFS_Longitude>
+    <Surrounding_Stations>125 | 127</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>DeKalb Av</Stop_Name>
+    <Station_ID>127</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.703811</GTFS_Latitude>
+    <GTFS_Longitude>-73.918425</GTFS_Longitude>
+    <Surrounding_Stations>126 | 112</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Halsey St</Stop_Name>
+    <Station_ID>129</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.695602</GTFS_Latitude>
+    <GTFS_Longitude>-73.904084</GTFS_Longitude>
+    <Surrounding_Stations>112 | 130</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Wilson Av</Stop_Name>
+    <Station_ID>130</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.688764</GTFS_Latitude>
+    <GTFS_Longitude>-73.904046</GTFS_Longitude>
+    <Surrounding_Stations>129 | 131</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bushwick Av-Aberdeen St</Stop_Name>
+    <Station_ID>131</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.682829</GTFS_Latitude>
+    <GTFS_Longitude>-73.905249</GTFS_Longitude>
+    <Surrounding_Stations>130 | 132</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Atlantic Av</Stop_Name>
+    <Station_ID>133</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.675345</GTFS_Latitude>
+    <GTFS_Longitude>-73.903097</GTFS_Longitude>
+    <Surrounding_Stations>132 | 134</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Sutter Av</Stop_Name>
+    <Station_ID>134</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.669367</GTFS_Latitude>
+    <GTFS_Longitude>-73.901975</GTFS_Longitude>
+    <Surrounding_Stations>133 | 135</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Livonia Av</Stop_Name>
+    <Station_ID>135</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.664038</GTFS_Latitude>
+    <GTFS_Longitude>-73.900571</GTFS_Longitude>
+    <Surrounding_Stations>134 | 136</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>New Lots Av</Stop_Name>
+    <Station_ID>136</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.658733</GTFS_Latitude>
+    <GTFS_Longitude>-73.899232</GTFS_Longitude>
+    <Surrounding_Stations>135 | 137</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>East 105 St</Stop_Name>
+    <Station_ID>137</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.650573</GTFS_Latitude>
+    <GTFS_Longitude>-73.899485</GTFS_Longitude>
+    <Surrounding_Stations>136 | 138</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Canarsie-Rockaway Pkwy</Stop_Name>
+    <Station_ID>138</Station_ID>
+    <Daytime_Routes>L</Daytime_Routes>
+    <GTFS_Latitude>40.646654</GTFS_Latitude>
+    <GTFS_Longitude>-73.90185</GTFS_Longitude>
+    <Surrounding_Stations>137</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>14 St-Union Sq.</Stop_Name>
+    <Station_ID>117</Station_ID>
+    <Daytime_Routes>L N Q R W 4 5 6</Daytime_Routes>
+    <GTFS_Latitude>40.734789</GTFS_Latitude>
+    <GTFS_Longitude>-73.99073</GTFS_Longitude>
+    <Surrounding_Stations>116 | 118 | 407 | 405 | 469[4,5] | 411[4,5] | 16 | 14 | 12[Q,N] | 18[Q,N]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Middle Village-Metropolitan Av</Stop_Name>
+    <Station_ID>108</Station_ID>
+    <Daytime_Routes>M</Daytime_Routes>
+    <GTFS_Latitude>40.711396</GTFS_Latitude>
+    <GTFS_Longitude>-73.889601</GTFS_Longitude>
+    <Surrounding_Stations>109</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Fresh Pond Rd</Stop_Name>
+    <Station_ID>109</Station_ID>
+    <Daytime_Routes>M</Daytime_Routes>
+    <GTFS_Latitude>40.706186</GTFS_Latitude>
+    <GTFS_Longitude>-73.895877</GTFS_Longitude>
+    <Surrounding_Stations>108 | 110</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Forest Av</Stop_Name>
+    <Station_ID>110</Station_ID>
+    <Daytime_Routes>M</Daytime_Routes>
+    <GTFS_Latitude>40.704423</GTFS_Latitude>
+    <GTFS_Longitude>-73.903077</GTFS_Longitude>
+    <Surrounding_Stations>109 | 111</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Seneca Av</Stop_Name>
+    <Station_ID>111</Station_ID>
+    <Daytime_Routes>M</Daytime_Routes>
+    <GTFS_Latitude>40.702762</GTFS_Latitude>
+    <GTFS_Longitude>-73.90774</GTFS_Longitude>
+    <Surrounding_Stations>110 | 112</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Myrtle-Wyckoff Avs</Stop_Name>
+    <Station_ID>112</Station_ID>
+    <Daytime_Routes>L M</Daytime_Routes>
+    <GTFS_Latitude>40.69943</GTFS_Latitude>
+    <GTFS_Longitude>-73.912385</GTFS_Longitude>
+    <Surrounding_Stations>111[M] | 113[M] | 127[L] | 129[L]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Knickerbocker Av</Stop_Name>
+    <Station_ID>113</Station_ID>
+    <Daytime_Routes>M</Daytime_Routes>
+    <GTFS_Latitude>40.698664</GTFS_Latitude>
+    <GTFS_Longitude>-73.919711</GTFS_Longitude>
+    <Surrounding_Stations>112 | 114</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Central Av</Stop_Name>
+    <Station_ID>114</Station_ID>
+    <Daytime_Routes>M</Daytime_Routes>
+    <GTFS_Latitude>40.697857</GTFS_Latitude>
+    <GTFS_Longitude>-73.927397</GTFS_Longitude>
+    <Surrounding_Stations>113 | 97</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>67 Av</Stop_Name>
+    <Station_ID>262</Station_ID>
+    <Daytime_Routes>M R</Daytime_Routes>
+    <GTFS_Latitude>40.726523</GTFS_Latitude>
+    <GTFS_Longitude>-73.852719</GTFS_Longitude>
+    <Surrounding_Stations>261 | 263</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>63 Dr-Rego Park</Stop_Name>
+    <Station_ID>263</Station_ID>
+    <Daytime_Routes>M R</Daytime_Routes>
+    <GTFS_Latitude>40.729846</GTFS_Latitude>
+    <GTFS_Longitude>-73.861604</GTFS_Longitude>
+    <Surrounding_Stations>262 | 264</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Woodhaven Blvd</Stop_Name>
+    <Station_ID>264</Station_ID>
+    <Daytime_Routes>M R</Daytime_Routes>
+    <GTFS_Latitude>40.733106</GTFS_Latitude>
+    <GTFS_Longitude>-73.869229</GTFS_Longitude>
+    <Surrounding_Stations>263 | 265</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Grand Av-Newtown</Stop_Name>
+    <Station_ID>265</Station_ID>
+    <Daytime_Routes>M R</Daytime_Routes>
+    <GTFS_Latitude>40.737015</GTFS_Latitude>
+    <GTFS_Longitude>-73.877223</GTFS_Longitude>
+    <Surrounding_Stations>264 | 266</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Elmhurst Av</Stop_Name>
+    <Station_ID>266</Station_ID>
+    <Daytime_Routes>M R</Daytime_Routes>
+    <GTFS_Latitude>40.742454</GTFS_Latitude>
+    <GTFS_Longitude>-73.882017</GTFS_Longitude>
+    <Surrounding_Stations>265 | 267</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>65 St</Stop_Name>
+    <Station_ID>268</Station_ID>
+    <Daytime_Routes>M R</Daytime_Routes>
+    <GTFS_Latitude>40.749669</GTFS_Latitude>
+    <GTFS_Longitude>-73.898453</GTFS_Longitude>
+    <Surrounding_Stations>267 | 269</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Northern Blvd</Stop_Name>
+    <Station_ID>269</Station_ID>
+    <Daytime_Routes>M R</Daytime_Routes>
+    <GTFS_Latitude>40.752885</GTFS_Latitude>
+    <GTFS_Longitude>-73.906006</GTFS_Longitude>
+    <Surrounding_Stations>268 | 270</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>46 St</Stop_Name>
+    <Station_ID>270</Station_ID>
+    <Daytime_Routes>M R</Daytime_Routes>
+    <GTFS_Latitude>40.756312</GTFS_Latitude>
+    <GTFS_Longitude>-73.913333</GTFS_Longitude>
+    <Surrounding_Stations>269 | 271</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Steinway St</Stop_Name>
+    <Station_ID>271</Station_ID>
+    <Daytime_Routes>M R</Daytime_Routes>
+    <GTFS_Latitude>40.756879</GTFS_Latitude>
+    <GTFS_Longitude>-73.92074</GTFS_Longitude>
+    <Surrounding_Stations>270 | 272</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>36 St</Stop_Name>
+    <Station_ID>272</Station_ID>
+    <Daytime_Routes>M R</Daytime_Routes>
+    <GTFS_Latitude>40.752039</GTFS_Latitude>
+    <GTFS_Longitude>-73.928781</GTFS_Longitude>
+    <Surrounding_Stations>271 | 273</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>8 Av</Stop_Name>
+    <Station_ID>71</Station_ID>
+    <Daytime_Routes>N</Daytime_Routes>
+    <GTFS_Latitude>40.635064</GTFS_Latitude>
+    <GTFS_Longitude>-74.011719</GTFS_Longitude>
+    <Surrounding_Stations>35 | 72</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Fort Hamilton Pkwy</Stop_Name>
+    <Station_ID>72</Station_ID>
+    <Daytime_Routes>N</Daytime_Routes>
+    <GTFS_Latitude>40.631386</GTFS_Latitude>
+    <GTFS_Longitude>-74.005351</GTFS_Longitude>
+    <Surrounding_Stations>71 | 73</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>New Utrecht Av</Stop_Name>
+    <Station_ID>73</Station_ID>
+    <Daytime_Routes>N</Daytime_Routes>
+    <GTFS_Latitude>40.624842</GTFS_Latitude>
+    <GTFS_Longitude>-73.996353</GTFS_Longitude>
+    <Surrounding_Stations>72 | 74</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>18 Av</Stop_Name>
+    <Station_ID>74</Station_ID>
+    <Daytime_Routes>N</Daytime_Routes>
+    <GTFS_Latitude>40.620671</GTFS_Latitude>
+    <GTFS_Longitude>-73.990414</GTFS_Longitude>
+    <Surrounding_Stations>73 | 75</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>20 Av</Stop_Name>
+    <Station_ID>75</Station_ID>
+    <Daytime_Routes>N</Daytime_Routes>
+    <GTFS_Latitude>40.61741</GTFS_Latitude>
+    <GTFS_Longitude>-73.985026</GTFS_Longitude>
+    <Surrounding_Stations>74 | 76</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bay Pkwy</Stop_Name>
+    <Station_ID>76</Station_ID>
+    <Daytime_Routes>N</Daytime_Routes>
+    <GTFS_Latitude>40.611815</GTFS_Latitude>
+    <GTFS_Longitude>-73.981848</GTFS_Longitude>
+    <Surrounding_Stations>75 | 77</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Kings Hwy</Stop_Name>
+    <Station_ID>77</Station_ID>
+    <Daytime_Routes>N</Daytime_Routes>
+    <GTFS_Latitude>40.603923</GTFS_Latitude>
+    <GTFS_Longitude>-73.980353</GTFS_Longitude>
+    <Surrounding_Stations>76 | 78</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Avenue U</Stop_Name>
+    <Station_ID>78</Station_ID>
+    <Daytime_Routes>N</Daytime_Routes>
+    <GTFS_Latitude>40.597473</GTFS_Latitude>
+    <GTFS_Longitude>-73.979137</GTFS_Longitude>
+    <Surrounding_Stations>77 | 79</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>86 St</Stop_Name>
+    <Station_ID>79</Station_ID>
+    <Daytime_Routes>N</Daytime_Routes>
+    <GTFS_Latitude>40.592721</GTFS_Latitude>
+    <GTFS_Longitude>-73.97823</GTFS_Longitude>
+    <Surrounding_Stations>78 | 58</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Times Sq-42 St</Stop_Name>
+    <Station_ID>11</Station_ID>
+    <Daytime_Routes>N Q R S W 1 2 3 7</Daytime_Routes>
+    <GTFS_Latitude>40.754672</GTFS_Latitude>
+    <GTFS_Longitude>-73.986754</GTFS_Longitude>
+    <Surrounding_Stations>471 | 466 | 469[S] | 318 | 316[1] | 313[2,3] | 12 | 10[N,R,W]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>57 St-7 Av</Stop_Name>
+    <Station_ID>9</Station_ID>
+    <Daytime_Routes>N Q R W</Daytime_Routes>
+    <GTFS_Latitude>40.764664</GTFS_Latitude>
+    <GTFS_Longitude>-73.980658</GTFS_Longitude>
+    <Surrounding_Stations>10[N,R,W] | 8 | 223</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>34 St-Herald Sq</Stop_Name>
+    <Station_ID>12</Station_ID>
+    <Daytime_Routes>N Q R W B D F M</Daytime_Routes>
+    <GTFS_Latitude>40.749567</GTFS_Latitude>
+    <GTFS_Longitude>-73.98795</GTFS_Longitude>
+    <Surrounding_Stations>11 | 13 | 117[N,Q] | 226[B,D,F,M] | 228[M,F] | 167[B,D]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>59 St</Stop_Name>
+    <Station_ID>35</Station_ID>
+    <Daytime_Routes>N R</Daytime_Routes>
+    <GTFS_Latitude>40.641362</GTFS_Latitude>
+    <GTFS_Longitude>-74.017881</GTFS_Longitude>
+    <Surrounding_Stations>34 | 36 | 71 | 32[N]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>49 St</Stop_Name>
+    <Station_ID>10</Station_ID>
+    <Daytime_Routes>N R W</Daytime_Routes>
+    <GTFS_Latitude>40.759901</GTFS_Latitude>
+    <GTFS_Longitude>-73.984139</GTFS_Longitude>
+    <Surrounding_Stations>9 | 11</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Astoria-Ditmars Blvd</Stop_Name>
+    <Station_ID>1</Station_ID>
+    <Daytime_Routes>N W</Daytime_Routes>
+    <GTFS_Latitude>40.775036</GTFS_Latitude>
+    <GTFS_Longitude>-73.912034</GTFS_Longitude>
+    <Surrounding_Stations>2</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Astoria Blvd</Stop_Name>
+    <Station_ID>2</Station_ID>
+    <Daytime_Routes>N W</Daytime_Routes>
+    <GTFS_Latitude>40.770258</GTFS_Latitude>
+    <GTFS_Longitude>-73.917843</GTFS_Longitude>
+    <Surrounding_Stations>1 | 3</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>30 Av</Stop_Name>
+    <Station_ID>3</Station_ID>
+    <Daytime_Routes>N W</Daytime_Routes>
+    <GTFS_Latitude>40.766779</GTFS_Latitude>
+    <GTFS_Longitude>-73.921479</GTFS_Longitude>
+    <Surrounding_Stations>2 | 4</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Broadway</Stop_Name>
+    <Station_ID>4</Station_ID>
+    <Daytime_Routes>N W</Daytime_Routes>
+    <GTFS_Latitude>40.76182</GTFS_Latitude>
+    <GTFS_Longitude>-73.925508</GTFS_Longitude>
+    <Surrounding_Stations>3 | 5</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>36 Av</Stop_Name>
+    <Station_ID>5</Station_ID>
+    <Daytime_Routes>N W</Daytime_Routes>
+    <GTFS_Latitude>40.756804</GTFS_Latitude>
+    <GTFS_Longitude>-73.929575</GTFS_Longitude>
+    <Surrounding_Stations>4 | 6</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>39 Av-Dutch Kills</Stop_Name>
+    <Station_ID>6</Station_ID>
+    <Daytime_Routes>N W</Daytime_Routes>
+    <GTFS_Latitude>40.752882</GTFS_Latitude>
+    <GTFS_Longitude>-73.932755</GTFS_Longitude>
+    <Surrounding_Stations>5 | 461</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Queensboro Plaza</Stop_Name>
+    <Station_ID>461</Station_ID>
+    <Daytime_Routes>N W 7</Daytime_Routes>
+    <GTFS_Latitude>40.750582</GTFS_Latitude>
+    <GTFS_Longitude>-73.940202</GTFS_Longitude>
+    <Surrounding_Stations>6 | 7 | 274 | 460</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Lexington Av/59 St</Stop_Name>
+    <Station_ID>7</Station_ID>
+    <Daytime_Routes>N W R</Daytime_Routes>
+    <GTFS_Latitude>40.76266</GTFS_Latitude>
+    <GTFS_Longitude>-73.967258</GTFS_Longitude>
+    <Surrounding_Stations>461 | 8 | 273[R]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>5 Av/59 St</Stop_Name>
+    <Station_ID>8</Station_ID>
+    <Daytime_Routes>N W R</Daytime_Routes>
+    <GTFS_Latitude>40.764811</GTFS_Latitude>
+    <GTFS_Longitude>-73.973347</GTFS_Longitude>
+    <Surrounding_Stations>7 | 9</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Parkside Av</Stop_Name>
+    <Station_ID>43</Station_ID>
+    <Daytime_Routes>Q</Daytime_Routes>
+    <GTFS_Latitude>40.655292</GTFS_Latitude>
+    <GTFS_Longitude>-73.961495</GTFS_Longitude>
+    <Surrounding_Stations>42 | 44</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Beverley Rd</Stop_Name>
+    <Station_ID>45</Station_ID>
+    <Daytime_Routes>Q</Daytime_Routes>
+    <GTFS_Latitude>40.644031</GTFS_Latitude>
+    <GTFS_Longitude>-73.964492</GTFS_Longitude>
+    <Surrounding_Stations>44 | 46</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Cortelyou Rd</Stop_Name>
+    <Station_ID>46</Station_ID>
+    <Daytime_Routes>Q</Daytime_Routes>
+    <GTFS_Latitude>40.640927</GTFS_Latitude>
+    <GTFS_Longitude>-73.963891</GTFS_Longitude>
+    <Surrounding_Stations>45 | 47</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Avenue H</Stop_Name>
+    <Station_ID>48</Station_ID>
+    <Daytime_Routes>Q</Daytime_Routes>
+    <GTFS_Latitude>40.62927</GTFS_Latitude>
+    <GTFS_Longitude>-73.961639</GTFS_Longitude>
+    <Surrounding_Stations>47 | 49</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Avenue J</Stop_Name>
+    <Station_ID>49</Station_ID>
+    <Daytime_Routes>Q</Daytime_Routes>
+    <GTFS_Latitude>40.625039</GTFS_Latitude>
+    <GTFS_Longitude>-73.960803</GTFS_Longitude>
+    <Surrounding_Stations>48 | 50</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Avenue M</Stop_Name>
+    <Station_ID>50</Station_ID>
+    <Daytime_Routes>Q</Daytime_Routes>
+    <GTFS_Latitude>40.617618</GTFS_Latitude>
+    <GTFS_Longitude>-73.959399</GTFS_Longitude>
+    <Surrounding_Stations>49 | 51</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Avenue U</Stop_Name>
+    <Station_ID>52</Station_ID>
+    <Daytime_Routes>Q</Daytime_Routes>
+    <GTFS_Latitude>40.5993</GTFS_Latitude>
+    <GTFS_Longitude>-73.955929</GTFS_Longitude>
+    <Surrounding_Stations>51 | 53</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Neck Rd</Stop_Name>
+    <Station_ID>53</Station_ID>
+    <Daytime_Routes>Q</Daytime_Routes>
+    <GTFS_Latitude>40.595246</GTFS_Latitude>
+    <GTFS_Longitude>-73.955161</GTFS_Longitude>
+    <Surrounding_Stations>52 | 54</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Ocean Pkwy</Stop_Name>
+    <Station_ID>56</Station_ID>
+    <Daytime_Routes>Q</Daytime_Routes>
+    <GTFS_Latitude>40.576312</GTFS_Latitude>
+    <GTFS_Longitude>-73.968501</GTFS_Longitude>
+    <Surrounding_Stations>55 | 57</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>96 St</Stop_Name>
+    <Station_ID>475</Station_ID>
+    <Daytime_Routes>Q</Daytime_Routes>
+    <GTFS_Latitude>40.784318</GTFS_Latitude>
+    <GTFS_Longitude>-73.947152</GTFS_Longitude>
+    <Surrounding_Stations>476</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>86 St</Stop_Name>
+    <Station_ID>476</Station_ID>
+    <Daytime_Routes>Q</Daytime_Routes>
+    <GTFS_Latitude>40.777891</GTFS_Latitude>
+    <GTFS_Longitude>-73.951787</GTFS_Longitude>
+    <Surrounding_Stations>475 | 477</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>72 St</Stop_Name>
+    <Station_ID>477</Station_ID>
+    <Daytime_Routes>Q</Daytime_Routes>
+    <GTFS_Latitude>40.768799</GTFS_Latitude>
+    <GTFS_Longitude>-73.958424</GTFS_Longitude>
+    <Surrounding_Stations>476 | 223</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Union St</Stop_Name>
+    <Station_ID>28</Station_ID>
+    <Daytime_Routes>R</Daytime_Routes>
+    <GTFS_Latitude>40.677316</GTFS_Latitude>
+    <GTFS_Longitude>-73.98311</GTFS_Longitude>
+    <Surrounding_Stations>27 | 239</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Prospect Av</Stop_Name>
+    <Station_ID>30</Station_ID>
+    <Daytime_Routes>R</Daytime_Routes>
+    <GTFS_Latitude>40.665414</GTFS_Latitude>
+    <GTFS_Longitude>-73.992872</GTFS_Longitude>
+    <Surrounding_Stations>239 | 31</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>25 St</Stop_Name>
+    <Station_ID>31</Station_ID>
+    <Daytime_Routes>R</Daytime_Routes>
+    <GTFS_Latitude>40.660397</GTFS_Latitude>
+    <GTFS_Longitude>-73.998091</GTFS_Longitude>
+    <Surrounding_Stations>30 | 32</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>45 St</Stop_Name>
+    <Station_ID>33</Station_ID>
+    <Daytime_Routes>R</Daytime_Routes>
+    <GTFS_Latitude>40.648939</GTFS_Latitude>
+    <GTFS_Longitude>-74.010006</GTFS_Longitude>
+    <Surrounding_Stations>32 | 34</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>53 St</Stop_Name>
+    <Station_ID>34</Station_ID>
+    <Daytime_Routes>R</Daytime_Routes>
+    <GTFS_Latitude>40.645069</GTFS_Latitude>
+    <GTFS_Longitude>-74.014034</GTFS_Longitude>
+    <Surrounding_Stations>33 | 35</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bay Ridge Av</Stop_Name>
+    <Station_ID>36</Station_ID>
+    <Daytime_Routes>R</Daytime_Routes>
+    <GTFS_Latitude>40.634967</GTFS_Latitude>
+    <GTFS_Longitude>-74.023377</GTFS_Longitude>
+    <Surrounding_Stations>35 | 37</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>77 St</Stop_Name>
+    <Station_ID>37</Station_ID>
+    <Daytime_Routes>R</Daytime_Routes>
+    <GTFS_Latitude>40.629742</GTFS_Latitude>
+    <GTFS_Longitude>-74.02551</GTFS_Longitude>
+    <Surrounding_Stations>36 | 38</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>86 St</Stop_Name>
+    <Station_ID>38</Station_ID>
+    <Daytime_Routes>R</Daytime_Routes>
+    <GTFS_Latitude>40.622687</GTFS_Latitude>
+    <GTFS_Longitude>-74.028398</GTFS_Longitude>
+    <Surrounding_Stations>37 | 39</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bay Ridge-95 St</Stop_Name>
+    <Station_ID>39</Station_ID>
+    <Daytime_Routes>R</Daytime_Routes>
+    <GTFS_Latitude>40.616622</GTFS_Latitude>
+    <GTFS_Longitude>-74.030876</GTFS_Longitude>
+    <Surrounding_Stations>38</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>28 St</Stop_Name>
+    <Station_ID>13</Station_ID>
+    <Daytime_Routes>R W</Daytime_Routes>
+    <GTFS_Latitude>40.745494</GTFS_Latitude>
+    <GTFS_Longitude>-73.988691</GTFS_Longitude>
+    <Surrounding_Stations>12 | 14</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>23 St</Stop_Name>
+    <Station_ID>14</Station_ID>
+    <Daytime_Routes>R W</Daytime_Routes>
+    <GTFS_Latitude>40.741303</GTFS_Latitude>
+    <GTFS_Longitude>-73.989344</GTFS_Longitude>
+    <Surrounding_Stations>13 | 117</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>8 St-NYU</Stop_Name>
+    <Station_ID>16</Station_ID>
+    <Daytime_Routes>R W</Daytime_Routes>
+    <GTFS_Latitude>40.730328</GTFS_Latitude>
+    <GTFS_Longitude>-73.992629</GTFS_Longitude>
+    <Surrounding_Stations>117 | 17</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Prince St</Stop_Name>
+    <Station_ID>17</Station_ID>
+    <Daytime_Routes>R W</Daytime_Routes>
+    <GTFS_Latitude>40.724329</GTFS_Latitude>
+    <GTFS_Longitude>-73.997702</GTFS_Longitude>
+    <Surrounding_Stations>16 | 18</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Canal St</Stop_Name>
+    <Station_ID>18</Station_ID>
+    <Daytime_Routes>N Q R W</Daytime_Routes>
+    <GTFS_Latitude>40.719527</GTFS_Latitude>
+    <GTFS_Longitude>-74.001775</GTFS_Longitude>
+    <Surrounding_Stations>17[R,W] | 20[R,W] | 26[Q] | 12[X] | 103[X] | 105[X] | 117[Q,N] | 27[N]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>City Hall</Stop_Name>
+    <Station_ID>20</Station_ID>
+    <Daytime_Routes>R W</Daytime_Routes>
+    <GTFS_Latitude>40.713282</GTFS_Latitude>
+    <GTFS_Longitude>-74.006978</GTFS_Longitude>
+    <Surrounding_Stations>18 | 21</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Cortlandt St</Stop_Name>
+    <Station_ID>21</Station_ID>
+    <Daytime_Routes>R W</Daytime_Routes>
+    <GTFS_Latitude>40.710668</GTFS_Latitude>
+    <GTFS_Longitude>-74.011029</GTFS_Longitude>
+    <Surrounding_Stations>20 | 22</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Rector St</Stop_Name>
+    <Station_ID>22</Station_ID>
+    <Daytime_Routes>R W</Daytime_Routes>
+    <GTFS_Latitude>40.70722</GTFS_Latitude>
+    <GTFS_Longitude>-74.013342</GTFS_Longitude>
+    <Surrounding_Stations>21 | 23</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Whitehall St-South Ferry</Stop_Name>
+    <Station_ID>23</Station_ID>
+    <Daytime_Routes>R W</Daytime_Routes>
+    <GTFS_Latitude>40.703087</GTFS_Latitude>
+    <GTFS_Longitude>-74.012994</GTFS_Longitude>
+    <Surrounding_Stations>22 | 25</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Park Pl</Stop_Name>
+    <Station_ID>141</Station_ID>
+    <Daytime_Routes>S</Daytime_Routes>
+    <GTFS_Latitude>40.674772</GTFS_Latitude>
+    <GTFS_Longitude>-73.957624</GTFS_Longitude>
+    <Surrounding_Stations>139 | 142</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Botanic Garden</Stop_Name>
+    <Station_ID>142</Station_ID>
+    <Daytime_Routes>S</Daytime_Routes>
+    <GTFS_Latitude>40.670343</GTFS_Latitude>
+    <GTFS_Longitude>-73.959245</GTFS_Longitude>
+    <Surrounding_Stations>141 | 42</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Grand Central-42 St</Stop_Name>
+    <Station_ID>469</Station_ID>
+    <Daytime_Routes>S 4 5 6 7</Daytime_Routes>
+    <GTFS_Latitude>40.752769</GTFS_Latitude>
+    <GTFS_Longitude>-73.979189</GTFS_Longitude>
+    <Surrounding_Stations>11[S] | 466 | 464 | 401 | 403 | 117[4,5] | 400[4,5]</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>St George</Stop_Name>
+    <Station_ID>501</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.643748</GTFS_Latitude>
+    <GTFS_Longitude>-74.073643</GTFS_Longitude>
+    <Surrounding_Stations>502</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Tompkinsville</Stop_Name>
+    <Station_ID>502</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.636949</GTFS_Latitude>
+    <GTFS_Longitude>-74.074835</GTFS_Longitude>
+    <Surrounding_Stations>501 | 503</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Stapleton</Stop_Name>
+    <Station_ID>503</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.627915</GTFS_Latitude>
+    <GTFS_Longitude>-74.075162</GTFS_Longitude>
+    <Surrounding_Stations>502 | 504</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Clifton</Stop_Name>
+    <Station_ID>504</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.621319</GTFS_Latitude>
+    <GTFS_Longitude>-74.071402</GTFS_Longitude>
+    <Surrounding_Stations>503 | 505</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Grasmere</Stop_Name>
+    <Station_ID>505</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.603117</GTFS_Latitude>
+    <GTFS_Longitude>-74.084087</GTFS_Longitude>
+    <Surrounding_Stations>504 | 506</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Old Town</Stop_Name>
+    <Station_ID>506</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.596612</GTFS_Latitude>
+    <GTFS_Longitude>-74.087368</GTFS_Longitude>
+    <Surrounding_Stations>505 | 507</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Dongan Hills</Stop_Name>
+    <Station_ID>507</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.588849</GTFS_Latitude>
+    <GTFS_Longitude>-74.09609</GTFS_Longitude>
+    <Surrounding_Stations>506 | 508</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Jefferson Av</Stop_Name>
+    <Station_ID>508</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.583591</GTFS_Latitude>
+    <GTFS_Longitude>-74.103338</GTFS_Longitude>
+    <Surrounding_Stations>507 | 509</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Grant City</Stop_Name>
+    <Station_ID>509</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.578965</GTFS_Latitude>
+    <GTFS_Longitude>-74.109704</GTFS_Longitude>
+    <Surrounding_Stations>508 | 510</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>New Dorp</Stop_Name>
+    <Station_ID>510</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.57348</GTFS_Latitude>
+    <GTFS_Longitude>-74.11721</GTFS_Longitude>
+    <Surrounding_Stations>509 | 511</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Oakwood Heights</Stop_Name>
+    <Station_ID>511</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.56511</GTFS_Latitude>
+    <GTFS_Longitude>-74.12632</GTFS_Longitude>
+    <Surrounding_Stations>510 | 512</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Bay Terrace</Stop_Name>
+    <Station_ID>512</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.5564</GTFS_Latitude>
+    <GTFS_Longitude>-74.136907</GTFS_Longitude>
+    <Surrounding_Stations>511 | 513</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Great Kills</Stop_Name>
+    <Station_ID>513</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.551231</GTFS_Latitude>
+    <GTFS_Longitude>-74.151399</GTFS_Longitude>
+    <Surrounding_Stations>512 | 514</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Eltingville</Stop_Name>
+    <Station_ID>514</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.544601</GTFS_Latitude>
+    <GTFS_Longitude>-74.16457</GTFS_Longitude>
+    <Surrounding_Stations>513 | 515</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Annadale</Stop_Name>
+    <Station_ID>515</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.54046</GTFS_Latitude>
+    <GTFS_Longitude>-74.178217</GTFS_Longitude>
+    <Surrounding_Stations>514 | 516</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Huguenot</Stop_Name>
+    <Station_ID>516</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.533674</GTFS_Latitude>
+    <GTFS_Longitude>-74.191794</GTFS_Longitude>
+    <Surrounding_Stations>515 | 517</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Prince&apos;s Bay</Stop_Name>
+    <Station_ID>517</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.525507</GTFS_Latitude>
+    <GTFS_Longitude>-74.200064</GTFS_Longitude>
+    <Surrounding_Stations>516 | 518</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Pleasant Plains</Stop_Name>
+    <Station_ID>518</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.52241</GTFS_Latitude>
+    <GTFS_Longitude>-74.217847</GTFS_Longitude>
+    <Surrounding_Stations>517 | 519</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Richmond Valley</Stop_Name>
+    <Station_ID>519</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.519631</GTFS_Latitude>
+    <GTFS_Longitude>-74.229141</GTFS_Longitude>
+    <Surrounding_Stations>518 | 523</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Tottenville</Stop_Name>
+    <Station_ID>522</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.512764</GTFS_Latitude>
+    <GTFS_Longitude>-74.251961</GTFS_Longitude>
+    <Surrounding_Stations>523</Surrounding_Stations>
+  </row>
+  <row>
+    <Stop_Name>Arthur Kill</Stop_Name>
+    <Station_ID>523</Station_ID>
+    <Daytime_Routes>SIR</Daytime_Routes>
+    <GTFS_Latitude>40.516578</GTFS_Latitude>
+    <GTFS_Longitude>-74.242096</GTFS_Longitude>
+    <Surrounding_Stations>519 | 522</Surrounding_Stations>
+  </row>
+</root>

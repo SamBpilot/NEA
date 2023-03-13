@@ -1,0 +1,424 @@
+
+digraph G {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif bold" labelloc="c"];
+  edge [fontname="Helvetica,Arial,sans-serif" fontsize=8 arrowsize=0.5];
+  
+  subgraph cluster_293 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"293_1";
+    label = "Van Cortlandt Park-242 St (293)";
+  }
+
+  subgraph cluster_294 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"294_1";
+    label = "238 St (294)";
+  }
+
+  subgraph cluster_295 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"295_1";
+    label = "231 St (295)";
+  }
+
+  subgraph cluster_296 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"296_1";
+    label = "Marble Hill-225 St (296)";
+  }
+
+  subgraph cluster_297 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"297_1";
+    label = "215 St (297)";
+  }
+
+  subgraph cluster_298 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"298_1";
+    label = "207 St (298)";
+  }
+
+  subgraph cluster_299 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"299_1";
+    label = "Dyckman St (299)";
+  }
+
+  subgraph cluster_300 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"300_1";
+    label = "191 St (300)";
+  }
+
+  subgraph cluster_301 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"301_1";
+    label = "181 St (301)";
+  }
+
+  subgraph cluster_303 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"303_1";
+    label = "157 St (303)";
+  }
+
+  subgraph cluster_304 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"304_1";
+    label = "145 St (304)";
+  }
+
+  subgraph cluster_305 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"305_1";
+    label = "137 St-City College (305)";
+  }
+
+  subgraph cluster_306 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"306_1";
+    label = "125 St (306)";
+  }
+
+  subgraph cluster_307 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"307_1";
+    label = "116 St-Columbia University (307)";
+  }
+
+  subgraph cluster_308 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"308_1";
+    label = "Cathedral Pkwy (110 St) (308)";
+  }
+
+  subgraph cluster_309 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"309_1";
+    label = "103 St (309)";
+  }
+
+  subgraph cluster_311 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"311_1";
+    label = "86 St (311)";
+  }
+
+  subgraph cluster_312 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"312_1";
+    label = "79 St (312)";
+  }
+
+  subgraph cluster_314 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"314_1";
+    label = "66 St-Lincoln Center (314)";
+  }
+
+  subgraph cluster_316 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"316_1";
+    label = "50 St (316)";
+  }
+
+  subgraph cluster_319 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"319_1";
+    label = "28 St (319)";
+  }
+
+  subgraph cluster_320 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"320_1";
+    label = "23 St (320)";
+  }
+
+  subgraph cluster_321 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"321_1";
+    label = "18 St (321)";
+  }
+
+  subgraph cluster_323 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"323_1";
+    label = "Christopher St-Sheridan Sq (323)";
+  }
+
+  subgraph cluster_324 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"324_1";
+    label = "Houston St (324)";
+  }
+
+  subgraph cluster_325 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"325_1";
+    label = "Canal St (325)";
+  }
+
+  subgraph cluster_326 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"326_1";
+    label = "Franklin St (326)";
+  }
+
+  subgraph cluster_328 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"328_1";
+    label = "WTC Cortlandt (328)";
+  }
+
+  subgraph cluster_329 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"329_1";
+    label = "Rector St (329)";
+  }
+
+  subgraph cluster_330 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"330_1";
+    label = "South Ferry (330)";
+  }
+
+  subgraph cluster_310 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"310_1";
+    label = "96 St (310)";
+  }
+
+  subgraph cluster_313 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"313_1";
+    label = "72 St (313)";
+  }
+
+  subgraph cluster_318 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"318_1";
+    label = "34 St-Penn Station (318)";
+  }
+
+  subgraph cluster_322 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"322_1";
+    label = "14 St (322)";
+  }
+
+  subgraph cluster_327 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"327_1";
+    label = "Chambers St (327)";
+  }
+
+  subgraph cluster_161 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"161_1";
+    label = "59 St-Columbus Circle (161)";
+  }
+
+  subgraph cluster_148 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"148_1";
+    label = "168 St-Washington Hts (148)";
+  }
+
+  subgraph cluster_11 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="1" fillcolor=red, color="red", penwidth=1, fontcolor=gray, shape="circle"]"11_1";
+    label = "Times Sq-42 St (11)";
+  }
+
+  "293_1" -> "294_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "294_1" -> "293_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "294_1" -> "295_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "295_1" -> "296_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "295_1" -> "294_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "296_1" -> "295_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "296_1" -> "297_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "297_1" -> "296_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "297_1" -> "298_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "298_1" -> "297_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "298_1" -> "299_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "299_1" -> "298_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "299_1" -> "300_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "300_1" -> "299_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "300_1" -> "301_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "301_1" -> "300_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "301_1" -> "148_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "303_1" -> "148_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "303_1" -> "304_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "304_1" -> "303_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "304_1" -> "305_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "305_1" -> "304_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "305_1" -> "306_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "306_1" -> "305_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "306_1" -> "307_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "307_1" -> "306_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "307_1" -> "308_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "308_1" -> "307_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "308_1" -> "309_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "309_1" -> "308_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "309_1" -> "310_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "311_1" -> "310_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "311_1" -> "312_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "312_1" -> "313_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "312_1" -> "311_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "314_1" -> "313_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "314_1" -> "161_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "316_1" -> "161_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "316_1" -> "11_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "319_1" -> "318_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "319_1" -> "320_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "320_1" -> "319_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "320_1" -> "321_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "321_1" -> "320_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "321_1" -> "322_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "323_1" -> "322_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "323_1" -> "324_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "324_1" -> "323_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "324_1" -> "325_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "325_1" -> "324_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "325_1" -> "326_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "326_1" -> "325_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "326_1" -> "327_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "328_1" -> "327_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "328_1" -> "329_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "329_1" -> "328_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "329_1" -> "330_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "330_1" -> "329_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "310_1" -> "309_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "310_1" -> "311_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "313_1" -> "312_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "313_1" -> "314_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "318_1" -> "11_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "318_1" -> "319_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "322_1" -> "321_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "322_1" -> "323_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "327_1" -> "326_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "327_1" -> "328_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "161_1" -> "316_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "161_1" -> "314_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "148_1" -> "301_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "148_1" -> "303_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "11_1" -> "318_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+  "11_1" -> "316_1"[ color=red fontcolor=red penwidth=1 fontsize=8 arrowsize=0.5];
+
+}

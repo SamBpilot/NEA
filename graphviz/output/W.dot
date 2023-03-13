@@ -1,0 +1,259 @@
+
+digraph G {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif bold" labelloc="c"];
+  edge [fontname="Helvetica,Arial,sans-serif" fontsize=8 arrowsize=0.5];
+  
+  subgraph cluster_117 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"117_W";
+    label = "14 St-Union Sq. (117)";
+  }
+
+  subgraph cluster_11 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"11_W";
+    label = "Times Sq-42 St (11)";
+  }
+
+  subgraph cluster_9 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"9_W";
+    label = "57 St-7 Av (9)";
+  }
+
+  subgraph cluster_12 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"12_W";
+    label = "34 St-Herald Sq (12)";
+  }
+
+  subgraph cluster_10 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"10_W";
+    label = "49 St (10)";
+  }
+
+  subgraph cluster_1 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"1_W";
+    label = "Astoria-Ditmars Blvd (1)";
+  }
+
+  subgraph cluster_2 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"2_W";
+    label = "Astoria Blvd (2)";
+  }
+
+  subgraph cluster_3 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"3_W";
+    label = "30 Av (3)";
+  }
+
+  subgraph cluster_4 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"4_W";
+    label = "Broadway (4)";
+  }
+
+  subgraph cluster_5 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"5_W";
+    label = "36 Av (5)";
+  }
+
+  subgraph cluster_6 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"6_W";
+    label = "39 Av-Dutch Kills (6)";
+  }
+
+  subgraph cluster_461 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"461_W";
+    label = "Queensboro Plaza (461)";
+  }
+
+  subgraph cluster_7 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"7_W";
+    label = "Lexington Av/59 St (7)";
+  }
+
+  subgraph cluster_8 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"8_W";
+    label = "5 Av/59 St (8)";
+  }
+
+  subgraph cluster_13 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"13_W";
+    label = "28 St (13)";
+  }
+
+  subgraph cluster_14 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"14_W";
+    label = "23 St (14)";
+  }
+
+  subgraph cluster_16 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"16_W";
+    label = "8 St-NYU (16)";
+  }
+
+  subgraph cluster_17 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"17_W";
+    label = "Prince St (17)";
+  }
+
+  subgraph cluster_18 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"18_W";
+    label = "Canal St (18)";
+  }
+
+  subgraph cluster_20 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"20_W";
+    label = "City Hall (20)";
+  }
+
+  subgraph cluster_21 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"21_W";
+    label = "Cortlandt St (21)";
+  }
+
+  subgraph cluster_22 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"22_W";
+    label = "Rector St (22)";
+  }
+
+  subgraph cluster_23 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="W" fillcolor=springgreen, color="springgreen", penwidth=1, fontcolor=gray, shape="circle"]"23_W";
+    label = "Whitehall St-South Ferry (23)";
+  }
+
+  "117_W" -> "16_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "117_W" -> "14_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "11_W" -> "12_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "11_W" -> "10_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "9_W" -> "10_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "9_W" -> "8_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_W" -> "11_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_W" -> "13_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "10_W" -> "9_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "10_W" -> "11_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "1_W" -> "2_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "2_W" -> "1_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "2_W" -> "3_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "3_W" -> "2_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "3_W" -> "4_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "4_W" -> "3_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "4_W" -> "5_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "5_W" -> "4_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "5_W" -> "6_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "6_W" -> "5_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "6_W" -> "461_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "461_W" -> "6_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "461_W" -> "7_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "7_W" -> "461_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "7_W" -> "8_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "8_W" -> "7_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "8_W" -> "9_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "13_W" -> "12_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "13_W" -> "14_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "14_W" -> "13_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "14_W" -> "117_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "16_W" -> "117_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "16_W" -> "17_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "17_W" -> "16_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "17_W" -> "18_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "18_W" -> "17_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "18_W" -> "20_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "20_W" -> "18_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "20_W" -> "21_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "21_W" -> "20_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "21_W" -> "22_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "22_W" -> "21_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "22_W" -> "23_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+  "23_W" -> "22_W"[ color=springgreen fontcolor=springgreen penwidth=1 fontsize=8 arrowsize=0.5];
+
+}

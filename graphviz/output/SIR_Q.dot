@@ -1,0 +1,561 @@
+
+digraph G {
+	fontname="Helvetica,Arial,sans-serif";
+	node [fontname="Helvetica,Arial,sans-serif bold" labelloc="c" shape="circle"];
+	edge [fontname="Helvetica,Arial,sans-serif" fontsize=8 arrowsize=0.5];
+  
+  subgraph cluster_41 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"41_Q";
+		label = "7 Av";
+	}
+
+  subgraph cluster_44 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"44_Q";
+		label = "Church Av";
+	}
+
+  subgraph cluster_47 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"47_Q";
+		label = "Newkirk Plaza";
+	}
+
+  subgraph cluster_51 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"51_Q";
+		label = "Kings Hwy";
+	}
+
+  subgraph cluster_54 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"54_Q";
+		label = "Sheepshead Bay";
+	}
+
+  subgraph cluster_55 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"55_Q";
+		label = "Brighton Beach";
+	}
+
+  subgraph cluster_26 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"26_Q";
+		label = "DeKalb Av";
+	}
+
+  subgraph cluster_42 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"42_Q";
+		label = "Prospect Park";
+	}
+
+  subgraph cluster_58 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"58_Q";
+		label = "Coney Island-Stillwell Av";
+	}
+
+  subgraph cluster_27 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"27_Q";
+		label = "Atlantic Av-Barclays Ctr";
+	}
+
+  subgraph cluster_57 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"57_Q";
+		label = "W 8 St-NY Aquarium";
+	}
+
+  subgraph cluster_223 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"223_Q";
+		label = "Lexington Av/63 St";
+	}
+
+  subgraph cluster_117 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"117_Q";
+		label = "14 St-Union Sq.";
+	}
+
+  subgraph cluster_11 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"11_Q";
+		label = "Times Sq-42 St";
+	}
+
+  subgraph cluster_9 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"9_Q";
+		label = "57 St-7 Av";
+	}
+
+  subgraph cluster_12 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"12_Q";
+		label = "34 St-Herald Sq";
+	}
+
+  subgraph cluster_43 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"43_Q";
+		label = "Parkside Av";
+	}
+
+  subgraph cluster_45 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"45_Q";
+		label = "Beverley Rd";
+	}
+
+  subgraph cluster_46 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"46_Q";
+		label = "Cortelyou Rd";
+	}
+
+  subgraph cluster_48 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"48_Q";
+		label = "Avenue H";
+	}
+
+  subgraph cluster_49 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"49_Q";
+		label = "Avenue J";
+	}
+
+  subgraph cluster_50 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"50_Q";
+		label = "Avenue M";
+	}
+
+  subgraph cluster_52 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"52_Q";
+		label = "Avenue U";
+	}
+
+  subgraph cluster_53 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"53_Q";
+		label = "Neck Rd";
+	}
+
+  subgraph cluster_56 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"56_Q";
+		label = "Ocean Pkwy";
+	}
+
+  subgraph cluster_475 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"475_Q";
+		label = "96 St";
+	}
+
+  subgraph cluster_476 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"476_Q";
+		label = "86 St";
+	}
+
+  subgraph cluster_477 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"477_Q";
+		label = "72 St";
+	}
+
+  subgraph cluster_18 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="Q" color=goldenrod, fontcolor=gray]"18_Q";
+		label = "Canal St";
+	}
+
+  subgraph cluster_501 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"501_SIR";
+		label = "St George";
+	}
+
+  subgraph cluster_502 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"502_SIR";
+		label = "Tompkinsville";
+	}
+
+  subgraph cluster_503 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"503_SIR";
+		label = "Stapleton";
+	}
+
+  subgraph cluster_504 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"504_SIR";
+		label = "Clifton";
+	}
+
+  subgraph cluster_505 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"505_SIR";
+		label = "Grasmere";
+	}
+
+  subgraph cluster_506 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"506_SIR";
+		label = "Old Town";
+	}
+
+  subgraph cluster_507 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"507_SIR";
+		label = "Dongan Hills";
+	}
+
+  subgraph cluster_508 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"508_SIR";
+		label = "Jefferson Av";
+	}
+
+  subgraph cluster_509 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"509_SIR";
+		label = "Grant City";
+	}
+
+  subgraph cluster_510 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"510_SIR";
+		label = "New Dorp";
+	}
+
+  subgraph cluster_511 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"511_SIR";
+		label = "Oakwood Heights";
+	}
+
+  subgraph cluster_512 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"512_SIR";
+		label = "Bay Terrace";
+	}
+
+  subgraph cluster_513 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"513_SIR";
+		label = "Great Kills";
+	}
+
+  subgraph cluster_514 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"514_SIR";
+		label = "Eltingville";
+	}
+
+  subgraph cluster_515 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"515_SIR";
+		label = "Annadale";
+	}
+
+  subgraph cluster_516 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"516_SIR";
+		label = "Huguenot";
+	}
+
+  subgraph cluster_517 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"517_SIR";
+		label = "Prince's Bay";
+	}
+
+  subgraph cluster_518 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"518_SIR";
+		label = "Pleasant Plains";
+	}
+
+  subgraph cluster_519 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"519_SIR";
+		label = "Richmond Valley";
+	}
+
+  subgraph cluster_522 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"522_SIR";
+		label = "Tottenville";
+	}
+
+  subgraph cluster_523 {
+    style=filled;
+		color=lightgrey;
+		labelloc="b";
+		node [style=filled];
+    node [label="SIR" color=khaki, fontcolor=gray]"523_SIR";
+		label = "Arthur Kill";
+	}
+
+  "41_Q" -> "27_Q"[xlabel=5.31, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"41_Q" -> "42_Q"[xlabel=10.61, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"44_Q" -> "42_Q"[xlabel=6.39, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"44_Q" -> "43_Q"[xlabel=2.87, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"44_Q" -> "47_Q"[xlabel=8.88, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"44_Q" -> "45_Q"[xlabel=3.83, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"47_Q" -> "44_Q"[xlabel=8.88, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"47_Q" -> "46_Q"[xlabel=3.42, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"47_Q" -> "48_Q"[xlabel=3.41, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"47_Q" -> "51_Q"[xlabel=15.46, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"51_Q" -> "50_Q"[xlabel=5.23, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"51_Q" -> "47_Q"[xlabel=15.46, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"51_Q" -> "54_Q"[xlabel=12.68, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"51_Q" -> "52_Q"[xlabel=5.48, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"54_Q" -> "51_Q"[xlabel=12.68, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"54_Q" -> "53_Q"[xlabel=4.83, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"54_Q" -> "55_Q"[xlabel=6.76, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"55_Q" -> "54_Q"[xlabel=6.76, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"55_Q" -> "56_Q"[xlabel=4.16, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"26_Q" -> "27_Q"[xlabel=4.36, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"26_Q" -> "18_Q"[xlabel=20.18, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"42_Q" -> "41_Q"[xlabel=10.61, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"42_Q" -> "43_Q"[xlabel=3.66, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"42_Q" -> "44_Q"[xlabel=6.39, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"58_Q" -> "57_Q"[xlabel=3.13, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"27_Q" -> "41_Q"[xlabel=5.31, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"27_Q" -> "26_Q"[xlabel=4.36, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"27_Q" -> "18_Q"[xlabel=24.47, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"57_Q" -> "58_Q"[xlabel=3.13, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"57_Q" -> "56_Q"[xlabel=4.28, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"223_Q" -> "477_Q"[xlabel=5.03, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"223_Q" -> "9_Q"[xlabel=8.36, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"117_Q" -> "12_Q"[xlabel=8.64, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"117_Q" -> "18_Q"[xlabel=10.83, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"11_Q" -> "12_Q"[xlabel=3.01, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"11_Q" -> "9_Q"[xlabel=6.73, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"9_Q" -> "223_Q"[xlabel=8.36, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"12_Q" -> "11_Q"[xlabel=3.01, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"12_Q" -> "117_Q"[xlabel=8.64, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"43_Q" -> "42_Q"[xlabel=3.66, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"43_Q" -> "44_Q"[xlabel=2.87, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"45_Q" -> "44_Q"[xlabel=3.83, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"45_Q" -> "46_Q"[xlabel=1.82, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"46_Q" -> "45_Q"[xlabel=1.82, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"46_Q" -> "47_Q"[xlabel=3.42, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"48_Q" -> "47_Q"[xlabel=3.41, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"48_Q" -> "49_Q"[xlabel=2.48, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"49_Q" -> "48_Q"[xlabel=2.48, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"49_Q" -> "50_Q"[xlabel=4.34, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"50_Q" -> "49_Q"[xlabel=4.34, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"50_Q" -> "51_Q"[xlabel=5.23, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"52_Q" -> "51_Q"[xlabel=5.48, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"52_Q" -> "53_Q"[xlabel=2.37, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"53_Q" -> "52_Q"[xlabel=2.37, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"53_Q" -> "54_Q"[xlabel=4.83, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"56_Q" -> "55_Q"[xlabel=4.16, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"56_Q" -> "57_Q"[xlabel=4.28, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"475_Q" -> "476_Q"[xlabel=4.55, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"476_Q" -> "475_Q"[xlabel=4.55, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"476_Q" -> "477_Q"[xlabel=6.47, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"477_Q" -> "476_Q"[xlabel=6.47, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"477_Q" -> "223_Q"[xlabel=5.03, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"18_Q" -> "26_Q"[xlabel=20.18, color=goldenrod fontcolor=goldenrod fontsize=8 arrowsize=0.5];
+	"501_SIR" -> "502_SIR"[xlabel=3.97, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"502_SIR" -> "501_SIR"[xlabel=3.97, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"502_SIR" -> "503_SIR"[xlabel=5.2, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"503_SIR" -> "502_SIR"[xlabel=5.2, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"503_SIR" -> "504_SIR"[xlabel=4.36, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"504_SIR" -> "503_SIR"[xlabel=4.36, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"504_SIR" -> "505_SIR"[xlabel=12.75, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"505_SIR" -> "504_SIR"[xlabel=12.75, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"505_SIR" -> "506_SIR"[xlabel=4.19, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"506_SIR" -> "505_SIR"[xlabel=4.19, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"506_SIR" -> "507_SIR"[xlabel=6.71, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"507_SIR" -> "506_SIR"[xlabel=6.71, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"507_SIR" -> "509_SIR"[xlabel=9.67, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"508_SIR" -> "507_SIR"[xlabel=5.15, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"508_SIR" -> "509_SIR"[xlabel=4.52, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"509_SIR" -> "508_SIR"[xlabel=4.52, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"509_SIR" -> "510_SIR"[xlabel=5.34, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"510_SIR" -> "509_SIR"[xlabel=5.34, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"510_SIR" -> "511_SIR"[xlabel=7.11, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"511_SIR" -> "510_SIR"[xlabel=7.11, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"511_SIR" -> "512_SIR"[xlabel=7.88, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"512_SIR" -> "511_SIR"[xlabel=7.88, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"512_SIR" -> "513_SIR"[xlabel=8.84, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"513_SIR" -> "512_SIR"[xlabel=8.84, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"513_SIR" -> "514_SIR"[xlabel=8.47, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"514_SIR" -> "513_SIR"[xlabel=8.47, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"514_SIR" -> "515_SIR"[xlabel=8.2, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"515_SIR" -> "514_SIR"[xlabel=8.2, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"515_SIR" -> "516_SIR"[xlabel=8.72, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"516_SIR" -> "515_SIR"[xlabel=8.72, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"516_SIR" -> "517_SIR"[xlabel=6.68, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"517_SIR" -> "516_SIR"[xlabel=6.68, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"517_SIR" -> "518_SIR"[xlabel=10.37, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"518_SIR" -> "517_SIR"[xlabel=10.37, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"518_SIR" -> "519_SIR"[xlabel=6.68, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"519_SIR" -> "518_SIR"[xlabel=6.68, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"519_SIR" -> "523_SIR"[xlabel=7.65, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"522_SIR" -> "523_SIR"[xlabel=6.08, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"523_SIR" -> "519_SIR"[xlabel=7.65, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+	"523_SIR" -> "522_SIR"[xlabel=6.08, color=khaki fontcolor=khaki fontsize=8 arrowsize=0.5];
+
+}

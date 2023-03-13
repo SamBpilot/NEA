@@ -1,0 +1,40 @@
+﻿Start_ID,End_ID,Type
+36,71,Travel one change one
+34,71,Travel one change one
+273,461,Travel one change one
+43,142,Travel one change one
+343,141,Travel one change one
+177,141,Travel one change one
+141,177,Travel one change one
+71,59,Travel many change one
+36,59,Travel many change one
+53,253,Travel many change one
+75,36,Travel many change one
+75,70,Travel many change one
+353,344,Travel one change many
+59,30,Travel one change many
+59,71,Travel one change many
+70,47,2 Changes
+253,47,2 Changes
+30,57,2 Changes
+346,342,Express
+342,346,Express
+359,336,Express
+36,32,Express
+50,54,Express
+45,51,Express
+56,51,Express
+139,181,Express
+180,132,Express
+192,132,Express
+51,53,Express
+50,53,Express
+206,108,Random Long Routes
+303,289,Random Long Routes
+449,199,Random Long Routes
+469,198,Random Long Routes
+198,1,Random Long Routes
+263,437,Random Long Routes
+278,117,Random Long Routes
+257,197,Random Long Routes
+197,257,Random Long Routes

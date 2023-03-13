@@ -1,0 +1,1115 @@
+
+digraph G {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif bold" labelloc="c"];
+  edge [fontname="Helvetica,Arial,sans-serif" fontsize=8 arrowsize=0.5];
+  
+  subgraph cluster_151 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"151_B ";
+    label = "145 St (151)";
+  }
+
+  subgraph cluster_153 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"153_B ";
+    label = "125 St (153)";
+  }
+
+  subgraph cluster_161 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"161_B ";
+    label = "59 St-Columbus Circle (161)";
+  }
+
+  subgraph cluster_167 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"167_B ";
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"167_F ";
+    label = "W 4 St-Wash Sq (167)";
+  }
+
+  subgraph cluster_25 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"25_F ";
+    label = "Jay St-MetroTech (25)";
+  }
+
+  subgraph cluster_152 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"152_B ";
+    label = "135 St (152)";
+  }
+
+  subgraph cluster_154 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"154_B ";
+    label = "116 St (154)";
+  }
+
+  subgraph cluster_155 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"155_B ";
+    label = "Cathedral Pkwy (110 St) (155)";
+  }
+
+  subgraph cluster_156 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"156_B ";
+    label = "103 St (156)";
+  }
+
+  subgraph cluster_157 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"157_B ";
+    label = "96 St (157)";
+  }
+
+  subgraph cluster_158 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"158_B ";
+    label = "86 St (158)";
+  }
+
+  subgraph cluster_159 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"159_B ";
+    label = "81 St-Museum of Natural History (159)";
+  }
+
+  subgraph cluster_160 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"160_B ";
+    label = "72 St (160)";
+  }
+
+  subgraph cluster_211 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"211_B ";
+    label = "Bedford Park Blvd (211)";
+  }
+
+  subgraph cluster_212 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"212_B ";
+    label = "Kingsbridge Rd (212)";
+  }
+
+  subgraph cluster_213 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"213_B ";
+    label = "Fordham Rd (213)";
+  }
+
+  subgraph cluster_214 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"214_B ";
+    label = "182-183 Sts (214)";
+  }
+
+  subgraph cluster_215 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"215_B ";
+    label = "Tremont Av (215)";
+  }
+
+  subgraph cluster_216 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"216_B ";
+    label = "174-175 Sts (216)";
+  }
+
+  subgraph cluster_217 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"217_B ";
+    label = "170 St (217)";
+  }
+
+  subgraph cluster_218 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"218_B ";
+    label = "167 St (218)";
+  }
+
+  subgraph cluster_220 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"220_B ";
+    label = "155 St (220)";
+  }
+
+  subgraph cluster_231 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"231_B ";
+    label = "Grand St (231)";
+  }
+
+  subgraph cluster_219 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"219_B ";
+    label = "161 St-Yankee Stadium (219)";
+  }
+
+  subgraph cluster_277 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"277_B ";
+    label = "7 Av (277)";
+  }
+
+  subgraph cluster_225 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"225_B ";
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"225_F ";
+    label = "47-50 Sts-Rockefeller Ctr (225)";
+  }
+
+  subgraph cluster_226 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"226_B ";
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"226_F ";
+    label = "42 St-Bryant Pk (226)";
+  }
+
+  subgraph cluster_230 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"230_B ";
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"230_F ";
+    label = "Broadway-Lafayette St (230)";
+  }
+
+  subgraph cluster_41 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"41_B ";
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"41_Q ";
+    label = "7 Av (41)";
+  }
+
+  subgraph cluster_44 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"44_B ";
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"44_Q ";
+    label = "Church Av (44)";
+  }
+
+  subgraph cluster_47 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"47_B ";
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"47_Q ";
+    label = "Newkirk Plaza (47)";
+  }
+
+  subgraph cluster_51 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"51_B ";
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"51_Q ";
+    label = "Kings Hwy (51)";
+  }
+
+  subgraph cluster_54 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"54_B ";
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"54_Q ";
+    label = "Sheepshead Bay (54)";
+  }
+
+  subgraph cluster_55 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"55_B ";
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"55_Q ";
+    label = "Brighton Beach (55)";
+  }
+
+  subgraph cluster_26 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"26_B ";
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"26_Q ";
+    label = "DeKalb Av (26)";
+  }
+
+  subgraph cluster_42 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"42_B ";
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"42_Q ";
+    label = "Prospect Park (42)";
+  }
+
+  subgraph cluster_58 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"58_F ";
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"58_Q ";
+    label = "Coney Island-Stillwell Av (58)";
+  }
+
+  subgraph cluster_27 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"27_B ";
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"27_Q ";
+    label = "Atlantic Av-Barclays Ctr (27)";
+  }
+
+  subgraph cluster_258 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"258_F ";
+    label = "Briarwood (258)";
+  }
+
+  subgraph cluster_259 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"259_F ";
+    label = "Kew Gardens-Union Tpke (259)";
+  }
+
+  subgraph cluster_260 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"260_F ";
+    label = "75 Av (260)";
+  }
+
+  subgraph cluster_261 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"261_F ";
+    label = "Forest Hills-71 Av (261)";
+  }
+
+  subgraph cluster_267 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"267_F ";
+    label = "Jackson Hts-Roosevelt Av (267)";
+  }
+
+  subgraph cluster_221 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"221_F ";
+    label = "21 St-Queensbridge (221)";
+  }
+
+  subgraph cluster_222 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"222_F ";
+    label = "Roosevelt Island (222)";
+  }
+
+  subgraph cluster_224 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"224_F ";
+    label = "57 St (224)";
+  }
+
+  subgraph cluster_232 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"232_F ";
+    label = "2 Av (232)";
+  }
+
+  subgraph cluster_234 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"234_F ";
+    label = "East Broadway (234)";
+  }
+
+  subgraph cluster_235 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"235_F ";
+    label = "York St (235)";
+  }
+
+  subgraph cluster_244 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"244_F ";
+    label = "Ditmas Av (244)";
+  }
+
+  subgraph cluster_245 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"245_F ";
+    label = "18 Av (245)";
+  }
+
+  subgraph cluster_246 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"246_F ";
+    label = "Avenue I (246)";
+  }
+
+  subgraph cluster_247 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"247_F ";
+    label = "Bay Pkwy (247)";
+  }
+
+  subgraph cluster_248 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"248_F ";
+    label = "Avenue N (248)";
+  }
+
+  subgraph cluster_249 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"249_F ";
+    label = "Avenue P (249)";
+  }
+
+  subgraph cluster_250 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"250_F ";
+    label = "Kings Hwy (250)";
+  }
+
+  subgraph cluster_251 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"251_F ";
+    label = "Avenue U (251)";
+  }
+
+  subgraph cluster_252 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"252_F ";
+    label = "Avenue X (252)";
+  }
+
+  subgraph cluster_253 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"253_F ";
+    label = "Neptune Av (253)";
+  }
+
+  subgraph cluster_254 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"254_F ";
+    label = "Jamaica-179 St (254)";
+  }
+
+  subgraph cluster_255 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"255_F ";
+    label = "169 St (255)";
+  }
+
+  subgraph cluster_256 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"256_F ";
+    label = "Parsons Blvd (256)";
+  }
+
+  subgraph cluster_257 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"257_F ";
+    label = "Sutphin Blvd (257)";
+  }
+
+  subgraph cluster_236 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"236_F ";
+    label = "Bergen St (236)";
+  }
+
+  subgraph cluster_237 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"237_F ";
+    label = "Carroll St (237)";
+  }
+
+  subgraph cluster_238 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"238_F ";
+    label = "Smith-9 Sts (238)";
+  }
+
+  subgraph cluster_239 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"239_F ";
+    label = "4 Av-9 St (239)";
+  }
+
+  subgraph cluster_240 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"240_F ";
+    label = "7 Av (240)";
+  }
+
+  subgraph cluster_241 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"241_F ";
+    label = "15 St-Prospect Park (241)";
+  }
+
+  subgraph cluster_242 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"242_F ";
+    label = "Fort Hamilton Pkwy (242)";
+  }
+
+  subgraph cluster_243 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"243_F ";
+    label = "Church Av (243)";
+  }
+
+  subgraph cluster_228 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"228_F ";
+    label = "23 St (228)";
+  }
+
+  subgraph cluster_229 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"229_F ";
+    label = "14 St (229)";
+  }
+
+  subgraph cluster_57 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"57_F ";
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"57_Q ";
+    label = "W 8 St-NY Aquarium (57)";
+  }
+
+  subgraph cluster_223 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"223_F ";
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"223_Q ";
+    label = "Lexington Av/63 St (223)";
+  }
+
+  subgraph cluster_102 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"102_F ";
+    label = "Delancey St-Essex St (102)";
+  }
+
+  subgraph cluster_117 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"117_Q ";
+    label = "14 St-Union Sq. (117)";
+  }
+
+  subgraph cluster_11 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"11_Q ";
+    label = "Times Sq-42 St (11)";
+  }
+
+  subgraph cluster_9 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"9_Q ";
+    label = "57 St-7 Av (9)";
+  }
+
+  subgraph cluster_12 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"12_Q ";
+    node [label="B" color=darkgray, penwidth=1, fontcolor=gray, shape="circle"]"12_B ";
+    node [label="F" color=royalblue, penwidth=1, fontcolor=gray, shape="circle"]"12_F ";
+    label = "34 St-Herald Sq (12)";
+  }
+
+  subgraph cluster_43 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"43_Q ";
+    label = "Parkside Av (43)";
+  }
+
+  subgraph cluster_45 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"45_Q ";
+    label = "Beverley Rd (45)";
+  }
+
+  subgraph cluster_46 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"46_Q ";
+    label = "Cortelyou Rd (46)";
+  }
+
+  subgraph cluster_48 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"48_Q ";
+    label = "Avenue H (48)";
+  }
+
+  subgraph cluster_49 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"49_Q ";
+    label = "Avenue J (49)";
+  }
+
+  subgraph cluster_50 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"50_Q ";
+    label = "Avenue M (50)";
+  }
+
+  subgraph cluster_52 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"52_Q ";
+    label = "Avenue U (52)";
+  }
+
+  subgraph cluster_53 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"53_Q ";
+    label = "Neck Rd (53)";
+  }
+
+  subgraph cluster_56 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"56_Q ";
+    label = "Ocean Pkwy (56)";
+  }
+
+  subgraph cluster_475 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"475_Q ";
+    label = "96 St (475)";
+  }
+
+  subgraph cluster_476 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"476_Q ";
+    label = "86 St (476)";
+  }
+
+  subgraph cluster_477 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"477_Q ";
+    label = "72 St (477)";
+  }
+
+  subgraph cluster_18 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="Q" color=goldenrod, penwidth=1, fontcolor=gray, shape="circle"]"18_Q ";
+    label = "Canal St (18)";
+  }
+
+  "151_B" -> "220_B"[xlabel=4.02, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "151_B" -> "152_B"[xlabel=3.85, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "153_B" -> "152_B"[xlabel=4.13, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "153_B" -> "154_B"[xlabel=3.27, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "161_B" -> "160_B"[xlabel=4.52, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "161_B" -> "277_B"[xlabel=2.72, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "167_B" -> "167_F"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "167_B" -> "230_B"[xlabel=4.12, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "167_B" -> "12_B"[xlabel=10.66, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "167_F" -> "167_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "167_F" -> "230_F"[xlabel=4.12, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "167_F" -> "229_F"[xlabel=3.64, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "25_F" -> "235_F"[xlabel=4.63, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "25_F" -> "236_F"[xlabel=3.89, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "152_B" -> "151_B"[xlabel=3.85, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "152_B" -> "153_B"[xlabel=4.13, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "154_B" -> "153_B"[xlabel=3.27, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "154_B" -> "155_B"[xlabel=2.78, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "155_B" -> "154_B"[xlabel=2.78, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "155_B" -> "156_B"[xlabel=2.79, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "156_B" -> "155_B"[xlabel=2.79, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "156_B" -> "157_B"[xlabel=2.75, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "157_B" -> "156_B"[xlabel=2.75, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "157_B" -> "158_B"[xlabel=3.58, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "158_B" -> "157_B"[xlabel=3.58, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "158_B" -> "159_B"[xlabel=2.74, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "159_B" -> "158_B"[xlabel=2.74, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "159_B" -> "160_B"[xlabel=3.62, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "160_B" -> "159_B"[xlabel=3.62, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "160_B" -> "161_B"[xlabel=4.52, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "211_B" -> "212_B"[xlabel=4.47, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "212_B" -> "211_B"[xlabel=4.47, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "212_B" -> "213_B"[xlabel=3.54, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "213_B" -> "212_B"[xlabel=3.54, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "213_B" -> "214_B"[xlabel=3.0, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "214_B" -> "213_B"[xlabel=3.0, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "214_B" -> "215_B"[xlabel=3.62, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "215_B" -> "214_B"[xlabel=3.62, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "215_B" -> "216_B"[xlabel=3.33, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "216_B" -> "215_B"[xlabel=3.33, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "216_B" -> "217_B"[xlabel=3.68, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "217_B" -> "216_B"[xlabel=3.68, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "217_B" -> "218_B"[xlabel=3.74, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "218_B" -> "217_B"[xlabel=3.74, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "218_B" -> "219_B"[xlabel=4.65, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "220_B" -> "219_B"[xlabel=6.38, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "220_B" -> "151_B"[xlabel=4.02, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "231_B" -> "230_B"[xlabel=3.72, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "231_B" -> "26_B"[xlabel=15.05, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "219_B" -> "218_B"[xlabel=4.65, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "219_B" -> "220_B"[xlabel=6.38, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "277_B" -> "161_B"[xlabel=2.72, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "277_B" -> "225_B"[xlabel=2.11, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "225_B" -> "225_F"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "225_B" -> "277_B"[xlabel=2.11, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "225_B" -> "226_B"[xlabel=2.75, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "225_F" -> "225_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "225_F" -> "224_F"[xlabel=3.29, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "225_F" -> "226_F"[xlabel=2.75, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "226_B" -> "226_F"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "226_B" -> "225_B"[xlabel=2.75, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "226_B" -> "12_B"[xlabel=2.88, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "226_F" -> "226_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "226_F" -> "225_F"[xlabel=2.75, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "226_F" -> "12_F"[xlabel=2.88, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "230_B" -> "230_F"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "230_B" -> "167_B"[xlabel=4.12, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "230_B" -> "231_B"[xlabel=3.72, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "230_F" -> "230_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "230_F" -> "167_F"[xlabel=4.12, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "230_F" -> "232_F"[xlabel=3.27, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "41_B" -> "41_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "41_B" -> "27_B"[xlabel=4.62, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "41_B" -> "42_B"[xlabel=9.23, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "41_Q" -> "41_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "41_Q" -> "27_Q"[xlabel=4.62, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "41_Q" -> "42_Q"[xlabel=9.23, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "44_B" -> "44_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "44_B" -> "42_B"[xlabel=5.56, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "44_B" -> "47_B"[xlabel=7.72, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "44_Q" -> "44_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "44_Q" -> "43_Q"[xlabel=2.5, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "44_Q" -> "45_Q"[xlabel=3.33, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "47_B" -> "47_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "47_B" -> "44_B"[xlabel=7.72, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "47_B" -> "51_B"[xlabel=13.45, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "47_Q" -> "47_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "47_Q" -> "46_Q"[xlabel=2.97, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "47_Q" -> "48_Q"[xlabel=2.96, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "51_B" -> "51_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "51_B" -> "47_B"[xlabel=13.45, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "51_B" -> "54_B"[xlabel=11.03, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "51_Q" -> "51_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "51_Q" -> "50_Q"[xlabel=4.55, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "51_Q" -> "52_Q"[xlabel=4.77, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "54_B" -> "54_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "54_B" -> "51_B"[xlabel=11.03, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "54_B" -> "55_B"[xlabel=5.88, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "54_Q" -> "54_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "54_Q" -> "53_Q"[xlabel=4.21, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "54_Q" -> "55_Q"[xlabel=5.88, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "55_B" -> "55_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "55_B" -> "54_B"[xlabel=5.88, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "55_Q" -> "55_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "55_Q" -> "54_Q"[xlabel=5.88, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "55_Q" -> "56_Q"[xlabel=3.62, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "26_B" -> "26_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "26_B" -> "27_B"[xlabel=3.8, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "26_B" -> "231_B"[xlabel=15.05, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "26_Q" -> "26_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "26_Q" -> "27_Q"[xlabel=3.8, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "26_Q" -> "18_Q"[xlabel=17.56, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "42_B" -> "42_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "42_B" -> "41_B"[xlabel=9.23, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "42_B" -> "44_B"[xlabel=5.56, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "42_Q" -> "42_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "42_Q" -> "41_Q"[xlabel=9.23, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "42_Q" -> "43_Q"[xlabel=3.18, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "58_F" -> "58_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "58_F" -> "57_F"[xlabel=2.73, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "58_Q" -> "58_F"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "58_Q" -> "57_Q"[xlabel=2.73, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "27_B" -> "27_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "27_B" -> "41_B"[xlabel=4.62, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "27_B" -> "26_B"[xlabel=3.8, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "27_Q" -> "27_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "27_Q" -> "41_Q"[xlabel=4.62, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "27_Q" -> "26_Q"[xlabel=3.8, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "258_F" -> "257_F"[xlabel=5.27, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "258_F" -> "259_F"[xlabel=5.84, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "259_F" -> "258_F"[xlabel=5.84, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "259_F" -> "260_F"[xlabel=3.71, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "260_F" -> "259_F"[xlabel=3.71, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "260_F" -> "261_F"[xlabel=3.97, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "261_F" -> "260_F"[xlabel=3.97, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "261_F" -> "267_F"[xlabel=26.53, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "267_F" -> "261_F"[xlabel=26.53, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "267_F" -> "221_F"[xlabel=26.02, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "221_F" -> "222_F"[xlabel=5.77, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "221_F" -> "267_F"[xlabel=26.02, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "222_F" -> "221_F"[xlabel=5.77, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "222_F" -> "223_F"[xlabel=6.99, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "224_F" -> "223_F"[xlabel=5.68, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "224_F" -> "225_F"[xlabel=3.29, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "232_F" -> "230_F"[xlabel=3.27, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "232_F" -> "102_F"[xlabel=2.83, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "234_F" -> "102_F"[xlabel=2.68, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "234_F" -> "235_F"[xlabel=6.39, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "235_F" -> "234_F"[xlabel=6.39, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "235_F" -> "25_F"[xlabel=4.63, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "244_F" -> "243_F"[xlabel=4.03, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "244_F" -> "245_F"[xlabel=3.24, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "245_F" -> "244_F"[xlabel=3.24, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "245_F" -> "246_F"[xlabel=2.26, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "246_F" -> "245_F"[xlabel=2.26, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "246_F" -> "247_F"[xlabel=2.32, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "247_F" -> "246_F"[xlabel=2.32, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "247_F" -> "248_F"[xlabel=2.86, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "248_F" -> "247_F"[xlabel=2.86, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "248_F" -> "249_F"[xlabel=3.15, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "249_F" -> "248_F"[xlabel=3.15, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "249_F" -> "250_F"[xlabel=2.88, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "250_F" -> "249_F"[xlabel=2.88, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "250_F" -> "251_F"[xlabel=3.61, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "251_F" -> "250_F"[xlabel=3.61, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "251_F" -> "252_F"[xlabel=3.25, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "252_F" -> "251_F"[xlabel=3.25, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "252_F" -> "253_F"[xlabel=4.31, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "253_F" -> "252_F"[xlabel=4.31, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "253_F" -> "57_F"[xlabel=2.54, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "254_F" -> "255_F"[xlabel=5.01, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "255_F" -> "254_F"[xlabel=5.01, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "255_F" -> "256_F"[xlabel=5.07, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "256_F" -> "255_F"[xlabel=5.07, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "256_F" -> "257_F"[xlabel=3.84, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "257_F" -> "256_F"[xlabel=3.84, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "257_F" -> "258_F"[xlabel=5.27, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "236_F" -> "25_F"[xlabel=3.89, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "236_F" -> "237_F"[xlabel=3.59, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "237_F" -> "236_F"[xlabel=3.59, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "237_F" -> "238_F"[xlabel=3.39, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "238_F" -> "237_F"[xlabel=3.39, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "238_F" -> "239_F"[xlabel=3.5, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "239_F" -> "238_F"[xlabel=3.5, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "239_F" -> "240_F"[xlabel=5.14, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "240_F" -> "239_F"[xlabel=5.14, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "240_F" -> "241_F"[xlabel=2.98, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "241_F" -> "240_F"[xlabel=2.98, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "241_F" -> "242_F"[xlabel=5.14, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "242_F" -> "241_F"[xlabel=5.14, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "242_F" -> "243_F"[xlabel=3.89, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "243_F" -> "242_F"[xlabel=3.89, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "243_F" -> "244_F"[xlabel=4.03, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "228_F" -> "12_F"[xlabel=4.14, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "228_F" -> "229_F"[xlabel=2.88, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "229_F" -> "228_F"[xlabel=2.88, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "229_F" -> "167_F"[xlabel=3.64, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "57_F" -> "57_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "57_F" -> "58_F"[xlabel=2.73, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "57_F" -> "253_F"[xlabel=2.54, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "57_Q" -> "57_F"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "57_Q" -> "58_Q"[xlabel=2.73, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "57_Q" -> "56_Q"[xlabel=3.72, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "223_F" -> "223_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "223_F" -> "222_F"[xlabel=6.99, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "223_F" -> "224_F"[xlabel=5.68, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "223_Q" -> "223_F"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "223_Q" -> "477_Q"[xlabel=4.37, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "223_Q" -> "9_Q"[xlabel=7.27, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "102_F" -> "232_F"[xlabel=2.83, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "102_F" -> "234_F"[xlabel=2.68, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "117_Q" -> "12_Q"[xlabel=7.52, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "117_Q" -> "18_Q"[xlabel=9.42, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "11_Q" -> "12_Q"[xlabel=2.62, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "9_Q" -> "223_Q"[xlabel=7.27, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_Q" -> "12_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_Q" -> "12_F"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_Q" -> "11_Q"[xlabel=2.62, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_Q" -> "117_Q"[xlabel=7.52, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_B" -> "12_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_B" -> "12_F"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_B" -> "226_B"[xlabel=2.88, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_B" -> "167_B"[xlabel=10.66, color=darkgray fontcolor=darkgray penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_F" -> "12_Q"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_F" -> "12_B"[xlabel=2, color=white fontcolor=white penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_F" -> "226_F"[xlabel=2.88, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "12_F" -> "228_F"[xlabel=4.14, color=royalblue fontcolor=royalblue penwidth=1 fontsize=8 arrowsize=0.5];
+  "43_Q" -> "42_Q"[xlabel=3.18, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "43_Q" -> "44_Q"[xlabel=2.5, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "45_Q" -> "44_Q"[xlabel=3.33, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "45_Q" -> "46_Q"[xlabel=1.58, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "46_Q" -> "45_Q"[xlabel=1.58, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "46_Q" -> "47_Q"[xlabel=2.97, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "48_Q" -> "47_Q"[xlabel=2.96, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "48_Q" -> "49_Q"[xlabel=2.16, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "49_Q" -> "48_Q"[xlabel=2.16, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "49_Q" -> "50_Q"[xlabel=3.78, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "50_Q" -> "49_Q"[xlabel=3.78, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "50_Q" -> "51_Q"[xlabel=4.55, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "52_Q" -> "51_Q"[xlabel=4.77, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "52_Q" -> "53_Q"[xlabel=2.06, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "53_Q" -> "52_Q"[xlabel=2.06, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "53_Q" -> "54_Q"[xlabel=4.21, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "56_Q" -> "55_Q"[xlabel=3.62, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "56_Q" -> "57_Q"[xlabel=3.72, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "475_Q" -> "476_Q"[xlabel=3.96, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "476_Q" -> "475_Q"[xlabel=3.96, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "476_Q" -> "477_Q"[xlabel=5.63, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "477_Q" -> "476_Q"[xlabel=5.63, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "477_Q" -> "223_Q"[xlabel=4.37, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "18_Q" -> "26_Q"[xlabel=17.56, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+  "18_Q" -> "117_Q"[xlabel=9.42, color=goldenrod fontcolor=goldenrod penwidth=1 fontsize=8 arrowsize=0.5];
+
+}

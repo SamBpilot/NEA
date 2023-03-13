@@ -1,0 +1,19 @@
+name: Run Tests
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-dotnet@v3
+      with:
+          dotnet-version: 6.x
+
+    - run: |
+        cd Server/Server.Tests
+        dotnet test

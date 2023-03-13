@@ -1,0 +1,9 @@
+.vscode/*
+.DS_Store
+Client/.DS_Store
+Client/NEA.xcodeproj/project.xcworkspace/xcuserdata/sam.xcuserdatad/UserInterfaceState.xcuserstate
+Client/NEA.xcodeproj/xcuserdata/sam.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+Client/NEA.xcodeproj/project.xcworkspace/xcuserdata/sam.xcuserdatad/UserInterfaceState.xcuserstate
+nea.code-workspace
+
+graphviz/__pycache__/

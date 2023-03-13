@@ -1,0 +1,61 @@
+digraph G {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
+
+
+  subgraph cluster_0 {
+    style=filled;
+		color=lightgrey;
+		node [style=filled,color=white];
+	    "168 A Line";
+	    "168 1 Line";
+	    "168 C Line";
+		label = "168 Washington Hts";
+	}
+
+  subgraph cluster_1 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white];
+	    "181 1 Line";
+		label = "181 St";
+	}
+
+  subgraph cluster_2 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white];
+	    "157 1 Line";
+		label = "157 St";
+	}
+       
+  subgraph cluster_3 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white];
+	    "163 C Line";
+		label = "163 St-Amsterdam Av";
+	} 
+      
+    subgraph cluster_4 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white];
+	    "175 A Line";
+		label = "175 St";
+	} 
+	
+	"168 A Line" ->"175 A Line" [label="2.49"] ;
+	"168 1 Line" -> "181 1 Line";
+	"168 1 Line" -> "157 1 Line";
+	"168 C Line" -> "163 C Line";
+
+  "168 A Line" -> "168 1 Line" [label="2"];
+  "168 A Line" -> "168 C Line" [label="2"];
+  "168 C Line" -> "168 A Line" [label="2"];
+  "168 C Line" -> "168 1 Line" [label="2"];
+  "168 1 Line" -> "168 A Line" [label="2"];
+  "168 1 Line" -> "168 C Line" [label="2"];
+
+}

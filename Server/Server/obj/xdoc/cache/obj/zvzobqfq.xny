@@ -1,0 +1,6705 @@
+id: NEA
+language: CSharp
+name:
+  Default: NEA
+qualifiedName:
+  Default: NEA
+type: Assembly
+modifiers: {}
+items:
+- id: NEA
+  commentId: N:NEA
+  language: CSharp
+  name:
+    CSharp: NEA
+    VB: NEA
+  nameWithType:
+    CSharp: NEA
+    VB: NEA
+  qualifiedName:
+    CSharp: NEA
+    VB: NEA
+  type: Namespace
+  assemblies:
+  - NEA
+  modifiers: {}
+  items:
+  - id: NEA.Commands
+    commentId: T:NEA.Commands
+    language: CSharp
+    name:
+      CSharp: Commands
+      VB: Commands
+    nameWithType:
+      CSharp: Commands
+      VB: Commands
+    qualifiedName:
+      CSharp: NEA.Commands
+      VB: NEA.Commands
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/commands.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: Commands
+      path: ../Server/Server/commands.cs
+      startLine: 18
+    summary: "\nMTA Class. Contains all the methods and attributes for directly interacting\nwith the MTA API.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class Commands
+        VB: Public Class Commands
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.Commands.TRAIN_STOP_WEIGHT
+      commentId: F:NEA.Commands.TRAIN_STOP_WEIGHT
+      language: CSharp
+      name:
+        CSharp: TRAIN_STOP_WEIGHT
+        VB: TRAIN_STOP_WEIGHT
+      nameWithType:
+        CSharp: Commands.TRAIN_STOP_WEIGHT
+        VB: Commands.TRAIN_STOP_WEIGHT
+      qualifiedName:
+        CSharp: NEA.Commands.TRAIN_STOP_WEIGHT
+        VB: NEA.Commands.TRAIN_STOP_WEIGHT
+      type: Field
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/commands.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: TRAIN_STOP_WEIGHT
+        path: ../Server/Server/commands.cs
+        startLine: 21
+      syntax:
+        content:
+          CSharp: public static double TRAIN_STOP_WEIGHT
+          VB: Public Shared TRAIN_STOP_WEIGHT As Double
+        return:
+          type: System.Double
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: NEA.Commands.TRAIN_CHANGE_WEIGHT
+      commentId: F:NEA.Commands.TRAIN_CHANGE_WEIGHT
+      language: CSharp
+      name:
+        CSharp: TRAIN_CHANGE_WEIGHT
+        VB: TRAIN_CHANGE_WEIGHT
+      nameWithType:
+        CSharp: Commands.TRAIN_CHANGE_WEIGHT
+        VB: Commands.TRAIN_CHANGE_WEIGHT
+      qualifiedName:
+        CSharp: NEA.Commands.TRAIN_CHANGE_WEIGHT
+        VB: NEA.Commands.TRAIN_CHANGE_WEIGHT
+      type: Field
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/commands.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: TRAIN_CHANGE_WEIGHT
+        path: ../Server/Server/commands.cs
+        startLine: 22
+      syntax:
+        content:
+          CSharp: public static double TRAIN_CHANGE_WEIGHT
+          VB: Public Shared TRAIN_CHANGE_WEIGHT As Double
+        return:
+          type: System.Double
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: NEA.Commands.StationCount
+      commentId: M:NEA.Commands.StationCount
+      language: CSharp
+      name:
+        CSharp: StationCount()
+        VB: StationCount()
+      nameWithType:
+        CSharp: Commands.StationCount()
+        VB: Commands.StationCount()
+      qualifiedName:
+        CSharp: NEA.Commands.StationCount()
+        VB: NEA.Commands.StationCount()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/commands.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: StationCount
+        path: ../Server/Server/commands.cs
+        startLine: 41
+      syntax:
+        content:
+          CSharp: public int StationCount()
+          VB: Public Function StationCount As Integer
+        return:
+          type: System.Int32
+      overload: NEA.Commands.StationCount*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.Commands.#ctor(System.String)
+      commentId: M:NEA.Commands.#ctor(System.String)
+      language: CSharp
+      name:
+        CSharp: Commands(String)
+        VB: Commands(String)
+      nameWithType:
+        CSharp: Commands.Commands(String)
+        VB: Commands.Commands(String)
+      qualifiedName:
+        CSharp: NEA.Commands.Commands(System.String)
+        VB: NEA.Commands.Commands(System.String)
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/commands.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/commands.cs
+        startLine: 50
+      summary: "\nInitialisation of the MTA class.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Commands(string fileName = null)
+          VB: Public Sub New(fileName As String = Nothing)
+        parameters:
+        - id: fileName
+          type: System.String
+      overload: NEA.Commands.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.Commands.getStationsStartingWith(System.String)
+      commentId: M:NEA.Commands.getStationsStartingWith(System.String)
+      language: CSharp
+      name:
+        CSharp: getStationsStartingWith(String)
+        VB: getStationsStartingWith(String)
+      nameWithType:
+        CSharp: Commands.getStationsStartingWith(String)
+        VB: Commands.getStationsStartingWith(String)
+      qualifiedName:
+        CSharp: NEA.Commands.getStationsStartingWith(System.String)
+        VB: NEA.Commands.getStationsStartingWith(System.String)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/commands.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getStationsStartingWith
+        path: ../Server/Server/commands.cs
+        startLine: 452
+      summary: "\nGet&apos;s the stations that start with the string\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public List<station> getStationsStartingWith(string stationNameStart)
+          VB: Public Function getStationsStartingWith(stationNameStart As String) As List(Of station)
+        parameters:
+        - id: stationNameStart
+          type: System.String
+          description: The station to search for
+        return:
+          type: System.Collections.Generic.List{NEA.station}
+          description: A 2d array of all the stations the program found.
+      overload: NEA.Commands.getStationsStartingWith*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.Commands.checkStationsAreValid(System.String)
+      commentId: M:NEA.Commands.checkStationsAreValid(System.String)
+      language: CSharp
+      name:
+        CSharp: checkStationsAreValid(String)
+        VB: checkStationsAreValid(String)
+      nameWithType:
+        CSharp: Commands.checkStationsAreValid(String)
+        VB: Commands.checkStationsAreValid(String)
+      qualifiedName:
+        CSharp: NEA.Commands.checkStationsAreValid(System.String)
+        VB: NEA.Commands.checkStationsAreValid(System.String)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/commands.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: checkStationsAreValid
+        path: ../Server/Server/commands.cs
+        startLine: 464
+      summary: "\nCheck that the stations are valid\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public bool checkStationsAreValid(string station)
+          VB: Public Function checkStationsAreValid(station As String) As Boolean
+        parameters:
+        - id: station
+          type: System.String
+          description: The station to check exists.
+        return:
+          type: System.Boolean
+          description: True if it found the station, false if it did not.
+      overload: NEA.Commands.checkStationsAreValid*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.Commands.getStationById(System.Int32)
+      commentId: M:NEA.Commands.getStationById(System.Int32)
+      language: CSharp
+      name:
+        CSharp: getStationById(Int32)
+        VB: getStationById(Int32)
+      nameWithType:
+        CSharp: Commands.getStationById(Int32)
+        VB: Commands.getStationById(Int32)
+      qualifiedName:
+        CSharp: NEA.Commands.getStationById(System.Int32)
+        VB: NEA.Commands.getStationById(System.Int32)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/commands.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getStationById
+        path: ../Server/Server/commands.cs
+        startLine: 482
+      summary: "\nGet&apos;s a station by its id\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public station getStationById(int id)
+          VB: Public Function getStationById(id As Integer) As station
+        parameters:
+        - id: id
+          type: System.Int32
+          description: The ID to get the station of
+        return:
+          type: NEA.station
+          description: A nextStation record
+      overload: NEA.Commands.getStationById*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.Commands.getStationByName(System.String)
+      commentId: M:NEA.Commands.getStationByName(System.String)
+      language: CSharp
+      name:
+        CSharp: getStationByName(String)
+        VB: getStationByName(String)
+      nameWithType:
+        CSharp: Commands.getStationByName(String)
+        VB: Commands.getStationByName(String)
+      qualifiedName:
+        CSharp: NEA.Commands.getStationByName(System.String)
+        VB: NEA.Commands.getStationByName(System.String)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/commands.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getStationByName
+        path: ../Server/Server/commands.cs
+        startLine: 496
+      summary: "\nGet&apos;s a station by its name\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public station getStationByName(string name)
+          VB: Public Function getStationByName(name As String) As station
+        parameters:
+        - id: name
+          type: System.String
+          description: The name to get the station of
+        return:
+          type: NEA.station
+          description: A nextStation record
+      overload: NEA.Commands.getStationByName*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.Commands.RouteMe(NEA.station,NEA.station)
+      commentId: M:NEA.Commands.RouteMe(NEA.station,NEA.station)
+      language: CSharp
+      name:
+        CSharp: RouteMe(station, station)
+        VB: RouteMe(station, station)
+      nameWithType:
+        CSharp: Commands.RouteMe(station, station)
+        VB: Commands.RouteMe(station, station)
+      qualifiedName:
+        CSharp: NEA.Commands.RouteMe(NEA.station, NEA.station)
+        VB: NEA.Commands.RouteMe(NEA.station, NEA.station)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/commands.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: RouteMe
+        path: ../Server/Server/commands.cs
+        startLine: 536
+      summary: "\nRoutes you from one station to another.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string RouteMe(station startStation, station endStation)
+          VB: Public Function RouteMe(startStation As station, endStation As station) As String
+        parameters:
+        - id: startStation
+          type: NEA.station
+        - id: endStation
+          type: NEA.station
+        return:
+          type: System.String
+          description: ''
+      overload: NEA.Commands.RouteMe*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: NEA.Route
+    commentId: T:NEA.Route
+    language: CSharp
+    name:
+      CSharp: Route
+      VB: Route
+    nameWithType:
+      CSharp: Route
+      VB: Route
+    qualifiedName:
+      CSharp: NEA.Route
+      VB: NEA.Route
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/Data.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: Route
+      path: ../Server/Server/Data.cs
+      startLine: 5
+    syntax:
+      content:
+        CSharp: public class Route
+        VB: Public Class Route
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.Route.routeItems
+      commentId: F:NEA.Route.routeItems
+      language: CSharp
+      name:
+        CSharp: routeItems
+        VB: routeItems
+      nameWithType:
+        CSharp: Route.routeItems
+        VB: Route.routeItems
+      qualifiedName:
+        CSharp: NEA.Route.routeItems
+        VB: NEA.Route.routeItems
+      type: Field
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: routeItems
+        path: ../Server/Server/Data.cs
+        startLine: 6
+      syntax:
+        content:
+          CSharp: public List<routeItem> routeItems
+          VB: Public routeItems As List(Of routeItem)
+        return:
+          type: System.Collections.Generic.List{NEA.routeItem}
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.Route.totalRouteWeight
+      commentId: F:NEA.Route.totalRouteWeight
+      language: CSharp
+      name:
+        CSharp: totalRouteWeight
+        VB: totalRouteWeight
+      nameWithType:
+        CSharp: Route.totalRouteWeight
+        VB: Route.totalRouteWeight
+      qualifiedName:
+        CSharp: NEA.Route.totalRouteWeight
+        VB: NEA.Route.totalRouteWeight
+      type: Field
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: totalRouteWeight
+        path: ../Server/Server/Data.cs
+        startLine: 8
+      syntax:
+        content:
+          CSharp: public double totalRouteWeight
+          VB: Public totalRouteWeight As Double
+        return:
+          type: System.Double
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.Route.totalStops
+      commentId: F:NEA.Route.totalStops
+      language: CSharp
+      name:
+        CSharp: totalStops
+        VB: totalStops
+      nameWithType:
+        CSharp: Route.totalStops
+        VB: Route.totalStops
+      qualifiedName:
+        CSharp: NEA.Route.totalStops
+        VB: NEA.Route.totalStops
+      type: Field
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: totalStops
+        path: ../Server/Server/Data.cs
+        startLine: 10
+      syntax:
+        content:
+          CSharp: public double totalStops
+          VB: Public totalStops As Double
+        return:
+          type: System.Double
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: NEA.routeItem
+    commentId: T:NEA.routeItem
+    language: CSharp
+    name:
+      CSharp: routeItem
+      VB: routeItem
+    nameWithType:
+      CSharp: routeItem
+      VB: routeItem
+    qualifiedName:
+      CSharp: NEA.routeItem
+      VB: NEA.routeItem
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/Data.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: routeItem
+      path: ../Server/Server/Data.cs
+      startLine: 17
+    summary: "\nRoute Item record\n"
+    example: []
+    syntax:
+      content:
+        CSharp: >-
+          [Serializable]
+
+          public class routeItem : IEquatable<routeItem>
+        VB: >-
+          <Serializable>
+
+          Public Class routeItem
+
+              Implements IEquatable(Of routeItem)
+    inheritance:
+    - System.Object
+    implements:
+    - System.IEquatable{NEA.routeItem}
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    attributes:
+    - type: System.SerializableAttribute
+      ctor: System.SerializableAttribute.#ctor
+      arguments: []
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.routeItem.getOn
+      commentId: P:NEA.routeItem.getOn
+      language: CSharp
+      name:
+        CSharp: getOn
+        VB: getOn
+      nameWithType:
+        CSharp: routeItem.getOn
+        VB: routeItem.getOn
+      qualifiedName:
+        CSharp: NEA.routeItem.getOn
+        VB: NEA.routeItem.getOn
+      type: Property
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getOn
+        path: ../Server/Server/Data.cs
+        startLine: 23
+      summary: "\nWhere the user should get on\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string getOn { get; set; }
+          VB: Public Property getOn As String
+        parameters: []
+        return:
+          type: System.String
+      overload: NEA.routeItem.getOn*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: NEA.routeItem.getOff
+      commentId: P:NEA.routeItem.getOff
+      language: CSharp
+      name:
+        CSharp: getOff
+        VB: getOff
+      nameWithType:
+        CSharp: routeItem.getOff
+        VB: routeItem.getOff
+      qualifiedName:
+        CSharp: NEA.routeItem.getOff
+        VB: NEA.routeItem.getOff
+      type: Property
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getOff
+        path: ../Server/Server/Data.cs
+        startLine: 28
+      summary: "\nWhere the user should get off\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string getOff { get; set; }
+          VB: Public Property getOff As String
+        parameters: []
+        return:
+          type: System.String
+      overload: NEA.routeItem.getOff*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: NEA.routeItem.stops
+      commentId: P:NEA.routeItem.stops
+      language: CSharp
+      name:
+        CSharp: stops
+        VB: stops
+      nameWithType:
+        CSharp: routeItem.stops
+        VB: routeItem.stops
+      qualifiedName:
+        CSharp: NEA.routeItem.stops
+        VB: NEA.routeItem.stops
+      type: Property
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: stops
+        path: ../Server/Server/Data.cs
+        startLine: 33
+      summary: "\nThe number of stops the user should travel for.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public int? stops { get; set; }
+          VB: Public Property stops As Integer?
+        parameters: []
+        return:
+          type: System.Nullable{System.Int32}
+      overload: NEA.routeItem.stops*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: NEA.routeItem.train
+      commentId: P:NEA.routeItem.train
+      language: CSharp
+      name:
+        CSharp: train
+        VB: train
+      nameWithType:
+        CSharp: routeItem.train
+        VB: routeItem.train
+      qualifiedName:
+        CSharp: NEA.routeItem.train
+        VB: NEA.routeItem.train
+      type: Property
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: train
+        path: ../Server/Server/Data.cs
+        startLine: 38
+      summary: "\nThe train the user should travel on\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string train { get; set; }
+          VB: Public Property train As String
+        parameters: []
+        return:
+          type: System.String
+      overload: NEA.routeItem.train*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: NEA.station
+    commentId: T:NEA.station
+    language: CSharp
+    name:
+      CSharp: station
+      VB: station
+    nameWithType:
+      CSharp: station
+      VB: station
+    qualifiedName:
+      CSharp: NEA.station
+      VB: NEA.station
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/Data.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: station
+      path: ../Server/Server/Data.cs
+      startLine: 44
+    summary: "\nStation class\n"
+    example: []
+    syntax:
+      content:
+        CSharp: >-
+          [Serializable]
+
+          public class station
+        VB: >-
+          <Serializable>
+
+          Public Class station
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    attributes:
+    - type: System.SerializableAttribute
+      ctor: System.SerializableAttribute.#ctor
+      arguments: []
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.station.ToString
+      commentId: M:NEA.station.ToString
+      language: CSharp
+      name:
+        CSharp: ToString()
+        VB: ToString()
+      nameWithType:
+        CSharp: station.ToString()
+        VB: station.ToString()
+      qualifiedName:
+        CSharp: NEA.station.ToString()
+        VB: NEA.station.ToString()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: ToString
+        path: ../Server/Server/Data.cs
+        startLine: 47
+      syntax:
+        content:
+          CSharp: public override string ToString()
+          VB: Public Overrides Function ToString As String
+        return:
+          type: System.String
+      overload: NEA.station.ToString*
+      overridden: System.Object.ToString
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+    - id: NEA.station.name
+      commentId: P:NEA.station.name
+      language: CSharp
+      name:
+        CSharp: name
+        VB: name
+      nameWithType:
+        CSharp: station.name
+        VB: station.name
+      qualifiedName:
+        CSharp: NEA.station.name
+        VB: NEA.station.name
+      type: Property
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: name
+        path: ../Server/Server/Data.cs
+        startLine: 56
+      summary: "\nThe name of the station\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string name { get; set; }
+          VB: Public Property name As String
+        parameters: []
+        return:
+          type: System.String
+      overload: NEA.station.name*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: NEA.station.latitude
+      commentId: P:NEA.station.latitude
+      language: CSharp
+      name:
+        CSharp: latitude
+        VB: latitude
+      nameWithType:
+        CSharp: station.latitude
+        VB: station.latitude
+      qualifiedName:
+        CSharp: NEA.station.latitude
+        VB: NEA.station.latitude
+      type: Property
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: latitude
+        path: ../Server/Server/Data.cs
+        startLine: 71
+      summary: "\nThe latitude of the station\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public decimal latitude { get; set; }
+          VB: Public Property latitude As Decimal
+        parameters: []
+        return:
+          type: System.Decimal
+      overload: NEA.station.latitude*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: NEA.station.longitude
+      commentId: P:NEA.station.longitude
+      language: CSharp
+      name:
+        CSharp: longitude
+        VB: longitude
+      nameWithType:
+        CSharp: station.longitude
+        VB: station.longitude
+      qualifiedName:
+        CSharp: NEA.station.longitude
+        VB: NEA.station.longitude
+      type: Property
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: longitude
+        path: ../Server/Server/Data.cs
+        startLine: 76
+      summary: "\nThe longitude of the station\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public decimal longitude { get; set; }
+          VB: Public Property longitude As Decimal
+        parameters: []
+        return:
+          type: System.Decimal
+      overload: NEA.station.longitude*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: NEA.station.id
+      commentId: P:NEA.station.id
+      language: CSharp
+      name:
+        CSharp: id
+        VB: id
+      nameWithType:
+        CSharp: station.id
+        VB: station.id
+      qualifiedName:
+        CSharp: NEA.station.id
+        VB: NEA.station.id
+      type: Property
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: id
+        path: ../Server/Server/Data.cs
+        startLine: 83
+      summary: "\nThe ID of the station\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public int id { get; set; }
+          VB: Public Property id As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: NEA.station.id*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: NEA.station.#ctor
+      commentId: M:NEA.station.#ctor
+      language: CSharp
+      name:
+        CSharp: station()
+        VB: station()
+      nameWithType:
+        CSharp: station.station()
+        VB: station.station()
+      qualifiedName:
+        CSharp: NEA.station.station()
+        VB: NEA.station.station()
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/Data.cs
+        startLine: 88
+      summary: "\nThe station constructor\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public station()
+          VB: Public Sub New
+      overload: NEA.station.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.station.addLine(System.String)
+      commentId: M:NEA.station.addLine(System.String)
+      language: CSharp
+      name:
+        CSharp: addLine(String)
+        VB: addLine(String)
+      nameWithType:
+        CSharp: station.addLine(String)
+        VB: station.addLine(String)
+      qualifiedName:
+        CSharp: NEA.station.addLine(System.String)
+        VB: NEA.station.addLine(System.String)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: addLine
+        path: ../Server/Server/Data.cs
+        startLine: 113
+      summary: "\nAdd a line to this station\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void addLine(string lineName)
+          VB: Public Sub addLine(lineName As String)
+        parameters:
+        - id: lineName
+          type: System.String
+          description: What line to add
+      overload: NEA.station.addLine*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.station.getSubNodes
+      commentId: M:NEA.station.getSubNodes
+      language: CSharp
+      name:
+        CSharp: getSubNodes()
+        VB: getSubNodes()
+      nameWithType:
+        CSharp: station.getSubNodes()
+        VB: station.getSubNodes()
+      qualifiedName:
+        CSharp: NEA.station.getSubNodes()
+        VB: NEA.station.getSubNodes()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getSubNodes
+        path: ../Server/Server/Data.cs
+        startLine: 129
+      summary: "\nGet all the stations connections\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public List<node> getSubNodes()
+          VB: Public Function getSubNodes As List(Of node)
+        return:
+          type: System.Collections.Generic.List{NEA.node}
+          description: A list of nextStation records
+      overload: NEA.station.getSubNodes*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.station.addSurroundingStation(System.String[])
+      commentId: M:NEA.station.addSurroundingStation(System.String[])
+      language: CSharp
+      name:
+        CSharp: addSurroundingStation(String[])
+        VB: addSurroundingStation(String())
+      nameWithType:
+        CSharp: station.addSurroundingStation(String[])
+        VB: station.addSurroundingStation(String())
+      qualifiedName:
+        CSharp: NEA.station.addSurroundingStation(System.String[])
+        VB: NEA.station.addSurroundingStation(System.String())
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: addSurroundingStation
+        path: ../Server/Server/Data.cs
+        startLine: 139
+      summary: "\nAdd&apos;s a surrounding station to the station\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void addSurroundingStation(string[] surroundingStationIDs)
+          VB: Public Sub addSurroundingStation(surroundingStationIDs As String())
+        parameters:
+        - id: surroundingStationIDs
+          type: System.String[]
+          description: ''
+      overload: NEA.station.addSurroundingStation*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.station.getNodeOnLine(System.String)
+      commentId: M:NEA.station.getNodeOnLine(System.String)
+      language: CSharp
+      name:
+        CSharp: getNodeOnLine(String)
+        VB: getNodeOnLine(String)
+      nameWithType:
+        CSharp: station.getNodeOnLine(String)
+        VB: station.getNodeOnLine(String)
+      qualifiedName:
+        CSharp: NEA.station.getNodeOnLine(System.String)
+        VB: NEA.station.getNodeOnLine(System.String)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getNodeOnLine
+        path: ../Server/Server/Data.cs
+        startLine: 156
+      summary: "\nGet&apos;s the node on a specific line\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public node getNodeOnLine(string line)
+          VB: Public Function getNodeOnLine(line As String) As node
+        parameters:
+        - id: line
+          type: System.String
+          description: What line to get the node of
+        return:
+          type: NEA.node
+          description: ''
+      overload: NEA.station.getNodeOnLine*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.station.calculateWeights(System.Collections.Generic.List{NEA.station})
+      commentId: M:NEA.station.calculateWeights(System.Collections.Generic.List{NEA.station})
+      language: CSharp
+      name:
+        CSharp: calculateWeights(List<station>)
+        VB: calculateWeights(List(Of station))
+      nameWithType:
+        CSharp: station.calculateWeights(List<station>)
+        VB: station.calculateWeights(List(Of station))
+      qualifiedName:
+        CSharp: NEA.station.calculateWeights(System.Collections.Generic.List<NEA.station>)
+        VB: NEA.station.calculateWeights(System.Collections.Generic.List(Of NEA.station))
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: calculateWeights
+        path: ../Server/Server/Data.cs
+        startLine: 165
+      summary: "\nCalculates the weights of the surrounding stations\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void calculateWeights(List<station> masterStationList)
+          VB: Public Sub calculateWeights(masterStationList As List(Of station))
+        parameters:
+        - id: masterStationList
+          type: System.Collections.Generic.List{NEA.station}
+          description: The list of all stations.
+      overload: NEA.station.calculateWeights*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: NEA.edge
+    commentId: T:NEA.edge
+    language: CSharp
+    name:
+      CSharp: edge
+      VB: edge
+    nameWithType:
+      CSharp: edge
+      VB: edge
+    qualifiedName:
+      CSharp: NEA.edge
+      VB: NEA.edge
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/Data.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: edge
+      path: ../Server/Server/Data.cs
+      startLine: 239
+    syntax:
+      content:
+        CSharp: >-
+          [Serializable]
+
+          public class edge : IEquatable<edge>
+        VB: >-
+          <Serializable>
+
+          Public Class edge
+
+              Implements IEquatable(Of edge)
+    inheritance:
+    - System.Object
+    implements:
+    - System.IEquatable{NEA.edge}
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    attributes:
+    - type: System.SerializableAttribute
+      ctor: System.SerializableAttribute.#ctor
+      arguments: []
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.edge.#ctor(NEA.node,System.Double)
+      commentId: M:NEA.edge.#ctor(NEA.node,System.Double)
+      language: CSharp
+      name:
+        CSharp: edge(node, Double)
+        VB: edge(node, Double)
+      nameWithType:
+        CSharp: edge.edge(node, Double)
+        VB: edge.edge(node, Double)
+      qualifiedName:
+        CSharp: NEA.edge.edge(NEA.node, System.Double)
+        VB: NEA.edge.edge(NEA.node, System.Double)
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/Data.cs
+        startLine: 242
+      syntax:
+        content:
+          CSharp: public edge(node to, double weight)
+          VB: Public Sub New(to As node, weight As Double)
+        parameters:
+        - id: to
+          type: NEA.node
+        - id: weight
+          type: System.Double
+      overload: NEA.edge.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.edge.to
+      commentId: P:NEA.edge.to
+      language: CSharp
+      name:
+        CSharp: to
+        VB: to
+      nameWithType:
+        CSharp: edge.to
+        VB: edge.to
+      qualifiedName:
+        CSharp: NEA.edge.to
+        VB: NEA.edge.to
+      type: Property
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: to
+        path: ../Server/Server/Data.cs
+        startLine: 247
+      syntax:
+        content:
+          CSharp: public node to { get; set; }
+          VB: Public Property to As node
+        parameters: []
+        return:
+          type: NEA.node
+      overload: NEA.edge.to*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: NEA.edge.weight
+      commentId: P:NEA.edge.weight
+      language: CSharp
+      name:
+        CSharp: weight
+        VB: weight
+      nameWithType:
+        CSharp: edge.weight
+        VB: edge.weight
+      qualifiedName:
+        CSharp: NEA.edge.weight
+        VB: NEA.edge.weight
+      type: Property
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: weight
+        path: ../Server/Server/Data.cs
+        startLine: 248
+      syntax:
+        content:
+          CSharp: public double weight { get; set; }
+          VB: Public Property weight As Double
+        parameters: []
+        return:
+          type: System.Double
+      overload: NEA.edge.weight*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: NEA.node
+    commentId: T:NEA.node
+    language: CSharp
+    name:
+      CSharp: node
+      VB: node
+    nameWithType:
+      CSharp: node
+      VB: node
+    qualifiedName:
+      CSharp: NEA.node
+      VB: NEA.node
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/Data.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: node
+      path: ../Server/Server/Data.cs
+      startLine: 255
+    summary: "\nA record to store information about the next station\n"
+    example: []
+    syntax:
+      content:
+        CSharp: >-
+          [Serializable]
+
+          public class node : IEquatable<node>
+        VB: >-
+          <Serializable>
+
+          Public Class node
+
+              Implements IEquatable(Of node)
+    inheritance:
+    - System.Object
+    implements:
+    - System.IEquatable{NEA.node}
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    attributes:
+    - type: System.SerializableAttribute
+      ctor: System.SerializableAttribute.#ctor
+      arguments: []
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.node.Line
+      commentId: P:NEA.node.Line
+      language: CSharp
+      name:
+        CSharp: Line
+        VB: Line
+      nameWithType:
+        CSharp: node.Line
+        VB: node.Line
+      qualifiedName:
+        CSharp: NEA.node.Line
+        VB: NEA.node.Line
+      type: Property
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: Line
+        path: ../Server/Server/Data.cs
+        startLine: 262
+      summary: "\nLine\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string Line { get; set; }
+          VB: Public Property Line As String
+        parameters: []
+        return:
+          type: System.String
+          description: The line of the next station
+      overload: NEA.node.Line*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: NEA.node.parent
+      commentId: P:NEA.node.parent
+      language: CSharp
+      name:
+        CSharp: parent
+        VB: parent
+      nameWithType:
+        CSharp: node.parent
+        VB: node.parent
+      qualifiedName:
+        CSharp: NEA.node.parent
+        VB: NEA.node.parent
+      type: Property
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: parent
+        path: ../Server/Server/Data.cs
+        startLine: 268
+      summary: "\nParent\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public station parent { get; }
+          VB: Public ReadOnly Property parent As station
+        parameters: []
+        return:
+          type: NEA.station
+          description: The parent station this node belongs to.
+      overload: NEA.node.parent*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: NEA.node.visited
+      commentId: F:NEA.node.visited
+      language: CSharp
+      name:
+        CSharp: visited
+        VB: visited
+      nameWithType:
+        CSharp: node.visited
+        VB: node.visited
+      qualifiedName:
+        CSharp: NEA.node.visited
+        VB: NEA.node.visited
+      type: Field
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: visited
+        path: ../Server/Server/Data.cs
+        startLine: 272
+      syntax:
+        content:
+          CSharp: public bool visited
+          VB: Public visited As Boolean
+        return:
+          type: System.Boolean
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.node.visit
+      commentId: M:NEA.node.visit
+      language: CSharp
+      name:
+        CSharp: visit()
+        VB: visit()
+      nameWithType:
+        CSharp: node.visit()
+        VB: node.visit()
+      qualifiedName:
+        CSharp: NEA.node.visit()
+        VB: NEA.node.visit()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: visit
+        path: ../Server/Server/Data.cs
+        startLine: 274
+      syntax:
+        content:
+          CSharp: public void visit()
+          VB: Public Sub visit
+      overload: NEA.node.visit*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.node.isVisited
+      commentId: M:NEA.node.isVisited
+      language: CSharp
+      name:
+        CSharp: isVisited()
+        VB: isVisited()
+      nameWithType:
+        CSharp: node.isVisited()
+        VB: node.isVisited()
+      qualifiedName:
+        CSharp: NEA.node.isVisited()
+        VB: NEA.node.isVisited()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: isVisited
+        path: ../Server/Server/Data.cs
+        startLine: 279
+      syntax:
+        content:
+          CSharp: public bool isVisited()
+          VB: Public Function isVisited As Boolean
+        return:
+          type: System.Boolean
+      overload: NEA.node.isVisited*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.node.#ctor(NEA.station,System.String)
+      commentId: M:NEA.node.#ctor(NEA.station,System.String)
+      language: CSharp
+      name:
+        CSharp: node(station, String)
+        VB: node(station, String)
+      nameWithType:
+        CSharp: node.node(station, String)
+        VB: node.node(station, String)
+      qualifiedName:
+        CSharp: NEA.node.node(NEA.station, System.String)
+        VB: NEA.node.node(NEA.station, System.String)
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/Data.cs
+        startLine: 287
+      summary: "\nnextStation constructor\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public node(station parent, string line)
+          VB: Public Sub New(parent As station, line As String)
+        parameters:
+        - id: parent
+          type: NEA.station
+        - id: line
+          type: System.String
+      overload: NEA.node.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.node.addEdge(NEA.node,System.Double)
+      commentId: M:NEA.node.addEdge(NEA.node,System.Double)
+      language: CSharp
+      name:
+        CSharp: addEdge(node, Double)
+        VB: addEdge(node, Double)
+      nameWithType:
+        CSharp: node.addEdge(node, Double)
+        VB: node.addEdge(node, Double)
+      qualifiedName:
+        CSharp: NEA.node.addEdge(NEA.node, System.Double)
+        VB: NEA.node.addEdge(NEA.node, System.Double)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: addEdge
+        path: ../Server/Server/Data.cs
+        startLine: 293
+      syntax:
+        content:
+          CSharp: public void addEdge(node n, double time)
+          VB: Public Sub addEdge(n As node, time As Double)
+        parameters:
+        - id: n
+          type: NEA.node
+        - id: time
+          type: System.Double
+      overload: NEA.node.addEdge*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.node.getEdges
+      commentId: M:NEA.node.getEdges
+      language: CSharp
+      name:
+        CSharp: getEdges()
+        VB: getEdges()
+      nameWithType:
+        CSharp: node.getEdges()
+        VB: node.getEdges()
+      qualifiedName:
+        CSharp: NEA.node.getEdges()
+        VB: NEA.node.getEdges()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/Data.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getEdges
+        path: ../Server/Server/Data.cs
+        startLine: 299
+      syntax:
+        content:
+          CSharp: public List<edge> getEdges()
+          VB: Public Function getEdges As List(Of edge)
+        return:
+          type: System.Collections.Generic.List{NEA.edge}
+      overload: NEA.node.getEdges*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: NEA.hash
+    commentId: T:NEA.hash
+    language: CSharp
+    name:
+      CSharp: hash
+      VB: hash
+    nameWithType:
+      CSharp: hash
+      VB: hash
+    qualifiedName:
+      CSharp: NEA.hash
+      VB: NEA.hash
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/hash.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: hash
+      path: ../Server/Server/hash.cs
+      startLine: 2
+    syntax:
+      content:
+        CSharp: public class hash
+        VB: Public Class hash
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.hash.getStringsHash(System.String)
+      commentId: M:NEA.hash.getStringsHash(System.String)
+      language: CSharp
+      name:
+        CSharp: getStringsHash(String)
+        VB: getStringsHash(String)
+      nameWithType:
+        CSharp: hash.getStringsHash(String)
+        VB: hash.getStringsHash(String)
+      qualifiedName:
+        CSharp: NEA.hash.getStringsHash(System.String)
+        VB: NEA.hash.getStringsHash(System.String)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/hash.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getStringsHash
+        path: ../Server/Server/hash.cs
+        startLine: 10
+      summary: "\nGet&apos;s the hash code of a string.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static double getStringsHash(string input)
+          VB: Public Shared Function getStringsHash(input As String) As Double
+        parameters:
+        - id: input
+          type: System.String
+          description: The string that you want to get the hash code of
+        return:
+          type: System.Double
+          description: The strings hash code.
+      overload: NEA.hash.getStringsHash*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: NEA.Helper
+    commentId: T:NEA.Helper
+    language: CSharp
+    name:
+      CSharp: Helper
+      VB: Helper
+    nameWithType:
+      CSharp: Helper
+      VB: Helper
+    qualifiedName:
+      CSharp: NEA.Helper
+      VB: NEA.Helper
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/helper.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: Helper
+      path: ../Server/Server/helper.cs
+      startLine: 10
+    summary: "\nThis class contains useful and utility functions that otherwise would have\nno other class that can be used throughout the program.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class Helper
+        VB: Public Class Helper
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.Helper.#ctor
+      commentId: M:NEA.Helper.#ctor
+      language: CSharp
+      name:
+        CSharp: Helper()
+        VB: Helper()
+      nameWithType:
+        CSharp: Helper.Helper()
+        VB: Helper.Helper()
+      qualifiedName:
+        CSharp: NEA.Helper.Helper()
+        VB: NEA.Helper.Helper()
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/helper.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/helper.cs
+        startLine: 55
+      summary: "\nHelper class constructor\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Helper()
+          VB: Public Sub New
+      overload: NEA.Helper.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.Helper.generatePortKey
+      commentId: M:NEA.Helper.generatePortKey
+      language: CSharp
+      name:
+        CSharp: generatePortKey()
+        VB: generatePortKey()
+      nameWithType:
+        CSharp: Helper.generatePortKey()
+        VB: Helper.generatePortKey()
+      qualifiedName:
+        CSharp: NEA.Helper.generatePortKey()
+        VB: NEA.Helper.generatePortKey()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/helper.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: generatePortKey
+        path: ../Server/Server/helper.cs
+        startLine: 63
+      summary: "\nChecks for an open port and then creates a key for that specific port.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string[] generatePortKey()
+          VB: Public Function generatePortKey As String()
+        return:
+          type: System.String[]
+          description: A port that is open.
+      overload: NEA.Helper.generatePortKey*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.Helper.checkKey(System.String)
+      commentId: M:NEA.Helper.checkKey(System.String)
+      language: CSharp
+      name:
+        CSharp: checkKey(String)
+        VB: checkKey(String)
+      nameWithType:
+        CSharp: Helper.checkKey(String)
+        VB: Helper.checkKey(String)
+      qualifiedName:
+        CSharp: NEA.Helper.checkKey(System.String)
+        VB: NEA.Helper.checkKey(System.String)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/helper.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: checkKey
+        path: ../Server/Server/helper.cs
+        startLine: 126
+      summary: "\nChecks if a given key is valid\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public bool checkKey(string key)
+          VB: Public Function checkKey(key As String) As Boolean
+        parameters:
+        - id: key
+          type: System.String
+          description: The key to check if it is valid
+        return:
+          type: System.Boolean
+          description: True if the key is valid, else False.
+      overload: NEA.Helper.checkKey*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.Helper.log(System.String,System.String)
+      commentId: M:NEA.Helper.log(System.String,System.String)
+      language: CSharp
+      name:
+        CSharp: log(String, String)
+        VB: log(String, String)
+      nameWithType:
+        CSharp: Helper.log(String, String)
+        VB: Helper.log(String, String)
+      qualifiedName:
+        CSharp: NEA.Helper.log(System.String, System.String)
+        VB: NEA.Helper.log(System.String, System.String)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/helper.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: log
+        path: ../Server/Server/helper.cs
+        startLine: 170
+      summary: "\nLogs a message to the console with the given type\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void log(string message, string type)
+          VB: Public Sub log(message As String, type As String)
+        parameters:
+        - id: message
+          type: System.String
+          description: What message you want to log to the cnosole
+        - id: type
+          type: System.String
+          description: 'What type you want to log to the console. Possible '
+      overload: NEA.Helper.log*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: NEA.logger
+    commentId: T:NEA.logger
+    language: CSharp
+    name:
+      CSharp: logger
+      VB: logger
+    nameWithType:
+      CSharp: logger
+      VB: logger
+    qualifiedName:
+      CSharp: NEA.logger
+      VB: NEA.logger
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/logger.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: logger
+      path: ../Server/Server/logger.cs
+      startLine: 10
+    summary: "\nParent Logger class\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class logger
+        VB: Public Class logger
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.logger.#ctor
+      commentId: M:NEA.logger.#ctor
+      language: CSharp
+      name:
+        CSharp: logger()
+        VB: logger()
+      nameWithType:
+        CSharp: logger.logger()
+        VB: logger.logger()
+      qualifiedName:
+        CSharp: NEA.logger.logger()
+        VB: NEA.logger.logger()
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/logger.cs
+        startLine: 23
+      summary: "\nLogger class constructor\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public logger()
+          VB: Public Sub New
+      overload: NEA.logger.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.logger.log(System.Object)
+      commentId: M:NEA.logger.log(System.Object)
+      language: CSharp
+      name:
+        CSharp: log(Object)
+        VB: log(Object)
+      nameWithType:
+        CSharp: logger.log(Object)
+        VB: logger.log(Object)
+      qualifiedName:
+        CSharp: NEA.logger.log(System.Object)
+        VB: NEA.logger.log(System.Object)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: log
+        path: ../Server/Server/logger.cs
+        startLine: 29
+      summary: "\nLogs a message to the console\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void log(object message)
+          VB: Public Sub log(message As Object)
+        parameters:
+        - id: message
+          type: System.Object
+          description: The message to log to the console
+      overload: NEA.logger.log*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.logger.getConsoleColor
+      commentId: M:NEA.logger.getConsoleColor
+      language: CSharp
+      name:
+        CSharp: getConsoleColor()
+        VB: getConsoleColor()
+      nameWithType:
+        CSharp: logger.getConsoleColor()
+        VB: logger.getConsoleColor()
+      qualifiedName:
+        CSharp: NEA.logger.getConsoleColor()
+        VB: NEA.logger.getConsoleColor()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getConsoleColor
+        path: ../Server/Server/logger.cs
+        startLine: 39
+      summary: "\nGet&apos;s the current console colour\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected virtual ConsoleColor getConsoleColor()
+          VB: Protected Overridable Function getConsoleColor As ConsoleColor
+        return:
+          type: System.ConsoleColor
+          description: The current console colur
+      overload: NEA.logger.getConsoleColor*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: NEA.logger.getPrefix
+      commentId: M:NEA.logger.getPrefix
+      language: CSharp
+      name:
+        CSharp: getPrefix()
+        VB: getPrefix()
+      nameWithType:
+        CSharp: logger.getPrefix()
+        VB: logger.getPrefix()
+      qualifiedName:
+        CSharp: NEA.logger.getPrefix()
+        VB: NEA.logger.getPrefix()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getPrefix
+        path: ../Server/Server/logger.cs
+        startLine: 41
+      syntax:
+        content:
+          CSharp: protected virtual string getPrefix()
+          VB: Protected Overridable Function getPrefix As String
+        return:
+          type: System.String
+      overload: NEA.logger.getPrefix*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: NEA.logger.getDefualt
+      commentId: M:NEA.logger.getDefualt
+      language: CSharp
+      name:
+        CSharp: getDefualt()
+        VB: getDefualt()
+      nameWithType:
+        CSharp: logger.getDefualt()
+        VB: logger.getDefualt()
+      qualifiedName:
+        CSharp: NEA.logger.getDefualt()
+        VB: NEA.logger.getDefualt()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getDefualt
+        path: ../Server/Server/logger.cs
+        startLine: 43
+      syntax:
+        content:
+          CSharp: public ConsoleColor getDefualt()
+          VB: Public Function getDefualt As ConsoleColor
+        return:
+          type: System.ConsoleColor
+      overload: NEA.logger.getDefualt*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: NEA.warn
+    commentId: T:NEA.warn
+    language: CSharp
+    name:
+      CSharp: warn
+      VB: warn
+    nameWithType:
+      CSharp: warn
+      VB: warn
+    qualifiedName:
+      CSharp: NEA.warn
+      VB: NEA.warn
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/logger.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: warn
+      path: ../Server/Server/logger.cs
+      startLine: 49
+    summary: "\nLogger class for warnings\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class warn : logger'
+        VB: >-
+          Public Class warn
+
+              Inherits logger
+    inheritance:
+    - System.Object
+    - NEA.logger
+    inheritedMembers:
+    - NEA.logger.log(System.Object)
+    - NEA.logger.getDefualt
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.warn.#ctor
+      commentId: M:NEA.warn.#ctor
+      language: CSharp
+      name:
+        CSharp: warn()
+        VB: warn()
+      nameWithType:
+        CSharp: warn.warn()
+        VB: warn.warn()
+      qualifiedName:
+        CSharp: NEA.warn.warn()
+        VB: NEA.warn.warn()
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/logger.cs
+        startLine: 54
+      summary: "\nInitialises the warn class\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public warn()
+          VB: Public Sub New
+      overload: NEA.warn.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.warn.getConsoleColor
+      commentId: M:NEA.warn.getConsoleColor
+      language: CSharp
+      name:
+        CSharp: getConsoleColor()
+        VB: getConsoleColor()
+      nameWithType:
+        CSharp: warn.getConsoleColor()
+        VB: warn.getConsoleColor()
+      qualifiedName:
+        CSharp: NEA.warn.getConsoleColor()
+        VB: NEA.warn.getConsoleColor()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getConsoleColor
+        path: ../Server/Server/logger.cs
+        startLine: 56
+      syntax:
+        content:
+          CSharp: protected override ConsoleColor getConsoleColor()
+          VB: Protected Overrides Function getConsoleColor As ConsoleColor
+        return:
+          type: System.ConsoleColor
+      overload: NEA.warn.getConsoleColor*
+      overridden: NEA.logger.getConsoleColor
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+    - id: NEA.warn.getPrefix
+      commentId: M:NEA.warn.getPrefix
+      language: CSharp
+      name:
+        CSharp: getPrefix()
+        VB: getPrefix()
+      nameWithType:
+        CSharp: warn.getPrefix()
+        VB: warn.getPrefix()
+      qualifiedName:
+        CSharp: NEA.warn.getPrefix()
+        VB: NEA.warn.getPrefix()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getPrefix
+        path: ../Server/Server/logger.cs
+        startLine: 60
+      syntax:
+        content:
+          CSharp: protected override string getPrefix()
+          VB: Protected Overrides Function getPrefix As String
+        return:
+          type: System.String
+      overload: NEA.warn.getPrefix*
+      overridden: NEA.logger.getPrefix
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+  - id: NEA.info
+    commentId: T:NEA.info
+    language: CSharp
+    name:
+      CSharp: info
+      VB: info
+    nameWithType:
+      CSharp: info
+      VB: info
+    qualifiedName:
+      CSharp: NEA.info
+      VB: NEA.info
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/logger.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: info
+      path: ../Server/Server/logger.cs
+      startLine: 67
+    summary: "\nLogger class for information\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class info : logger'
+        VB: >-
+          Public Class info
+
+              Inherits logger
+    inheritance:
+    - System.Object
+    - NEA.logger
+    inheritedMembers:
+    - NEA.logger.log(System.Object)
+    - NEA.logger.getDefualt
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.info.#ctor
+      commentId: M:NEA.info.#ctor
+      language: CSharp
+      name:
+        CSharp: info()
+        VB: info()
+      nameWithType:
+        CSharp: info.info()
+        VB: info.info()
+      qualifiedName:
+        CSharp: NEA.info.info()
+        VB: NEA.info.info()
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/logger.cs
+        startLine: 72
+      summary: "\nInitialises the info class\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public info()
+          VB: Public Sub New
+      overload: NEA.info.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.info.getConsoleColor
+      commentId: M:NEA.info.getConsoleColor
+      language: CSharp
+      name:
+        CSharp: getConsoleColor()
+        VB: getConsoleColor()
+      nameWithType:
+        CSharp: info.getConsoleColor()
+        VB: info.getConsoleColor()
+      qualifiedName:
+        CSharp: NEA.info.getConsoleColor()
+        VB: NEA.info.getConsoleColor()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getConsoleColor
+        path: ../Server/Server/logger.cs
+        startLine: 74
+      syntax:
+        content:
+          CSharp: protected override ConsoleColor getConsoleColor()
+          VB: Protected Overrides Function getConsoleColor As ConsoleColor
+        return:
+          type: System.ConsoleColor
+      overload: NEA.info.getConsoleColor*
+      overridden: NEA.logger.getConsoleColor
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+    - id: NEA.info.getPrefix
+      commentId: M:NEA.info.getPrefix
+      language: CSharp
+      name:
+        CSharp: getPrefix()
+        VB: getPrefix()
+      nameWithType:
+        CSharp: info.getPrefix()
+        VB: info.getPrefix()
+      qualifiedName:
+        CSharp: NEA.info.getPrefix()
+        VB: NEA.info.getPrefix()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getPrefix
+        path: ../Server/Server/logger.cs
+        startLine: 78
+      syntax:
+        content:
+          CSharp: protected override string getPrefix()
+          VB: Protected Overrides Function getPrefix As String
+        return:
+          type: System.String
+      overload: NEA.info.getPrefix*
+      overridden: NEA.logger.getPrefix
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+  - id: NEA.error
+    commentId: T:NEA.error
+    language: CSharp
+    name:
+      CSharp: error
+      VB: error
+    nameWithType:
+      CSharp: error
+      VB: error
+    qualifiedName:
+      CSharp: NEA.error
+      VB: NEA.error
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/logger.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: error
+      path: ../Server/Server/logger.cs
+      startLine: 86
+    summary: "\nLogger class for errors\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class error : logger'
+        VB: >-
+          Public Class error
+
+              Inherits logger
+    inheritance:
+    - System.Object
+    - NEA.logger
+    inheritedMembers:
+    - NEA.logger.log(System.Object)
+    - NEA.logger.getDefualt
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.error.#ctor
+      commentId: M:NEA.error.#ctor
+      language: CSharp
+      name:
+        CSharp: error()
+        VB: error()
+      nameWithType:
+        CSharp: error.error()
+        VB: error.error()
+      qualifiedName:
+        CSharp: NEA.error.error()
+        VB: NEA.error.error()
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/logger.cs
+        startLine: 91
+      summary: "\nInitialises the error class\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public error()
+          VB: Public Sub New
+      overload: NEA.error.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.error.getConsoleColor
+      commentId: M:NEA.error.getConsoleColor
+      language: CSharp
+      name:
+        CSharp: getConsoleColor()
+        VB: getConsoleColor()
+      nameWithType:
+        CSharp: error.getConsoleColor()
+        VB: error.getConsoleColor()
+      qualifiedName:
+        CSharp: NEA.error.getConsoleColor()
+        VB: NEA.error.getConsoleColor()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getConsoleColor
+        path: ../Server/Server/logger.cs
+        startLine: 93
+      syntax:
+        content:
+          CSharp: protected override ConsoleColor getConsoleColor()
+          VB: Protected Overrides Function getConsoleColor As ConsoleColor
+        return:
+          type: System.ConsoleColor
+      overload: NEA.error.getConsoleColor*
+      overridden: NEA.logger.getConsoleColor
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+    - id: NEA.error.getPrefix
+      commentId: M:NEA.error.getPrefix
+      language: CSharp
+      name:
+        CSharp: getPrefix()
+        VB: getPrefix()
+      nameWithType:
+        CSharp: error.getPrefix()
+        VB: error.getPrefix()
+      qualifiedName:
+        CSharp: NEA.error.getPrefix()
+        VB: NEA.error.getPrefix()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getPrefix
+        path: ../Server/Server/logger.cs
+        startLine: 96
+      syntax:
+        content:
+          CSharp: protected override string getPrefix()
+          VB: Protected Overrides Function getPrefix As String
+        return:
+          type: System.String
+      overload: NEA.error.getPrefix*
+      overridden: NEA.logger.getPrefix
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+  - id: NEA.success
+    commentId: T:NEA.success
+    language: CSharp
+    name:
+      CSharp: success
+      VB: success
+    nameWithType:
+      CSharp: success
+      VB: success
+    qualifiedName:
+      CSharp: NEA.success
+      VB: NEA.success
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/logger.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: success
+      path: ../Server/Server/logger.cs
+      startLine: 103
+    summary: "\nLogger class for success\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class success : logger'
+        VB: >-
+          Public Class success
+
+              Inherits logger
+    inheritance:
+    - System.Object
+    - NEA.logger
+    inheritedMembers:
+    - NEA.logger.log(System.Object)
+    - NEA.logger.getDefualt
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.success.#ctor
+      commentId: M:NEA.success.#ctor
+      language: CSharp
+      name:
+        CSharp: success()
+        VB: success()
+      nameWithType:
+        CSharp: success.success()
+        VB: success.success()
+      qualifiedName:
+        CSharp: NEA.success.success()
+        VB: NEA.success.success()
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/logger.cs
+        startLine: 108
+      summary: "\nInitialises the success class\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public success()
+          VB: Public Sub New
+      overload: NEA.success.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.success.getConsoleColor
+      commentId: M:NEA.success.getConsoleColor
+      language: CSharp
+      name:
+        CSharp: getConsoleColor()
+        VB: getConsoleColor()
+      nameWithType:
+        CSharp: success.getConsoleColor()
+        VB: success.getConsoleColor()
+      qualifiedName:
+        CSharp: NEA.success.getConsoleColor()
+        VB: NEA.success.getConsoleColor()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getConsoleColor
+        path: ../Server/Server/logger.cs
+        startLine: 110
+      syntax:
+        content:
+          CSharp: protected override ConsoleColor getConsoleColor()
+          VB: Protected Overrides Function getConsoleColor As ConsoleColor
+        return:
+          type: System.ConsoleColor
+      overload: NEA.success.getConsoleColor*
+      overridden: NEA.logger.getConsoleColor
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+    - id: NEA.success.getPrefix
+      commentId: M:NEA.success.getPrefix
+      language: CSharp
+      name:
+        CSharp: getPrefix()
+        VB: getPrefix()
+      nameWithType:
+        CSharp: success.getPrefix()
+        VB: success.getPrefix()
+      qualifiedName:
+        CSharp: NEA.success.getPrefix()
+        VB: NEA.success.getPrefix()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getPrefix
+        path: ../Server/Server/logger.cs
+        startLine: 114
+      syntax:
+        content:
+          CSharp: protected override string getPrefix()
+          VB: Protected Overrides Function getPrefix As String
+        return:
+          type: System.String
+      overload: NEA.success.getPrefix*
+      overridden: NEA.logger.getPrefix
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+  - id: NEA.debug
+    commentId: T:NEA.debug
+    language: CSharp
+    name:
+      CSharp: debug
+      VB: debug
+    nameWithType:
+      CSharp: debug
+      VB: debug
+    qualifiedName:
+      CSharp: NEA.debug
+      VB: NEA.debug
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/logger.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: debug
+      path: ../Server/Server/logger.cs
+      startLine: 121
+    summary: "\nLogger class for debug\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class debug : logger'
+        VB: >-
+          Public Class debug
+
+              Inherits logger
+    inheritance:
+    - System.Object
+    - NEA.logger
+    inheritedMembers:
+    - NEA.logger.log(System.Object)
+    - NEA.logger.getDefualt
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.debug.#ctor
+      commentId: M:NEA.debug.#ctor
+      language: CSharp
+      name:
+        CSharp: debug()
+        VB: debug()
+      nameWithType:
+        CSharp: debug.debug()
+        VB: debug.debug()
+      qualifiedName:
+        CSharp: NEA.debug.debug()
+        VB: NEA.debug.debug()
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/logger.cs
+        startLine: 126
+      summary: "\nInitialises the debug class\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public debug()
+          VB: Public Sub New
+      overload: NEA.debug.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.debug.getConsoleColor
+      commentId: M:NEA.debug.getConsoleColor
+      language: CSharp
+      name:
+        CSharp: getConsoleColor()
+        VB: getConsoleColor()
+      nameWithType:
+        CSharp: debug.getConsoleColor()
+        VB: debug.getConsoleColor()
+      qualifiedName:
+        CSharp: NEA.debug.getConsoleColor()
+        VB: NEA.debug.getConsoleColor()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getConsoleColor
+        path: ../Server/Server/logger.cs
+        startLine: 128
+      syntax:
+        content:
+          CSharp: protected override ConsoleColor getConsoleColor()
+          VB: Protected Overrides Function getConsoleColor As ConsoleColor
+        return:
+          type: System.ConsoleColor
+      overload: NEA.debug.getConsoleColor*
+      overridden: NEA.logger.getConsoleColor
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+    - id: NEA.debug.getPrefix
+      commentId: M:NEA.debug.getPrefix
+      language: CSharp
+      name:
+        CSharp: getPrefix()
+        VB: getPrefix()
+      nameWithType:
+        CSharp: debug.getPrefix()
+        VB: debug.getPrefix()
+      qualifiedName:
+        CSharp: NEA.debug.getPrefix()
+        VB: NEA.debug.getPrefix()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/logger.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: getPrefix
+        path: ../Server/Server/logger.cs
+        startLine: 132
+      syntax:
+        content:
+          CSharp: protected override string getPrefix()
+          VB: Protected Overrides Function getPrefix As String
+        return:
+          type: System.String
+      overload: NEA.debug.getPrefix*
+      overridden: NEA.logger.getPrefix
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+  - id: NEA.server
+    commentId: T:NEA.server
+    language: CSharp
+    name:
+      CSharp: server
+      VB: server
+    nameWithType:
+      CSharp: server
+      VB: server
+    qualifiedName:
+      CSharp: NEA.server
+      VB: NEA.server
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/server.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: server
+      path: ../Server/Server/server.cs
+      startLine: 12
+    summary: "\nClass containing methods and attributes required to run the server\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class server
+        VB: Public Class server
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.server.isRetrying
+      commentId: F:NEA.server.isRetrying
+      language: CSharp
+      name:
+        CSharp: isRetrying
+        VB: isRetrying
+      nameWithType:
+        CSharp: server.isRetrying
+        VB: server.isRetrying
+      qualifiedName:
+        CSharp: NEA.server.isRetrying
+        VB: NEA.server.isRetrying
+      type: Field
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: isRetrying
+        path: ../Server/Server/server.cs
+        startLine: 18
+      summary: "\nWhether the server is retrying to start.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected bool isRetrying
+          VB: Protected isRetrying As Boolean
+        return:
+          type: System.Boolean
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: NEA.server.address
+      commentId: F:NEA.server.address
+      language: CSharp
+      name:
+        CSharp: address
+        VB: address
+      nameWithType:
+        CSharp: server.address
+        VB: server.address
+      qualifiedName:
+        CSharp: NEA.server.address
+        VB: NEA.server.address
+      type: Field
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: address
+        path: ../Server/Server/server.cs
+        startLine: 23
+      summary: "\nThe IP address of the server\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected IPAddress address
+          VB: Protected address As IPAddress
+        return:
+          type: System.Net.IPAddress
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: NEA.server.port
+      commentId: F:NEA.server.port
+      language: CSharp
+      name:
+        CSharp: port
+        VB: port
+      nameWithType:
+        CSharp: server.port
+        VB: server.port
+      qualifiedName:
+        CSharp: NEA.server.port
+        VB: NEA.server.port
+      type: Field
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: port
+        path: ../Server/Server/server.cs
+        startLine: 29
+      summary: "\nThe port that the server is running on. Default is 55600 but will be\noverridden if it is a child server.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected int port
+          VB: Protected port As Integer
+        return:
+          type: System.Int32
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: NEA.server.TCP
+      commentId: F:NEA.server.TCP
+      language: CSharp
+      name:
+        CSharp: TCP
+        VB: TCP
+      nameWithType:
+        CSharp: server.TCP
+        VB: server.TCP
+      qualifiedName:
+        CSharp: NEA.server.TCP
+        VB: NEA.server.TCP
+      type: Field
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: TCP
+        path: ../Server/Server/server.cs
+        startLine: 34
+      summary: "\nTcpListener object that is used to listen for incoming connections\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected TcpListener TCP
+          VB: Protected TCP As TcpListener
+        return:
+          type: System.Net.Sockets.TcpListener
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: NEA.server.help
+      commentId: F:NEA.server.help
+      language: CSharp
+      name:
+        CSharp: help
+        VB: help
+      nameWithType:
+        CSharp: server.help
+        VB: server.help
+      qualifiedName:
+        CSharp: NEA.server.help
+        VB: NEA.server.help
+      type: Field
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: help
+        path: ../Server/Server/server.cs
+        startLine: 39
+      summary: "\nInstance of the Helper class\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected Helper help
+          VB: Protected help As Helper
+        return:
+          type: NEA.Helper
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: NEA.server.mta
+      commentId: F:NEA.server.mta
+      language: CSharp
+      name:
+        CSharp: mta
+        VB: mta
+      nameWithType:
+        CSharp: server.mta
+        VB: server.mta
+      qualifiedName:
+        CSharp: NEA.server.mta
+        VB: NEA.server.mta
+      type: Field
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: mta
+        path: ../Server/Server/server.cs
+        startLine: 44
+      summary: "\nCommands that can be ran by the child server\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected Commands mta
+          VB: Protected mta As Commands
+        return:
+          type: NEA.Commands
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: NEA.server.#ctor(System.Int32)
+      commentId: M:NEA.server.#ctor(System.Int32)
+      language: CSharp
+      name:
+        CSharp: server(Int32)
+        VB: server(Int32)
+      nameWithType:
+        CSharp: server.server(Int32)
+        VB: server.server(Int32)
+      qualifiedName:
+        CSharp: NEA.server.server(System.Int32)
+        VB: NEA.server.server(System.Int32)
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/server.cs
+        startLine: 51
+      summary: "\nIntialises the server\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public server(int port = 55600)
+          VB: Public Sub New(port As Integer = 55600)
+        parameters:
+        - id: port
+          type: System.Int32
+          description: >-
+            The port to use, defualts to 55600 as this is only used
+
+            for the child server.
+      overload: NEA.server.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.server.startServer(System.Int32)
+      commentId: M:NEA.server.startServer(System.Int32)
+      language: CSharp
+      name:
+        CSharp: startServer(Int32)
+        VB: startServer(Int32)
+      nameWithType:
+        CSharp: server.startServer(Int32)
+        VB: server.startServer(Int32)
+      qualifiedName:
+        CSharp: NEA.server.startServer(System.Int32)
+        VB: NEA.server.startServer(System.Int32)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: startServer
+        path: ../Server/Server/server.cs
+        startLine: 66
+      summary: "\nStarts the server\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected void startServer(int port = 55600)
+          VB: Protected Sub startServer(port As Integer = 55600)
+        parameters:
+        - id: port
+          type: System.Int32
+          description: >-
+            Which port to start the server on. Defualts to 55600 as
+
+            this is only used for the child server.
+      overload: NEA.server.startServer*
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: NEA.server.encode(System.String[])
+      commentId: M:NEA.server.encode(System.String[])
+      language: CSharp
+      name:
+        CSharp: encode(String[])
+        VB: encode(String())
+      nameWithType:
+        CSharp: server.encode(String[])
+        VB: server.encode(String())
+      qualifiedName:
+        CSharp: NEA.server.encode(System.String[])
+        VB: NEA.server.encode(System.String())
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: encode
+        path: ../Server/Server/server.cs
+        startLine: 97
+      summary: "\nAdds padding to the data sent to the client and also adds any parameters\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected string encode(string[] parameters)
+          VB: Protected Function encode(parameters As String()) As String
+        parameters:
+        - id: parameters
+          type: System.String[]
+          description: Any parameters to be sent to the client
+        return:
+          type: System.String
+          description: A string capable of being sent to the client
+      overload: NEA.server.encode*
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: NEA.server.decode(System.String)
+      commentId: M:NEA.server.decode(System.String)
+      language: CSharp
+      name:
+        CSharp: decode(String)
+        VB: decode(String)
+      nameWithType:
+        CSharp: server.decode(String)
+        VB: server.decode(String)
+      qualifiedName:
+        CSharp: NEA.server.decode(System.String)
+        VB: NEA.server.decode(System.String)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: decode
+        path: ../Server/Server/server.cs
+        startLine: 119
+      summary: "\nRemoves the padding from the data received from the client and returns any parameters sent with the request.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected string[] decode(string data)
+          VB: Protected Function decode(data As String) As String()
+        parameters:
+        - id: data
+          type: System.String
+          description: The data received from the client
+        return:
+          type: System.String[]
+          description: The parameters in a message from the client
+      overload: NEA.server.decode*
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+  - id: NEA.childServer
+    commentId: T:NEA.childServer
+    language: CSharp
+    name:
+      CSharp: childServer
+      VB: childServer
+    nameWithType:
+      CSharp: childServer
+      VB: childServer
+    qualifiedName:
+      CSharp: NEA.childServer
+      VB: NEA.childServer
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/server.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: childServer
+      path: ../Server/Server/server.cs
+      startLine: 145
+    summary: "\nThe child server class\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class childServer : server'
+        VB: >-
+          Public Class childServer
+
+              Inherits server
+    inheritance:
+    - System.Object
+    - NEA.server
+    inheritedMembers:
+    - NEA.server.isRetrying
+    - NEA.server.address
+    - NEA.server.port
+    - NEA.server.TCP
+    - NEA.server.help
+    - NEA.server.mta
+    - NEA.server.startServer(System.Int32)
+    - NEA.server.encode(System.String[])
+    - NEA.server.decode(System.String)
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.childServer.#ctor(System.Int32)
+      commentId: M:NEA.childServer.#ctor(System.Int32)
+      language: CSharp
+      name:
+        CSharp: childServer(Int32)
+        VB: childServer(Int32)
+      nameWithType:
+        CSharp: childServer.childServer(Int32)
+        VB: childServer.childServer(Int32)
+      qualifiedName:
+        CSharp: NEA.childServer.childServer(System.Int32)
+        VB: NEA.childServer.childServer(System.Int32)
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/server.cs
+        startLine: 156
+      summary: "\nInitialiser of the child server class.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public childServer(int port)
+          VB: Public Sub New(port As Integer)
+        parameters:
+        - id: port
+          type: System.Int32
+          description: The port to start the child server on
+      overload: NEA.childServer.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.childServer.runChildServer(System.Int32)
+      commentId: M:NEA.childServer.runChildServer(System.Int32)
+      language: CSharp
+      name:
+        CSharp: runChildServer(Int32)
+        VB: runChildServer(Int32)
+      nameWithType:
+        CSharp: childServer.runChildServer(Int32)
+        VB: childServer.runChildServer(Int32)
+      qualifiedName:
+        CSharp: NEA.childServer.runChildServer(System.Int32)
+        VB: NEA.childServer.runChildServer(System.Int32)
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: runChildServer
+        path: ../Server/Server/server.cs
+        startLine: 166
+      summary: "\nThe main loop of the child server\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void runChildServer(int port)
+          VB: Public Sub runChildServer(port As Integer)
+        parameters:
+        - id: port
+          type: System.Int32
+          description: The port to run the child server on.
+      overload: NEA.childServer.runChildServer*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: NEA.parentServer
+    commentId: T:NEA.parentServer
+    language: CSharp
+    name:
+      CSharp: parentServer
+      VB: parentServer
+    nameWithType:
+      CSharp: parentServer
+      VB: parentServer
+    qualifiedName:
+      CSharp: NEA.parentServer
+      VB: NEA.parentServer
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/server.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: parentServer
+      path: ../Server/Server/server.cs
+      startLine: 350
+    summary: "\nThe parent server class\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class parentServer : server'
+        VB: >-
+          Public Class parentServer
+
+              Inherits server
+    inheritance:
+    - System.Object
+    - NEA.server
+    inheritedMembers:
+    - NEA.server.isRetrying
+    - NEA.server.address
+    - NEA.server.port
+    - NEA.server.TCP
+    - NEA.server.help
+    - NEA.server.mta
+    - NEA.server.startServer(System.Int32)
+    - NEA.server.encode(System.String[])
+    - NEA.server.decode(System.String)
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.parentServer.#ctor
+      commentId: M:NEA.parentServer.#ctor
+      language: CSharp
+      name:
+        CSharp: parentServer()
+        VB: parentServer()
+      nameWithType:
+        CSharp: parentServer.parentServer()
+        VB: parentServer.parentServer()
+      qualifiedName:
+        CSharp: NEA.parentServer.parentServer()
+        VB: NEA.parentServer.parentServer()
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/server.cs
+        startLine: 356
+      summary: "\nInitialiser\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public parentServer()
+          VB: Public Sub New
+      overload: NEA.parentServer.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.parentServer.runParentServer
+      commentId: M:NEA.parentServer.runParentServer
+      language: CSharp
+      name:
+        CSharp: runParentServer()
+        VB: runParentServer()
+      nameWithType:
+        CSharp: parentServer.runParentServer()
+        VB: parentServer.runParentServer()
+      qualifiedName:
+        CSharp: NEA.parentServer.runParentServer()
+        VB: NEA.parentServer.runParentServer()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/server.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: runParentServer
+        path: ../Server/Server/server.cs
+        startLine: 364
+      summary: "\nRuns the parents server\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void runParentServer()
+          VB: Public Sub runParentServer
+      overload: NEA.parentServer.runParentServer*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: NEA.xml
+    commentId: T:NEA.xml
+    language: CSharp
+    name:
+      CSharp: xml
+      VB: xml
+    nameWithType:
+      CSharp: xml
+      VB: xml
+    qualifiedName:
+      CSharp: NEA.xml
+      VB: NEA.xml
+    type: Class
+    assemblies:
+    - NEA
+    namespace: NEA
+    source:
+      remote:
+        path: Server/Server/xml.cs
+        branch: Development
+        repo: https://github.com/wotanut/nea
+      id: xml
+      path: ../Server/Server/xml.cs
+      startLine: 11
+    summary: "\nXML class\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class xml
+        VB: Public Class xml
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: NEA.xml.#ctor(System.String)
+      commentId: M:NEA.xml.#ctor(System.String)
+      language: CSharp
+      name:
+        CSharp: xml(String)
+        VB: xml(String)
+      nameWithType:
+        CSharp: xml.xml(String)
+        VB: xml.xml(String)
+      qualifiedName:
+        CSharp: NEA.xml.xml(System.String)
+        VB: NEA.xml.xml(System.String)
+      type: Constructor
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/xml.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: .ctor
+        path: ../Server/Server/xml.cs
+        startLine: 33
+      summary: "\nIntialisases the XML class.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public xml(string filePath)
+          VB: Public Sub New(filePath As String)
+        parameters:
+        - id: filePath
+          type: System.String
+          description: The path to the XML file.
+      overload: NEA.xml.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.xml.open
+      commentId: M:NEA.xml.open
+      language: CSharp
+      name:
+        CSharp: open()
+        VB: open()
+      nameWithType:
+        CSharp: xml.open()
+        VB: xml.open()
+      qualifiedName:
+        CSharp: NEA.xml.open()
+        VB: NEA.xml.open()
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/xml.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: open
+        path: ../Server/Server/xml.cs
+        startLine: 39
+      summary: "\nOpens the XML file\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public bool open()
+          VB: Public Function open As Boolean
+        return:
+          type: System.Boolean
+          description: True if the xml file was sucesfully opened, else False.
+      overload: NEA.xml.open*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.xml.parse(System.Collections.Generic.List{NEA.station}@)
+      commentId: M:NEA.xml.parse(System.Collections.Generic.List{NEA.station}@)
+      language: CSharp
+      name:
+        CSharp: parse(ref List<station>)
+        VB: parse(ByRef List(Of station))
+      nameWithType:
+        CSharp: xml.parse(ref List<station>)
+        VB: xml.parse(ByRef List(Of station))
+      qualifiedName:
+        CSharp: NEA.xml.parse(ref System.Collections.Generic.List<NEA.station>)
+        VB: NEA.xml.parse(ByRef System.Collections.Generic.List(Of NEA.station))
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/xml.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: parse
+        path: ../Server/Server/xml.cs
+        startLine: 58
+      summary: "\nParses the nodes in the XML file\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public List<station> parse(ref List<station> stations)
+          VB: Public Function parse(ByRef stations As List(Of station)) As List(Of station)
+        parameters:
+        - id: stations
+          type: System.Collections.Generic.List{NEA.station}
+          description: The List of stations.
+        return:
+          type: System.Collections.Generic.List{NEA.station}
+          description: A new shorterned list of stations that were in the XML file.
+      overload: NEA.xml.parse*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: NEA.xml.TraverseNodes(System.Xml.XmlNodeList,System.Collections.Generic.List{NEA.station}@)
+      commentId: M:NEA.xml.TraverseNodes(System.Xml.XmlNodeList,System.Collections.Generic.List{NEA.station}@)
+      language: CSharp
+      name:
+        CSharp: TraverseNodes(XmlNodeList, ref List<station>)
+        VB: TraverseNodes(XmlNodeList, ByRef List(Of station))
+      nameWithType:
+        CSharp: xml.TraverseNodes(XmlNodeList, ref List<station>)
+        VB: xml.TraverseNodes(XmlNodeList, ByRef List(Of station))
+      qualifiedName:
+        CSharp: NEA.xml.TraverseNodes(System.Xml.XmlNodeList, ref System.Collections.Generic.List<NEA.station>)
+        VB: NEA.xml.TraverseNodes(System.Xml.XmlNodeList, ByRef System.Collections.Generic.List(Of NEA.station))
+      type: Method
+      assemblies:
+      - NEA
+      namespace: NEA
+      source:
+        remote:
+          path: Server/Server/xml.cs
+          branch: Development
+          repo: https://github.com/wotanut/nea
+        id: TraverseNodes
+        path: ../Server/Server/xml.cs
+        startLine: 70
+      summary: "\nTraverses all the nodes in the XML file.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public List<station> TraverseNodes(XmlNodeList nodes, ref List<station> stations)
+          VB: Public Function TraverseNodes(nodes As XmlNodeList, ByRef stations As List(Of station)) As List(Of station)
+        parameters:
+        - id: nodes
+          type: System.Xml.XmlNodeList
+          description: A list of nodes that the XML file has traversed.
+        - id: stations
+          type: System.Collections.Generic.List{NEA.station}
+          description: A reference to the list of stations so that the program can add to them.
+        return:
+          type: System.Collections.Generic.List{NEA.station}
+      overload: NEA.xml.TraverseNodes*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.Double:
+    name:
+      CSharp:
+      - id: System.Double
+        name: Double
+        nameWithType: Double
+        qualifiedName: System.Double
+        isExternal: true
+      VB:
+      - id: System.Double
+        name: Double
+        nameWithType: Double
+        qualifiedName: System.Double
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Double
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  NEA.Commands.StationCount*:
+    name:
+      CSharp:
+      - id: NEA.Commands.StationCount*
+        name: StationCount
+        nameWithType: Commands.StationCount
+        qualifiedName: NEA.Commands.StationCount
+      VB:
+      - id: NEA.Commands.StationCount*
+        name: StationCount
+        nameWithType: Commands.StationCount
+        qualifiedName: NEA.Commands.StationCount
+    isDefinition: true
+    commentId: Overload:NEA.Commands.StationCount
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  NEA.Commands.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.Commands.#ctor*
+        name: Commands
+        nameWithType: Commands.Commands
+        qualifiedName: NEA.Commands.Commands
+      VB:
+      - id: NEA.Commands.#ctor*
+        name: Commands
+        nameWithType: Commands.Commands
+        qualifiedName: NEA.Commands.Commands
+    isDefinition: true
+    commentId: Overload:NEA.Commands.#ctor
+  System.Collections.Generic.List`1:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.List`1
+  System.Collections.Generic:
+    name:
+      CSharp:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+        isExternal: true
+      VB:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+    isDefinition: true
+    commentId: N:System.Collections.Generic
+  System.Collections.Generic.List{NEA.station}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: NEA.station
+        name: station
+        nameWithType: station
+        qualifiedName: NEA.station
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: NEA.station
+        name: station
+        nameWithType: station
+        qualifiedName: NEA.station
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{NEA.station}
+  NEA.Commands.getStationsStartingWith*:
+    name:
+      CSharp:
+      - id: NEA.Commands.getStationsStartingWith*
+        name: getStationsStartingWith
+        nameWithType: Commands.getStationsStartingWith
+        qualifiedName: NEA.Commands.getStationsStartingWith
+      VB:
+      - id: NEA.Commands.getStationsStartingWith*
+        name: getStationsStartingWith
+        nameWithType: Commands.getStationsStartingWith
+        qualifiedName: NEA.Commands.getStationsStartingWith
+    isDefinition: true
+    commentId: Overload:NEA.Commands.getStationsStartingWith
+  System.Boolean:
+    name:
+      CSharp:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      VB:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Boolean
+  NEA.Commands.checkStationsAreValid*:
+    name:
+      CSharp:
+      - id: NEA.Commands.checkStationsAreValid*
+        name: checkStationsAreValid
+        nameWithType: Commands.checkStationsAreValid
+        qualifiedName: NEA.Commands.checkStationsAreValid
+      VB:
+      - id: NEA.Commands.checkStationsAreValid*
+        name: checkStationsAreValid
+        nameWithType: Commands.checkStationsAreValid
+        qualifiedName: NEA.Commands.checkStationsAreValid
+    isDefinition: true
+    commentId: Overload:NEA.Commands.checkStationsAreValid
+  NEA:
+    name:
+      CSharp:
+      - name: NEA
+        nameWithType: NEA
+        qualifiedName: NEA
+      VB:
+      - name: NEA
+        nameWithType: NEA
+        qualifiedName: NEA
+    isDefinition: true
+    commentId: N:NEA
+  NEA.station:
+    name:
+      CSharp:
+      - id: NEA.station
+        name: station
+        nameWithType: station
+        qualifiedName: NEA.station
+      VB:
+      - id: NEA.station
+        name: station
+        nameWithType: station
+        qualifiedName: NEA.station
+    isDefinition: true
+    parent: NEA
+    commentId: T:NEA.station
+  NEA.Commands.getStationById*:
+    name:
+      CSharp:
+      - id: NEA.Commands.getStationById*
+        name: getStationById
+        nameWithType: Commands.getStationById
+        qualifiedName: NEA.Commands.getStationById
+      VB:
+      - id: NEA.Commands.getStationById*
+        name: getStationById
+        nameWithType: Commands.getStationById
+        qualifiedName: NEA.Commands.getStationById
+    isDefinition: true
+    commentId: Overload:NEA.Commands.getStationById
+  NEA.Commands.getStationByName*:
+    name:
+      CSharp:
+      - id: NEA.Commands.getStationByName*
+        name: getStationByName
+        nameWithType: Commands.getStationByName
+        qualifiedName: NEA.Commands.getStationByName
+      VB:
+      - id: NEA.Commands.getStationByName*
+        name: getStationByName
+        nameWithType: Commands.getStationByName
+        qualifiedName: NEA.Commands.getStationByName
+    isDefinition: true
+    commentId: Overload:NEA.Commands.getStationByName
+  NEA.Commands.RouteMe*:
+    name:
+      CSharp:
+      - id: NEA.Commands.RouteMe*
+        name: RouteMe
+        nameWithType: Commands.RouteMe
+        qualifiedName: NEA.Commands.RouteMe
+      VB:
+      - id: NEA.Commands.RouteMe*
+        name: RouteMe
+        nameWithType: Commands.RouteMe
+        qualifiedName: NEA.Commands.RouteMe
+    isDefinition: true
+    commentId: Overload:NEA.Commands.RouteMe
+  NEA.Commands:
+    name:
+      CSharp:
+      - id: NEA.Commands
+        name: Commands
+        nameWithType: Commands
+        qualifiedName: NEA.Commands
+      VB:
+      - id: NEA.Commands
+        name: Commands
+        nameWithType: Commands
+        qualifiedName: NEA.Commands
+    isDefinition: true
+    parent: NEA
+    commentId: T:NEA.Commands
+  System.Collections.Generic.List{NEA.routeItem}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: NEA.routeItem
+        name: routeItem
+        nameWithType: routeItem
+        qualifiedName: NEA.routeItem
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: NEA.routeItem
+        name: routeItem
+        nameWithType: routeItem
+        qualifiedName: NEA.routeItem
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{NEA.routeItem}
+  NEA.Route:
+    name:
+      CSharp:
+      - id: NEA.Route
+        name: Route
+        nameWithType: Route
+        qualifiedName: NEA.Route
+      VB:
+      - id: NEA.Route
+        name: Route
+        nameWithType: Route
+        qualifiedName: NEA.Route
+    isDefinition: true
+    commentId: T:NEA.Route
+  System.IEquatable`1:
+    name:
+      CSharp:
+      - id: System.IEquatable`1
+        name: IEquatable
+        nameWithType: IEquatable
+        qualifiedName: System.IEquatable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.IEquatable`1
+        name: IEquatable
+        nameWithType: IEquatable
+        qualifiedName: System.IEquatable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.IEquatable`1
+  System.IEquatable{NEA.routeItem}:
+    name:
+      CSharp:
+      - id: System.IEquatable`1
+        name: IEquatable
+        nameWithType: IEquatable
+        qualifiedName: System.IEquatable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: NEA.routeItem
+        name: routeItem
+        nameWithType: routeItem
+        qualifiedName: NEA.routeItem
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.IEquatable`1
+        name: IEquatable
+        nameWithType: IEquatable
+        qualifiedName: System.IEquatable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: NEA.routeItem
+        name: routeItem
+        nameWithType: routeItem
+        qualifiedName: NEA.routeItem
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.IEquatable`1
+    parent: System
+    commentId: T:System.IEquatable{NEA.routeItem}
+  NEA.routeItem.getOn*:
+    name:
+      CSharp:
+      - id: NEA.routeItem.getOn*
+        name: getOn
+        nameWithType: routeItem.getOn
+        qualifiedName: NEA.routeItem.getOn
+      VB:
+      - id: NEA.routeItem.getOn*
+        name: getOn
+        nameWithType: routeItem.getOn
+        qualifiedName: NEA.routeItem.getOn
+    isDefinition: true
+    commentId: Overload:NEA.routeItem.getOn
+  NEA.routeItem.getOff*:
+    name:
+      CSharp:
+      - id: NEA.routeItem.getOff*
+        name: getOff
+        nameWithType: routeItem.getOff
+        qualifiedName: NEA.routeItem.getOff
+      VB:
+      - id: NEA.routeItem.getOff*
+        name: getOff
+        nameWithType: routeItem.getOff
+        qualifiedName: NEA.routeItem.getOff
+    isDefinition: true
+    commentId: Overload:NEA.routeItem.getOff
+  System.Nullable`1:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Nullable`1
+  System.Nullable{System.Int32}:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Nullable`1
+    parent: System
+    commentId: T:System.Nullable{System.Int32}
+  NEA.routeItem.stops*:
+    name:
+      CSharp:
+      - id: NEA.routeItem.stops*
+        name: stops
+        nameWithType: routeItem.stops
+        qualifiedName: NEA.routeItem.stops
+      VB:
+      - id: NEA.routeItem.stops*
+        name: stops
+        nameWithType: routeItem.stops
+        qualifiedName: NEA.routeItem.stops
+    isDefinition: true
+    commentId: Overload:NEA.routeItem.stops
+  NEA.routeItem.train*:
+    name:
+      CSharp:
+      - id: NEA.routeItem.train*
+        name: train
+        nameWithType: routeItem.train
+        qualifiedName: NEA.routeItem.train
+      VB:
+      - id: NEA.routeItem.train*
+        name: train
+        nameWithType: routeItem.train
+        qualifiedName: NEA.routeItem.train
+    isDefinition: true
+    commentId: Overload:NEA.routeItem.train
+  NEA.routeItem:
+    name:
+      CSharp:
+      - id: NEA.routeItem
+        name: routeItem
+        nameWithType: routeItem
+        qualifiedName: NEA.routeItem
+      VB:
+      - id: NEA.routeItem
+        name: routeItem
+        nameWithType: routeItem
+        qualifiedName: NEA.routeItem
+    isDefinition: true
+    commentId: T:NEA.routeItem
+  System.SerializableAttribute:
+    name:
+      CSharp:
+      - id: System.SerializableAttribute
+        name: SerializableAttribute
+        nameWithType: SerializableAttribute
+        qualifiedName: System.SerializableAttribute
+        isExternal: true
+      VB:
+      - id: System.SerializableAttribute
+        name: SerializableAttribute
+        nameWithType: SerializableAttribute
+        qualifiedName: System.SerializableAttribute
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.SerializableAttribute
+  System.SerializableAttribute.#ctor:
+    name:
+      CSharp:
+      - id: System.SerializableAttribute.#ctor
+        name: SerializableAttribute
+        nameWithType: SerializableAttribute.SerializableAttribute
+        qualifiedName: System.SerializableAttribute.SerializableAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.SerializableAttribute.#ctor
+        name: SerializableAttribute
+        nameWithType: SerializableAttribute.SerializableAttribute
+        qualifiedName: System.SerializableAttribute.SerializableAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.SerializableAttribute
+    commentId: M:System.SerializableAttribute.#ctor
+  NEA.station.ToString*:
+    name:
+      CSharp:
+      - id: NEA.station.ToString*
+        name: ToString
+        nameWithType: station.ToString
+        qualifiedName: NEA.station.ToString
+      VB:
+      - id: NEA.station.ToString*
+        name: ToString
+        nameWithType: station.ToString
+        qualifiedName: NEA.station.ToString
+    isDefinition: true
+    commentId: Overload:NEA.station.ToString
+  NEA.station.name*:
+    name:
+      CSharp:
+      - id: NEA.station.name*
+        name: name
+        nameWithType: station.name
+        qualifiedName: NEA.station.name
+      VB:
+      - id: NEA.station.name*
+        name: name
+        nameWithType: station.name
+        qualifiedName: NEA.station.name
+    isDefinition: true
+    commentId: Overload:NEA.station.name
+  System.Decimal:
+    name:
+      CSharp:
+      - id: System.Decimal
+        name: Decimal
+        nameWithType: Decimal
+        qualifiedName: System.Decimal
+        isExternal: true
+      VB:
+      - id: System.Decimal
+        name: Decimal
+        nameWithType: Decimal
+        qualifiedName: System.Decimal
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Decimal
+  NEA.station.latitude*:
+    name:
+      CSharp:
+      - id: NEA.station.latitude*
+        name: latitude
+        nameWithType: station.latitude
+        qualifiedName: NEA.station.latitude
+      VB:
+      - id: NEA.station.latitude*
+        name: latitude
+        nameWithType: station.latitude
+        qualifiedName: NEA.station.latitude
+    isDefinition: true
+    commentId: Overload:NEA.station.latitude
+  NEA.station.longitude*:
+    name:
+      CSharp:
+      - id: NEA.station.longitude*
+        name: longitude
+        nameWithType: station.longitude
+        qualifiedName: NEA.station.longitude
+      VB:
+      - id: NEA.station.longitude*
+        name: longitude
+        nameWithType: station.longitude
+        qualifiedName: NEA.station.longitude
+    isDefinition: true
+    commentId: Overload:NEA.station.longitude
+  NEA.station.id*:
+    name:
+      CSharp:
+      - id: NEA.station.id*
+        name: id
+        nameWithType: station.id
+        qualifiedName: NEA.station.id
+      VB:
+      - id: NEA.station.id*
+        name: id
+        nameWithType: station.id
+        qualifiedName: NEA.station.id
+    isDefinition: true
+    commentId: Overload:NEA.station.id
+  NEA.station.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.station.#ctor*
+        name: station
+        nameWithType: station.station
+        qualifiedName: NEA.station.station
+      VB:
+      - id: NEA.station.#ctor*
+        name: station
+        nameWithType: station.station
+        qualifiedName: NEA.station.station
+    isDefinition: true
+    commentId: Overload:NEA.station.#ctor
+  NEA.station.addLine*:
+    name:
+      CSharp:
+      - id: NEA.station.addLine*
+        name: addLine
+        nameWithType: station.addLine
+        qualifiedName: NEA.station.addLine
+      VB:
+      - id: NEA.station.addLine*
+        name: addLine
+        nameWithType: station.addLine
+        qualifiedName: NEA.station.addLine
+    isDefinition: true
+    commentId: Overload:NEA.station.addLine
+  System.Collections.Generic.List{NEA.node}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: NEA.node
+        name: node
+        nameWithType: node
+        qualifiedName: NEA.node
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: NEA.node
+        name: node
+        nameWithType: node
+        qualifiedName: NEA.node
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{NEA.node}
+  NEA.station.getSubNodes*:
+    name:
+      CSharp:
+      - id: NEA.station.getSubNodes*
+        name: getSubNodes
+        nameWithType: station.getSubNodes
+        qualifiedName: NEA.station.getSubNodes
+      VB:
+      - id: NEA.station.getSubNodes*
+        name: getSubNodes
+        nameWithType: station.getSubNodes
+        qualifiedName: NEA.station.getSubNodes
+    isDefinition: true
+    commentId: Overload:NEA.station.getSubNodes
+  System.String[]:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+    isDefinition: false
+  NEA.station.addSurroundingStation*:
+    name:
+      CSharp:
+      - id: NEA.station.addSurroundingStation*
+        name: addSurroundingStation
+        nameWithType: station.addSurroundingStation
+        qualifiedName: NEA.station.addSurroundingStation
+      VB:
+      - id: NEA.station.addSurroundingStation*
+        name: addSurroundingStation
+        nameWithType: station.addSurroundingStation
+        qualifiedName: NEA.station.addSurroundingStation
+    isDefinition: true
+    commentId: Overload:NEA.station.addSurroundingStation
+  NEA.node:
+    name:
+      CSharp:
+      - id: NEA.node
+        name: node
+        nameWithType: node
+        qualifiedName: NEA.node
+      VB:
+      - id: NEA.node
+        name: node
+        nameWithType: node
+        qualifiedName: NEA.node
+    isDefinition: true
+    parent: NEA
+    commentId: T:NEA.node
+  NEA.station.getNodeOnLine*:
+    name:
+      CSharp:
+      - id: NEA.station.getNodeOnLine*
+        name: getNodeOnLine
+        nameWithType: station.getNodeOnLine
+        qualifiedName: NEA.station.getNodeOnLine
+      VB:
+      - id: NEA.station.getNodeOnLine*
+        name: getNodeOnLine
+        nameWithType: station.getNodeOnLine
+        qualifiedName: NEA.station.getNodeOnLine
+    isDefinition: true
+    commentId: Overload:NEA.station.getNodeOnLine
+  NEA.station.calculateWeights*:
+    name:
+      CSharp:
+      - id: NEA.station.calculateWeights*
+        name: calculateWeights
+        nameWithType: station.calculateWeights
+        qualifiedName: NEA.station.calculateWeights
+      VB:
+      - id: NEA.station.calculateWeights*
+        name: calculateWeights
+        nameWithType: station.calculateWeights
+        qualifiedName: NEA.station.calculateWeights
+    isDefinition: true
+    commentId: Overload:NEA.station.calculateWeights
+  System.IEquatable{NEA.edge}:
+    name:
+      CSharp:
+      - id: System.IEquatable`1
+        name: IEquatable
+        nameWithType: IEquatable
+        qualifiedName: System.IEquatable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: NEA.edge
+        name: edge
+        nameWithType: edge
+        qualifiedName: NEA.edge
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.IEquatable`1
+        name: IEquatable
+        nameWithType: IEquatable
+        qualifiedName: System.IEquatable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: NEA.edge
+        name: edge
+        nameWithType: edge
+        qualifiedName: NEA.edge
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.IEquatable`1
+    parent: System
+    commentId: T:System.IEquatable{NEA.edge}
+  NEA.edge.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.edge.#ctor*
+        name: edge
+        nameWithType: edge.edge
+        qualifiedName: NEA.edge.edge
+      VB:
+      - id: NEA.edge.#ctor*
+        name: edge
+        nameWithType: edge.edge
+        qualifiedName: NEA.edge.edge
+    isDefinition: true
+    commentId: Overload:NEA.edge.#ctor
+  NEA.edge.to*:
+    name:
+      CSharp:
+      - id: NEA.edge.to*
+        name: to
+        nameWithType: edge.to
+        qualifiedName: NEA.edge.to
+      VB:
+      - id: NEA.edge.to*
+        name: to
+        nameWithType: edge.to
+        qualifiedName: NEA.edge.to
+    isDefinition: true
+    commentId: Overload:NEA.edge.to
+  NEA.edge.weight*:
+    name:
+      CSharp:
+      - id: NEA.edge.weight*
+        name: weight
+        nameWithType: edge.weight
+        qualifiedName: NEA.edge.weight
+      VB:
+      - id: NEA.edge.weight*
+        name: weight
+        nameWithType: edge.weight
+        qualifiedName: NEA.edge.weight
+    isDefinition: true
+    commentId: Overload:NEA.edge.weight
+  NEA.edge:
+    name:
+      CSharp:
+      - id: NEA.edge
+        name: edge
+        nameWithType: edge
+        qualifiedName: NEA.edge
+      VB:
+      - id: NEA.edge
+        name: edge
+        nameWithType: edge
+        qualifiedName: NEA.edge
+    isDefinition: true
+    commentId: T:NEA.edge
+  System.IEquatable{NEA.node}:
+    name:
+      CSharp:
+      - id: System.IEquatable`1
+        name: IEquatable
+        nameWithType: IEquatable
+        qualifiedName: System.IEquatable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: NEA.node
+        name: node
+        nameWithType: node
+        qualifiedName: NEA.node
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.IEquatable`1
+        name: IEquatable
+        nameWithType: IEquatable
+        qualifiedName: System.IEquatable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: NEA.node
+        name: node
+        nameWithType: node
+        qualifiedName: NEA.node
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.IEquatable`1
+    parent: System
+    commentId: T:System.IEquatable{NEA.node}
+  NEA.node.Line*:
+    name:
+      CSharp:
+      - id: NEA.node.Line*
+        name: Line
+        nameWithType: node.Line
+        qualifiedName: NEA.node.Line
+      VB:
+      - id: NEA.node.Line*
+        name: Line
+        nameWithType: node.Line
+        qualifiedName: NEA.node.Line
+    isDefinition: true
+    commentId: Overload:NEA.node.Line
+  NEA.node.parent*:
+    name:
+      CSharp:
+      - id: NEA.node.parent*
+        name: parent
+        nameWithType: node.parent
+        qualifiedName: NEA.node.parent
+      VB:
+      - id: NEA.node.parent*
+        name: parent
+        nameWithType: node.parent
+        qualifiedName: NEA.node.parent
+    isDefinition: true
+    commentId: Overload:NEA.node.parent
+  NEA.node.visit*:
+    name:
+      CSharp:
+      - id: NEA.node.visit*
+        name: visit
+        nameWithType: node.visit
+        qualifiedName: NEA.node.visit
+      VB:
+      - id: NEA.node.visit*
+        name: visit
+        nameWithType: node.visit
+        qualifiedName: NEA.node.visit
+    isDefinition: true
+    commentId: Overload:NEA.node.visit
+  NEA.node.isVisited*:
+    name:
+      CSharp:
+      - id: NEA.node.isVisited*
+        name: isVisited
+        nameWithType: node.isVisited
+        qualifiedName: NEA.node.isVisited
+      VB:
+      - id: NEA.node.isVisited*
+        name: isVisited
+        nameWithType: node.isVisited
+        qualifiedName: NEA.node.isVisited
+    isDefinition: true
+    commentId: Overload:NEA.node.isVisited
+  NEA.node.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.node.#ctor*
+        name: node
+        nameWithType: node.node
+        qualifiedName: NEA.node.node
+      VB:
+      - id: NEA.node.#ctor*
+        name: node
+        nameWithType: node.node
+        qualifiedName: NEA.node.node
+    isDefinition: true
+    commentId: Overload:NEA.node.#ctor
+  NEA.node.addEdge*:
+    name:
+      CSharp:
+      - id: NEA.node.addEdge*
+        name: addEdge
+        nameWithType: node.addEdge
+        qualifiedName: NEA.node.addEdge
+      VB:
+      - id: NEA.node.addEdge*
+        name: addEdge
+        nameWithType: node.addEdge
+        qualifiedName: NEA.node.addEdge
+    isDefinition: true
+    commentId: Overload:NEA.node.addEdge
+  System.Collections.Generic.List{NEA.edge}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: NEA.edge
+        name: edge
+        nameWithType: edge
+        qualifiedName: NEA.edge
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: NEA.edge
+        name: edge
+        nameWithType: edge
+        qualifiedName: NEA.edge
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{NEA.edge}
+  NEA.node.getEdges*:
+    name:
+      CSharp:
+      - id: NEA.node.getEdges*
+        name: getEdges
+        nameWithType: node.getEdges
+        qualifiedName: NEA.node.getEdges
+      VB:
+      - id: NEA.node.getEdges*
+        name: getEdges
+        nameWithType: node.getEdges
+        qualifiedName: NEA.node.getEdges
+    isDefinition: true
+    commentId: Overload:NEA.node.getEdges
+  NEA.hash.getStringsHash*:
+    name:
+      CSharp:
+      - id: NEA.hash.getStringsHash*
+        name: getStringsHash
+        nameWithType: hash.getStringsHash
+        qualifiedName: NEA.hash.getStringsHash
+      VB:
+      - id: NEA.hash.getStringsHash*
+        name: getStringsHash
+        nameWithType: hash.getStringsHash
+        qualifiedName: NEA.hash.getStringsHash
+    isDefinition: true
+    commentId: Overload:NEA.hash.getStringsHash
+  NEA.hash:
+    name:
+      CSharp:
+      - id: NEA.hash
+        name: hash
+        nameWithType: hash
+        qualifiedName: NEA.hash
+      VB:
+      - id: NEA.hash
+        name: hash
+        nameWithType: hash
+        qualifiedName: NEA.hash
+    isDefinition: true
+    commentId: T:NEA.hash
+  NEA.Helper.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.Helper.#ctor*
+        name: Helper
+        nameWithType: Helper.Helper
+        qualifiedName: NEA.Helper.Helper
+      VB:
+      - id: NEA.Helper.#ctor*
+        name: Helper
+        nameWithType: Helper.Helper
+        qualifiedName: NEA.Helper.Helper
+    isDefinition: true
+    commentId: Overload:NEA.Helper.#ctor
+  NEA.Helper.generatePortKey*:
+    name:
+      CSharp:
+      - id: NEA.Helper.generatePortKey*
+        name: generatePortKey
+        nameWithType: Helper.generatePortKey
+        qualifiedName: NEA.Helper.generatePortKey
+      VB:
+      - id: NEA.Helper.generatePortKey*
+        name: generatePortKey
+        nameWithType: Helper.generatePortKey
+        qualifiedName: NEA.Helper.generatePortKey
+    isDefinition: true
+    commentId: Overload:NEA.Helper.generatePortKey
+  NEA.Helper.checkKey*:
+    name:
+      CSharp:
+      - id: NEA.Helper.checkKey*
+        name: checkKey
+        nameWithType: Helper.checkKey
+        qualifiedName: NEA.Helper.checkKey
+      VB:
+      - id: NEA.Helper.checkKey*
+        name: checkKey
+        nameWithType: Helper.checkKey
+        qualifiedName: NEA.Helper.checkKey
+    isDefinition: true
+    commentId: Overload:NEA.Helper.checkKey
+  NEA.Helper.log*:
+    name:
+      CSharp:
+      - id: NEA.Helper.log*
+        name: log
+        nameWithType: Helper.log
+        qualifiedName: NEA.Helper.log
+      VB:
+      - id: NEA.Helper.log*
+        name: log
+        nameWithType: Helper.log
+        qualifiedName: NEA.Helper.log
+    isDefinition: true
+    commentId: Overload:NEA.Helper.log
+  NEA.Helper:
+    name:
+      CSharp:
+      - id: NEA.Helper
+        name: Helper
+        nameWithType: Helper
+        qualifiedName: NEA.Helper
+      VB:
+      - id: NEA.Helper
+        name: Helper
+        nameWithType: Helper
+        qualifiedName: NEA.Helper
+    isDefinition: true
+    parent: NEA
+    commentId: T:NEA.Helper
+  NEA.logger.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.logger.#ctor*
+        name: logger
+        nameWithType: logger.logger
+        qualifiedName: NEA.logger.logger
+      VB:
+      - id: NEA.logger.#ctor*
+        name: logger
+        nameWithType: logger.logger
+        qualifiedName: NEA.logger.logger
+    isDefinition: true
+    commentId: Overload:NEA.logger.#ctor
+  NEA.logger.log*:
+    name:
+      CSharp:
+      - id: NEA.logger.log*
+        name: log
+        nameWithType: logger.log
+        qualifiedName: NEA.logger.log
+      VB:
+      - id: NEA.logger.log*
+        name: log
+        nameWithType: logger.log
+        qualifiedName: NEA.logger.log
+    isDefinition: true
+    commentId: Overload:NEA.logger.log
+  System.ConsoleColor:
+    name:
+      CSharp:
+      - id: System.ConsoleColor
+        name: ConsoleColor
+        nameWithType: ConsoleColor
+        qualifiedName: System.ConsoleColor
+        isExternal: true
+      VB:
+      - id: System.ConsoleColor
+        name: ConsoleColor
+        nameWithType: ConsoleColor
+        qualifiedName: System.ConsoleColor
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.ConsoleColor
+  NEA.logger.getConsoleColor*:
+    name:
+      CSharp:
+      - id: NEA.logger.getConsoleColor*
+        name: getConsoleColor
+        nameWithType: logger.getConsoleColor
+        qualifiedName: NEA.logger.getConsoleColor
+      VB:
+      - id: NEA.logger.getConsoleColor*
+        name: getConsoleColor
+        nameWithType: logger.getConsoleColor
+        qualifiedName: NEA.logger.getConsoleColor
+    isDefinition: true
+    commentId: Overload:NEA.logger.getConsoleColor
+  NEA.logger.getPrefix*:
+    name:
+      CSharp:
+      - id: NEA.logger.getPrefix*
+        name: getPrefix
+        nameWithType: logger.getPrefix
+        qualifiedName: NEA.logger.getPrefix
+      VB:
+      - id: NEA.logger.getPrefix*
+        name: getPrefix
+        nameWithType: logger.getPrefix
+        qualifiedName: NEA.logger.getPrefix
+    isDefinition: true
+    commentId: Overload:NEA.logger.getPrefix
+  NEA.logger.getDefualt*:
+    name:
+      CSharp:
+      - id: NEA.logger.getDefualt*
+        name: getDefualt
+        nameWithType: logger.getDefualt
+        qualifiedName: NEA.logger.getDefualt
+      VB:
+      - id: NEA.logger.getDefualt*
+        name: getDefualt
+        nameWithType: logger.getDefualt
+        qualifiedName: NEA.logger.getDefualt
+    isDefinition: true
+    commentId: Overload:NEA.logger.getDefualt
+  NEA.logger:
+    name:
+      CSharp:
+      - id: NEA.logger
+        name: logger
+        nameWithType: logger
+        qualifiedName: NEA.logger
+      VB:
+      - id: NEA.logger
+        name: logger
+        nameWithType: logger
+        qualifiedName: NEA.logger
+    isDefinition: true
+    parent: NEA
+    commentId: T:NEA.logger
+  NEA.logger.log(System.Object):
+    name:
+      CSharp:
+      - id: NEA.logger.log(System.Object)
+        name: log
+        nameWithType: logger.log
+        qualifiedName: NEA.logger.log
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: NEA.logger.log(System.Object)
+        name: log
+        nameWithType: logger.log
+        qualifiedName: NEA.logger.log
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: NEA.logger
+    commentId: M:NEA.logger.log(System.Object)
+  NEA.logger.getDefualt:
+    name:
+      CSharp:
+      - id: NEA.logger.getDefualt
+        name: getDefualt
+        nameWithType: logger.getDefualt
+        qualifiedName: NEA.logger.getDefualt
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: NEA.logger.getDefualt
+        name: getDefualt
+        nameWithType: logger.getDefualt
+        qualifiedName: NEA.logger.getDefualt
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: NEA.logger
+    commentId: M:NEA.logger.getDefualt
+  NEA.warn.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.warn.#ctor*
+        name: warn
+        nameWithType: warn.warn
+        qualifiedName: NEA.warn.warn
+      VB:
+      - id: NEA.warn.#ctor*
+        name: warn
+        nameWithType: warn.warn
+        qualifiedName: NEA.warn.warn
+    isDefinition: true
+    commentId: Overload:NEA.warn.#ctor
+  NEA.logger.getConsoleColor:
+    name:
+      CSharp:
+      - id: NEA.logger.getConsoleColor
+        name: getConsoleColor
+        nameWithType: logger.getConsoleColor
+        qualifiedName: NEA.logger.getConsoleColor
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: NEA.logger.getConsoleColor
+        name: getConsoleColor
+        nameWithType: logger.getConsoleColor
+        qualifiedName: NEA.logger.getConsoleColor
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: NEA.logger
+    commentId: M:NEA.logger.getConsoleColor
+  NEA.warn.getConsoleColor*:
+    name:
+      CSharp:
+      - id: NEA.warn.getConsoleColor*
+        name: getConsoleColor
+        nameWithType: warn.getConsoleColor
+        qualifiedName: NEA.warn.getConsoleColor
+      VB:
+      - id: NEA.warn.getConsoleColor*
+        name: getConsoleColor
+        nameWithType: warn.getConsoleColor
+        qualifiedName: NEA.warn.getConsoleColor
+    isDefinition: true
+    commentId: Overload:NEA.warn.getConsoleColor
+  NEA.logger.getPrefix:
+    name:
+      CSharp:
+      - id: NEA.logger.getPrefix
+        name: getPrefix
+        nameWithType: logger.getPrefix
+        qualifiedName: NEA.logger.getPrefix
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: NEA.logger.getPrefix
+        name: getPrefix
+        nameWithType: logger.getPrefix
+        qualifiedName: NEA.logger.getPrefix
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: NEA.logger
+    commentId: M:NEA.logger.getPrefix
+  NEA.warn.getPrefix*:
+    name:
+      CSharp:
+      - id: NEA.warn.getPrefix*
+        name: getPrefix
+        nameWithType: warn.getPrefix
+        qualifiedName: NEA.warn.getPrefix
+      VB:
+      - id: NEA.warn.getPrefix*
+        name: getPrefix
+        nameWithType: warn.getPrefix
+        qualifiedName: NEA.warn.getPrefix
+    isDefinition: true
+    commentId: Overload:NEA.warn.getPrefix
+  NEA.warn:
+    name:
+      CSharp:
+      - id: NEA.warn
+        name: warn
+        nameWithType: warn
+        qualifiedName: NEA.warn
+      VB:
+      - id: NEA.warn
+        name: warn
+        nameWithType: warn
+        qualifiedName: NEA.warn
+    isDefinition: true
+    commentId: T:NEA.warn
+  NEA.info.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.info.#ctor*
+        name: info
+        nameWithType: info.info
+        qualifiedName: NEA.info.info
+      VB:
+      - id: NEA.info.#ctor*
+        name: info
+        nameWithType: info.info
+        qualifiedName: NEA.info.info
+    isDefinition: true
+    commentId: Overload:NEA.info.#ctor
+  NEA.info.getConsoleColor*:
+    name:
+      CSharp:
+      - id: NEA.info.getConsoleColor*
+        name: getConsoleColor
+        nameWithType: info.getConsoleColor
+        qualifiedName: NEA.info.getConsoleColor
+      VB:
+      - id: NEA.info.getConsoleColor*
+        name: getConsoleColor
+        nameWithType: info.getConsoleColor
+        qualifiedName: NEA.info.getConsoleColor
+    isDefinition: true
+    commentId: Overload:NEA.info.getConsoleColor
+  NEA.info.getPrefix*:
+    name:
+      CSharp:
+      - id: NEA.info.getPrefix*
+        name: getPrefix
+        nameWithType: info.getPrefix
+        qualifiedName: NEA.info.getPrefix
+      VB:
+      - id: NEA.info.getPrefix*
+        name: getPrefix
+        nameWithType: info.getPrefix
+        qualifiedName: NEA.info.getPrefix
+    isDefinition: true
+    commentId: Overload:NEA.info.getPrefix
+  NEA.info:
+    name:
+      CSharp:
+      - id: NEA.info
+        name: info
+        nameWithType: info
+        qualifiedName: NEA.info
+      VB:
+      - id: NEA.info
+        name: info
+        nameWithType: info
+        qualifiedName: NEA.info
+    isDefinition: true
+    commentId: T:NEA.info
+  NEA.error.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.error.#ctor*
+        name: error
+        nameWithType: error.error
+        qualifiedName: NEA.error.error
+      VB:
+      - id: NEA.error.#ctor*
+        name: error
+        nameWithType: error.error
+        qualifiedName: NEA.error.error
+    isDefinition: true
+    commentId: Overload:NEA.error.#ctor
+  NEA.error.getConsoleColor*:
+    name:
+      CSharp:
+      - id: NEA.error.getConsoleColor*
+        name: getConsoleColor
+        nameWithType: error.getConsoleColor
+        qualifiedName: NEA.error.getConsoleColor
+      VB:
+      - id: NEA.error.getConsoleColor*
+        name: getConsoleColor
+        nameWithType: error.getConsoleColor
+        qualifiedName: NEA.error.getConsoleColor
+    isDefinition: true
+    commentId: Overload:NEA.error.getConsoleColor
+  NEA.error.getPrefix*:
+    name:
+      CSharp:
+      - id: NEA.error.getPrefix*
+        name: getPrefix
+        nameWithType: error.getPrefix
+        qualifiedName: NEA.error.getPrefix
+      VB:
+      - id: NEA.error.getPrefix*
+        name: getPrefix
+        nameWithType: error.getPrefix
+        qualifiedName: NEA.error.getPrefix
+    isDefinition: true
+    commentId: Overload:NEA.error.getPrefix
+  NEA.error:
+    name:
+      CSharp:
+      - id: NEA.error
+        name: error
+        nameWithType: error
+        qualifiedName: NEA.error
+      VB:
+      - id: NEA.error
+        name: error
+        nameWithType: error
+        qualifiedName: NEA.error
+    isDefinition: true
+    commentId: T:NEA.error
+  NEA.success.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.success.#ctor*
+        name: success
+        nameWithType: success.success
+        qualifiedName: NEA.success.success
+      VB:
+      - id: NEA.success.#ctor*
+        name: success
+        nameWithType: success.success
+        qualifiedName: NEA.success.success
+    isDefinition: true
+    commentId: Overload:NEA.success.#ctor
+  NEA.success.getConsoleColor*:
+    name:
+      CSharp:
+      - id: NEA.success.getConsoleColor*
+        name: getConsoleColor
+        nameWithType: success.getConsoleColor
+        qualifiedName: NEA.success.getConsoleColor
+      VB:
+      - id: NEA.success.getConsoleColor*
+        name: getConsoleColor
+        nameWithType: success.getConsoleColor
+        qualifiedName: NEA.success.getConsoleColor
+    isDefinition: true
+    commentId: Overload:NEA.success.getConsoleColor
+  NEA.success.getPrefix*:
+    name:
+      CSharp:
+      - id: NEA.success.getPrefix*
+        name: getPrefix
+        nameWithType: success.getPrefix
+        qualifiedName: NEA.success.getPrefix
+      VB:
+      - id: NEA.success.getPrefix*
+        name: getPrefix
+        nameWithType: success.getPrefix
+        qualifiedName: NEA.success.getPrefix
+    isDefinition: true
+    commentId: Overload:NEA.success.getPrefix
+  NEA.success:
+    name:
+      CSharp:
+      - id: NEA.success
+        name: success
+        nameWithType: success
+        qualifiedName: NEA.success
+      VB:
+      - id: NEA.success
+        name: success
+        nameWithType: success
+        qualifiedName: NEA.success
+    isDefinition: true
+    commentId: T:NEA.success
+  NEA.debug.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.debug.#ctor*
+        name: debug
+        nameWithType: debug.debug
+        qualifiedName: NEA.debug.debug
+      VB:
+      - id: NEA.debug.#ctor*
+        name: debug
+        nameWithType: debug.debug
+        qualifiedName: NEA.debug.debug
+    isDefinition: true
+    commentId: Overload:NEA.debug.#ctor
+  NEA.debug.getConsoleColor*:
+    name:
+      CSharp:
+      - id: NEA.debug.getConsoleColor*
+        name: getConsoleColor
+        nameWithType: debug.getConsoleColor
+        qualifiedName: NEA.debug.getConsoleColor
+      VB:
+      - id: NEA.debug.getConsoleColor*
+        name: getConsoleColor
+        nameWithType: debug.getConsoleColor
+        qualifiedName: NEA.debug.getConsoleColor
+    isDefinition: true
+    commentId: Overload:NEA.debug.getConsoleColor
+  NEA.debug.getPrefix*:
+    name:
+      CSharp:
+      - id: NEA.debug.getPrefix*
+        name: getPrefix
+        nameWithType: debug.getPrefix
+        qualifiedName: NEA.debug.getPrefix
+      VB:
+      - id: NEA.debug.getPrefix*
+        name: getPrefix
+        nameWithType: debug.getPrefix
+        qualifiedName: NEA.debug.getPrefix
+    isDefinition: true
+    commentId: Overload:NEA.debug.getPrefix
+  NEA.debug:
+    name:
+      CSharp:
+      - id: NEA.debug
+        name: debug
+        nameWithType: debug
+        qualifiedName: NEA.debug
+      VB:
+      - id: NEA.debug
+        name: debug
+        nameWithType: debug
+        qualifiedName: NEA.debug
+    isDefinition: true
+    commentId: T:NEA.debug
+  System.Net:
+    name:
+      CSharp:
+      - name: System.Net
+        nameWithType: System.Net
+        qualifiedName: System.Net
+        isExternal: true
+      VB:
+      - name: System.Net
+        nameWithType: System.Net
+        qualifiedName: System.Net
+    isDefinition: true
+    commentId: N:System.Net
+  System.Net.IPAddress:
+    name:
+      CSharp:
+      - id: System.Net.IPAddress
+        name: IPAddress
+        nameWithType: IPAddress
+        qualifiedName: System.Net.IPAddress
+        isExternal: true
+      VB:
+      - id: System.Net.IPAddress
+        name: IPAddress
+        nameWithType: IPAddress
+        qualifiedName: System.Net.IPAddress
+        isExternal: true
+    isDefinition: true
+    parent: System.Net
+    commentId: T:System.Net.IPAddress
+  System.Net.Sockets:
+    name:
+      CSharp:
+      - name: System.Net.Sockets
+        nameWithType: System.Net.Sockets
+        qualifiedName: System.Net.Sockets
+        isExternal: true
+      VB:
+      - name: System.Net.Sockets
+        nameWithType: System.Net.Sockets
+        qualifiedName: System.Net.Sockets
+    isDefinition: true
+    commentId: N:System.Net.Sockets
+  System.Net.Sockets.TcpListener:
+    name:
+      CSharp:
+      - id: System.Net.Sockets.TcpListener
+        name: TcpListener
+        nameWithType: TcpListener
+        qualifiedName: System.Net.Sockets.TcpListener
+        isExternal: true
+      VB:
+      - id: System.Net.Sockets.TcpListener
+        name: TcpListener
+        nameWithType: TcpListener
+        qualifiedName: System.Net.Sockets.TcpListener
+        isExternal: true
+    isDefinition: true
+    parent: System.Net.Sockets
+    commentId: T:System.Net.Sockets.TcpListener
+  NEA.server.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.server.#ctor*
+        name: server
+        nameWithType: server.server
+        qualifiedName: NEA.server.server
+      VB:
+      - id: NEA.server.#ctor*
+        name: server
+        nameWithType: server.server
+        qualifiedName: NEA.server.server
+    isDefinition: true
+    commentId: Overload:NEA.server.#ctor
+  NEA.server.startServer*:
+    name:
+      CSharp:
+      - id: NEA.server.startServer*
+        name: startServer
+        nameWithType: server.startServer
+        qualifiedName: NEA.server.startServer
+      VB:
+      - id: NEA.server.startServer*
+        name: startServer
+        nameWithType: server.startServer
+        qualifiedName: NEA.server.startServer
+    isDefinition: true
+    commentId: Overload:NEA.server.startServer
+  NEA.server.encode*:
+    name:
+      CSharp:
+      - id: NEA.server.encode*
+        name: encode
+        nameWithType: server.encode
+        qualifiedName: NEA.server.encode
+      VB:
+      - id: NEA.server.encode*
+        name: encode
+        nameWithType: server.encode
+        qualifiedName: NEA.server.encode
+    isDefinition: true
+    commentId: Overload:NEA.server.encode
+  NEA.server.decode*:
+    name:
+      CSharp:
+      - id: NEA.server.decode*
+        name: decode
+        nameWithType: server.decode
+        qualifiedName: NEA.server.decode
+      VB:
+      - id: NEA.server.decode*
+        name: decode
+        nameWithType: server.decode
+        qualifiedName: NEA.server.decode
+    isDefinition: true
+    commentId: Overload:NEA.server.decode
+  NEA.server:
+    name:
+      CSharp:
+      - id: NEA.server
+        name: server
+        nameWithType: server
+        qualifiedName: NEA.server
+      VB:
+      - id: NEA.server
+        name: server
+        nameWithType: server
+        qualifiedName: NEA.server
+    isDefinition: true
+    parent: NEA
+    commentId: T:NEA.server
+  NEA.server.isRetrying:
+    name:
+      CSharp:
+      - id: NEA.server.isRetrying
+        name: isRetrying
+        nameWithType: server.isRetrying
+        qualifiedName: NEA.server.isRetrying
+      VB:
+      - id: NEA.server.isRetrying
+        name: isRetrying
+        nameWithType: server.isRetrying
+        qualifiedName: NEA.server.isRetrying
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.isRetrying
+  NEA.server.address:
+    name:
+      CSharp:
+      - id: NEA.server.address
+        name: address
+        nameWithType: server.address
+        qualifiedName: NEA.server.address
+      VB:
+      - id: NEA.server.address
+        name: address
+        nameWithType: server.address
+        qualifiedName: NEA.server.address
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.address
+  NEA.server.port:
+    name:
+      CSharp:
+      - id: NEA.server.port
+        name: port
+        nameWithType: server.port
+        qualifiedName: NEA.server.port
+      VB:
+      - id: NEA.server.port
+        name: port
+        nameWithType: server.port
+        qualifiedName: NEA.server.port
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.port
+  NEA.server.TCP:
+    name:
+      CSharp:
+      - id: NEA.server.TCP
+        name: TCP
+        nameWithType: server.TCP
+        qualifiedName: NEA.server.TCP
+      VB:
+      - id: NEA.server.TCP
+        name: TCP
+        nameWithType: server.TCP
+        qualifiedName: NEA.server.TCP
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.TCP
+  NEA.server.help:
+    name:
+      CSharp:
+      - id: NEA.server.help
+        name: help
+        nameWithType: server.help
+        qualifiedName: NEA.server.help
+      VB:
+      - id: NEA.server.help
+        name: help
+        nameWithType: server.help
+        qualifiedName: NEA.server.help
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.help
+  NEA.server.mta:
+    name:
+      CSharp:
+      - id: NEA.server.mta
+        name: mta
+        nameWithType: server.mta
+        qualifiedName: NEA.server.mta
+      VB:
+      - id: NEA.server.mta
+        name: mta
+        nameWithType: server.mta
+        qualifiedName: NEA.server.mta
+    isDefinition: true
+    parent: NEA.server
+    commentId: F:NEA.server.mta
+  NEA.server.startServer(System.Int32):
+    name:
+      CSharp:
+      - id: NEA.server.startServer(System.Int32)
+        name: startServer
+        nameWithType: server.startServer
+        qualifiedName: NEA.server.startServer
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: NEA.server.startServer(System.Int32)
+        name: startServer
+        nameWithType: server.startServer
+        qualifiedName: NEA.server.startServer
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: NEA.server
+    commentId: M:NEA.server.startServer(System.Int32)
+  NEA.server.encode(System.String[]):
+    name:
+      CSharp:
+      - id: NEA.server.encode(System.String[])
+        name: encode
+        nameWithType: server.encode
+        qualifiedName: NEA.server.encode
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: NEA.server.encode(System.String[])
+        name: encode
+        nameWithType: server.encode
+        qualifiedName: NEA.server.encode
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: NEA.server
+    commentId: M:NEA.server.encode(System.String[])
+  NEA.server.decode(System.String):
+    name:
+      CSharp:
+      - id: NEA.server.decode(System.String)
+        name: decode
+        nameWithType: server.decode
+        qualifiedName: NEA.server.decode
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: NEA.server.decode(System.String)
+        name: decode
+        nameWithType: server.decode
+        qualifiedName: NEA.server.decode
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: NEA.server
+    commentId: M:NEA.server.decode(System.String)
+  NEA.childServer.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.childServer.#ctor*
+        name: childServer
+        nameWithType: childServer.childServer
+        qualifiedName: NEA.childServer.childServer
+      VB:
+      - id: NEA.childServer.#ctor*
+        name: childServer
+        nameWithType: childServer.childServer
+        qualifiedName: NEA.childServer.childServer
+    isDefinition: true
+    commentId: Overload:NEA.childServer.#ctor
+  NEA.childServer.runChildServer*:
+    name:
+      CSharp:
+      - id: NEA.childServer.runChildServer*
+        name: runChildServer
+        nameWithType: childServer.runChildServer
+        qualifiedName: NEA.childServer.runChildServer
+      VB:
+      - id: NEA.childServer.runChildServer*
+        name: runChildServer
+        nameWithType: childServer.runChildServer
+        qualifiedName: NEA.childServer.runChildServer
+    isDefinition: true
+    commentId: Overload:NEA.childServer.runChildServer
+  NEA.childServer:
+    name:
+      CSharp:
+      - id: NEA.childServer
+        name: childServer
+        nameWithType: childServer
+        qualifiedName: NEA.childServer
+      VB:
+      - id: NEA.childServer
+        name: childServer
+        nameWithType: childServer
+        qualifiedName: NEA.childServer
+    isDefinition: true
+    commentId: T:NEA.childServer
+  NEA.parentServer.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.parentServer.#ctor*
+        name: parentServer
+        nameWithType: parentServer.parentServer
+        qualifiedName: NEA.parentServer.parentServer
+      VB:
+      - id: NEA.parentServer.#ctor*
+        name: parentServer
+        nameWithType: parentServer.parentServer
+        qualifiedName: NEA.parentServer.parentServer
+    isDefinition: true
+    commentId: Overload:NEA.parentServer.#ctor
+  NEA.parentServer.runParentServer*:
+    name:
+      CSharp:
+      - id: NEA.parentServer.runParentServer*
+        name: runParentServer
+        nameWithType: parentServer.runParentServer
+        qualifiedName: NEA.parentServer.runParentServer
+      VB:
+      - id: NEA.parentServer.runParentServer*
+        name: runParentServer
+        nameWithType: parentServer.runParentServer
+        qualifiedName: NEA.parentServer.runParentServer
+    isDefinition: true
+    commentId: Overload:NEA.parentServer.runParentServer
+  NEA.parentServer:
+    name:
+      CSharp:
+      - id: NEA.parentServer
+        name: parentServer
+        nameWithType: parentServer
+        qualifiedName: NEA.parentServer
+      VB:
+      - id: NEA.parentServer
+        name: parentServer
+        nameWithType: parentServer
+        qualifiedName: NEA.parentServer
+    isDefinition: true
+    commentId: T:NEA.parentServer
+  NEA.xml.#ctor*:
+    name:
+      CSharp:
+      - id: NEA.xml.#ctor*
+        name: xml
+        nameWithType: xml.xml
+        qualifiedName: NEA.xml.xml
+      VB:
+      - id: NEA.xml.#ctor*
+        name: xml
+        nameWithType: xml.xml
+        qualifiedName: NEA.xml.xml
+    isDefinition: true
+    commentId: Overload:NEA.xml.#ctor
+  NEA.xml.open*:
+    name:
+      CSharp:
+      - id: NEA.xml.open*
+        name: open
+        nameWithType: xml.open
+        qualifiedName: NEA.xml.open
+      VB:
+      - id: NEA.xml.open*
+        name: open
+        nameWithType: xml.open
+        qualifiedName: NEA.xml.open
+    isDefinition: true
+    commentId: Overload:NEA.xml.open
+  NEA.xml.parse*:
+    name:
+      CSharp:
+      - id: NEA.xml.parse*
+        name: parse
+        nameWithType: xml.parse
+        qualifiedName: NEA.xml.parse
+      VB:
+      - id: NEA.xml.parse*
+        name: parse
+        nameWithType: xml.parse
+        qualifiedName: NEA.xml.parse
+    isDefinition: true
+    commentId: Overload:NEA.xml.parse
+  System.Xml:
+    name:
+      CSharp:
+      - name: System.Xml
+        nameWithType: System.Xml
+        qualifiedName: System.Xml
+        isExternal: true
+      VB:
+      - name: System.Xml
+        nameWithType: System.Xml
+        qualifiedName: System.Xml
+    isDefinition: true
+    commentId: N:System.Xml
+  System.Xml.XmlNodeList:
+    name:
+      CSharp:
+      - id: System.Xml.XmlNodeList
+        name: XmlNodeList
+        nameWithType: XmlNodeList
+        qualifiedName: System.Xml.XmlNodeList
+        isExternal: true
+      VB:
+      - id: System.Xml.XmlNodeList
+        name: XmlNodeList
+        nameWithType: XmlNodeList
+        qualifiedName: System.Xml.XmlNodeList
+        isExternal: true
+    isDefinition: true
+    parent: System.Xml
+    commentId: T:System.Xml.XmlNodeList
+  NEA.xml.TraverseNodes*:
+    name:
+      CSharp:
+      - id: NEA.xml.TraverseNodes*
+        name: TraverseNodes
+        nameWithType: xml.TraverseNodes
+        qualifiedName: NEA.xml.TraverseNodes
+      VB:
+      - id: NEA.xml.TraverseNodes*
+        name: TraverseNodes
+        nameWithType: xml.TraverseNodes
+        qualifiedName: NEA.xml.TraverseNodes
+    isDefinition: true
+    commentId: Overload:NEA.xml.TraverseNodes
+  NEA.xml:
+    name:
+      CSharp:
+      - id: NEA.xml
+        name: xml
+        nameWithType: xml
+        qualifiedName: NEA.xml
+      VB:
+      - id: NEA.xml
+        name: xml
+        nameWithType: xml
+        qualifiedName: NEA.xml
+    isDefinition: true
+    commentId: T:NEA.xml

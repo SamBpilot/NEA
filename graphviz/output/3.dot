@@ -1,0 +1,380 @@
+
+digraph G {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif bold" labelloc="c"];
+  edge [fontname="Helvetica,Arial,sans-serif" fontsize=8 arrowsize=0.5];
+  
+  subgraph cluster_343 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"343_3";
+    label = "Nostrand Av (343)";
+  }
+
+  subgraph cluster_344 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"344_3";
+    label = "Kingston Av (344)";
+  }
+
+  subgraph cluster_346 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"346_3";
+    label = "Sutter Av-Rutland Rd (346)";
+  }
+
+  subgraph cluster_347 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"347_3";
+    label = "Saratoga Av (347)";
+  }
+
+  subgraph cluster_348 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"348_3";
+    label = "Rockaway Av (348)";
+  }
+
+  subgraph cluster_349 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"349_3";
+    label = "Junius St (349)";
+  }
+
+  subgraph cluster_350 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"350_3";
+    label = "Pennsylvania Av (350)";
+  }
+
+  subgraph cluster_351 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"351_3";
+    label = "Van Siclen Av (351)";
+  }
+
+  subgraph cluster_352 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"352_3";
+    label = "New Lots Av (352)";
+  }
+
+  subgraph cluster_436 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"436_3";
+    label = "Harlem-148 St (436)";
+  }
+
+  subgraph cluster_437 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"437_3";
+    label = "145 St (437)";
+  }
+
+  subgraph cluster_310 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"310_3";
+    label = "96 St (310)";
+  }
+
+  subgraph cluster_313 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"313_3";
+    label = "72 St (313)";
+  }
+
+  subgraph cluster_318 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"318_3";
+    label = "34 St-Penn Station (318)";
+  }
+
+  subgraph cluster_322 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"322_3";
+    label = "14 St (322)";
+  }
+
+  subgraph cluster_327 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"327_3";
+    label = "Chambers St (327)";
+  }
+
+  subgraph cluster_331 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"331_3";
+    label = "Park Place (331)";
+  }
+
+  subgraph cluster_333 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"333_3";
+    label = "Wall St (333)";
+  }
+
+  subgraph cluster_334 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"334_3";
+    label = "Clark St (334)";
+  }
+
+  subgraph cluster_336 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"336_3";
+    label = "Hoyt St (336)";
+  }
+
+  subgraph cluster_339 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"339_3";
+    label = "Bergen St (339)";
+  }
+
+  subgraph cluster_340 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"340_3";
+    label = "Grand Army Plaza (340)";
+  }
+
+  subgraph cluster_341 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"341_3";
+    label = "Eastern Pkwy-Brooklyn Museum (341)";
+  }
+
+  subgraph cluster_438 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"438_3";
+    label = "135 St (438)";
+  }
+
+  subgraph cluster_439 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"439_3";
+    label = "125 St (439)";
+  }
+
+  subgraph cluster_440 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"440_3";
+    label = "116 St (440)";
+  }
+
+  subgraph cluster_441 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"441_3";
+    label = "Central Park North (110 St) (441)";
+  }
+
+  subgraph cluster_335 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"335_3";
+    label = "Borough Hall (335)";
+  }
+
+  subgraph cluster_337 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"337_3";
+    label = "Nevins St (337)";
+  }
+
+  subgraph cluster_342 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"342_3";
+    label = "Franklin Avenue-Medgar Evers College (342)";
+  }
+
+  subgraph cluster_345 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"345_3";
+    label = "Crown Hts-Utica Av (345)";
+  }
+
+  subgraph cluster_172 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"172_3";
+    label = "Fulton St (172)";
+  }
+
+  subgraph cluster_27 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"27_3";
+    label = "Atlantic Av-Barclays Ctr (27)";
+  }
+
+  subgraph cluster_11 {
+    style=filled;
+    color=lightgrey;
+    labelloc="b";
+    node [style=filled];
+    node [label="3" fillcolor=blue, color="blue", penwidth=1, fontcolor=gray, shape="circle"]"11_3";
+    label = "Times Sq-42 St (11)";
+  }
+
+  "343_3" -> "342_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "343_3" -> "344_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "344_3" -> "343_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "344_3" -> "345_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "346_3" -> "345_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "346_3" -> "347_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "347_3" -> "346_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "347_3" -> "348_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "348_3" -> "347_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "348_3" -> "349_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "349_3" -> "348_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "349_3" -> "350_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "350_3" -> "349_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "350_3" -> "351_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "351_3" -> "350_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "351_3" -> "352_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "352_3" -> "351_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "436_3" -> "437_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "437_3" -> "436_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "437_3" -> "438_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "310_3" -> "441_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "310_3" -> "313_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "313_3" -> "310_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "313_3" -> "11_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "318_3" -> "11_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "318_3" -> "322_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "322_3" -> "318_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "322_3" -> "327_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "327_3" -> "331_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "327_3" -> "322_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "331_3" -> "327_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "331_3" -> "172_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "333_3" -> "334_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "333_3" -> "172_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "334_3" -> "333_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "334_3" -> "335_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "336_3" -> "337_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "336_3" -> "335_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "339_3" -> "340_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "339_3" -> "27_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "340_3" -> "341_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "340_3" -> "339_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "341_3" -> "342_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "341_3" -> "340_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "438_3" -> "437_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "438_3" -> "439_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "439_3" -> "438_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "439_3" -> "440_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "440_3" -> "439_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "440_3" -> "441_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "441_3" -> "440_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "441_3" -> "310_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "335_3" -> "336_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "335_3" -> "334_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "337_3" -> "27_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "337_3" -> "336_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "342_3" -> "343_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "342_3" -> "341_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "345_3" -> "346_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "345_3" -> "344_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "172_3" -> "331_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "172_3" -> "333_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "27_3" -> "339_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "27_3" -> "337_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "11_3" -> "318_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+  "11_3" -> "313_3"[ color=blue fontcolor=blue penwidth=1 fontsize=8 arrowsize=0.5];
+
+}

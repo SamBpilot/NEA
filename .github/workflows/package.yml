@@ -1,0 +1,35 @@
+name: Release
+on:
+  pull_request:
+    branches:    
+      - main
+jobs:
+  build:
+    runs-on: macos-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+      - name: Zip Server
+        run: |
+            cd Server
+            rm -rf Server.Tests
+            cd ../
+            zip -r Server.zip Server
+
+      - name: Compile Dummy Client
+        run: |
+              xcodebuild -project Client/NEA.xcodeproj -scheme NEA -sdk iphoneos -configuration Release CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO -derivedDataPath build
+              mkdir -p Payload
+              cp -r build/Build/Products/Release-iphoneos/NEA.app Payload
+              zip -r NEA.ipa Payload
+
+      - name: Generate Release
+        - uses: actions/checkout@v2
+        - uses: ncipollo/release-action@v1
+          with:
+            artifacts: "Server.zip|NEA.ipa"
+            name: ${{ github.ref }}
+            makeLatest: true
+            generateReleaseNotes: true
+            tag: ${{ github.ref }}
